@@ -53,6 +53,20 @@ export const DIFFICULTIES = { easy: 'Fácil', medium: 'Media', hard: 'Difícil',
 export const CARD_DIFFICULTIES = { easy: 'Fácil', medium: 'Media', hard: 'Difícil' };
 export const AGES = { any: 'Sin filtro', family: 'Para todas las edades', kids: 'Solo peques' };
 export const ERAS = { '70s': 'Años 70', '80s': 'Años 80', '90s': 'Años 90', '00s': 'Años 2000', '10s': 'Años 2010', '20s': 'Años 2020' };
+// Illustrated team characters (art by Codex in assets/art/pinas-equipo-v1, distribution files in ui/pinas/).
+// Purely visual and free: no rules, points or advantages. A team without one, or with an id that is not in this
+// list, keeps the customisable classic pineapple (colour + accessories), so older saved teams and rooms still work.
+export const AVATARS = [
+  { id: 'gafas-sol', name: 'Gafas de sol', accent: '#f7cc52' },
+  { id: 'sombrero', name: 'Sombrero', accent: '#a9c99a' },
+  { id: 'detective', name: 'Detective', accent: '#9fb7ec' },
+  { id: 'deportista', name: 'Deportista', accent: '#ee927e' },
+  { id: 'artista', name: 'Artista', accent: '#c5a2d7' }
+];
+export const avatarFor = id => AVATARS.find(avatar => avatar.id === id) || null;
+// Body for choosing, turns and results; compact portrait for the turn header and the ranking.
+export const avatarImage = (id, portrait = false) => `ui/pinas/${portrait ? 'avatar' : 'cuerpo'}-${id}.webp`;
+export const AVATAR_FILES = AVATARS.flatMap(avatar => [avatarImage(avatar.id), avatarImage(avatar.id, true)]);
 export const normalize = value => value.normalize('NFD').replace(/[̀-ͯ]/g, '').trim().toLocaleLowerCase('es').replace(/\s+/g, ' ');
 export const slug = value => normalize(value).replace(/[^a-z0-9ñ]+/g, '-').replace(/^-|-$/g, '');
 

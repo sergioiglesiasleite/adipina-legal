@@ -1,4 +1,4 @@
-import { BANK, packConfig, normalize, selectCards } from './content.js';
+import { BANK, avatarFor, packConfig, normalize, selectCards } from './content.js';
 import { Game, distributePlayers, validateConfig } from './game.js';
 import { S, newTeam, cleanConfig } from './client/state.js';
 import { $, clock, download, escape, quantity, uid } from './client/util.js';
@@ -303,6 +303,8 @@ async function onAction(el, kind) {
       case 'team-more': S.teams.push(newTeam(S.teams.length)); saveSetup(); render(); return;
       case 'team-less': S.teams.pop(); saveSetup(); render(); return;
       case 'color': S.teams[i].color = value; saveSetup(); render(); return;
+      // A character brings its accent colour, which can still be changed; the classic pineapple keeps its own.
+      case 'avatar': { const team = S.teams[i], avatar = avatarFor(value); if (avatar) { team.avatar = avatar.id; team.color = avatar.accent; } else delete team.avatar; saveSetup(); render(); return; }
       case 'accessory': { const acc = S.teams[i].accessories; S.teams[i].accessories = acc.includes(value) ? acc.filter(v => v !== value) : [...acc, value]; saveSetup(); render(); return; }
       case 'add-player': { const current = lines(S.randomPlayers); S.randomPlayers = (current.includes(value) ? current.filter(name => name !== value) : [...current, value]).join('\n'); render(); return; }
       case 'shuffle': {
@@ -351,7 +353,7 @@ async function onAction(el, kind) {
       }
       case 'join-select': S.joinTeamId = value; S.joinDetails = structuredClone(S.joinLobby.teams.find(t => t.id === value)); render(); return;
       case 'join-room': {
-        const details = { name: $('#join-name').value.trim(), members: lines($('#join-members').value), color: $('#join-color').value, accessories: [...document.querySelectorAll('input[name="join-accessory"]:checked')].map(input => input.value) };
+        const details = { name: $('#join-name').value.trim(), members: lines($('#join-members').value), color: $('#join-color').value, avatar: $('#join-avatar').value || null, accessories: [...document.querySelectorAll('input[name="join-accessory"]:checked')].map(input => input.value) };
         const session = await api(`/api/rooms/${S.joinLobby.code}/join`, { method: 'POST', body: JSON.stringify({ teamId: S.joinTeamId, details }) }, null); await connectRoom(session); return;
       }
       case 'recover-room': {

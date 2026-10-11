@@ -1,6 +1,8 @@
-const CACHE = 'adipina-v11';
+const CACHE = 'adipina-v12';
 const FILES = ['./', './index.html', './styles.css', './app.js', './game.js', './content.js', './icon.svg', './icon-192.png', './icon-512.png', './manifest.webmanifest',
   './ui/mascotas.webp',
+  // Team characters (content.js AVATAR_FILES; a test checks both lists match).
+  './ui/pinas/cuerpo-gafas-sol.webp', './ui/pinas/avatar-gafas-sol.webp', './ui/pinas/cuerpo-sombrero.webp', './ui/pinas/avatar-sombrero.webp', './ui/pinas/cuerpo-detective.webp', './ui/pinas/avatar-detective.webp', './ui/pinas/cuerpo-deportista.webp', './ui/pinas/avatar-deportista.webp', './ui/pinas/cuerpo-artista.webp', './ui/pinas/avatar-artista.webp',
   // Client modules and the content bank: everything the single-phone mode needs offline. A test checks this list.
   './client/canvas.js', './client/dialogs.js', './client/icons.js', './client/platform.js', './client/qr.js', './client/room.js', './client/sound.js', './client/state.js', './client/stats.js', './client/store.js', './client/util.js', './client/views.js', './content/actions.js', './content/animals.js', './content/art.js', './content/body.js', './content/books.js', './content/cartoons.js', './content/christmas.js', './content/cinema.js', './content/clothes.js', './content/emotions.js', './content/famous.js', './content/festivities.js', './content/fiction.js', './content/food.js', './content/games.js', './content/halloween.js', './content/heroes.js', './content/history.js', './content/internet.js', './content/jobs.js', './content/music.js', './content/myths.js', './content/nature.js', './content/objects.js', './content/places.js', './content/prehistory.js', './content/sayings.js', './content/school.js', './content/science.js', './content/series.js', './content/spain.js', './content/sports.js', './content/television.js', './content/toys.js', './content/transport.js', './content/travel.js'];
 self.addEventListener('install', event => {

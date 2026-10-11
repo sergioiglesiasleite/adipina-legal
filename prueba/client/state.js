@@ -1,9 +1,15 @@
 // The whole interface state in one object, shared by the views and the actions.
-import { BASE_MODES, CATEGORIES, MODES, PACKS } from '../content.js';
+import { AVATARS, BASE_MODES, CATEGORIES, MODES, PACKS } from '../content.js';
 import { COLORS, uid } from './util.js';
 import { loadSettings, read } from './store.js';
 
-export const newTeam = index => ({ id: uid(), name: ['Piña colada', 'Tutti frutti', 'Las tropicales', 'Piña power'][index] || `Piña ${index + 1}`, color: COLORS[index % COLORS.length], accessories: index === 0 ? ['glasses'] : index === 1 ? ['hat'] : [], members: [], difficulty: null });
+// New teams start with different characters (and their accent colour) so 2–5 groups are told apart at once;
+// from the sixth on, the classic pineapple in the next colour. Everything can be changed in the team editor.
+const STARTERS = ['gafas-sol', 'deportista', 'detective', 'sombrero', 'artista'].map(id => AVATARS.find(avatar => avatar.id === id));
+export const newTeam = index => {
+  const avatar = STARTERS[index];
+  return { id: uid(), name: ['Piña colada', 'Tutti frutti', 'Las tropicales', 'Piña power'][index] || `Piña ${index + 1}`, color: avatar ? avatar.accent : COLORS[index % COLORS.length], ...(avatar ? { avatar: avatar.id } : {}), accessories: [], members: [], difficulty: null };
+};
 export const DEFAULT_CONFIG = {
   modes: [...BASE_MODES], modeStyle: 'mixed', format: 'classic', categories: CATEGORIES.filter(c => c.id !== 'christmas').map(c => c.id),
   subcategories: { music: ['Canciones', 'Artistas', 'Grupos', 'Instrumentos', 'Bailes'] }, difficulty: 'mixed', source: 'combined',

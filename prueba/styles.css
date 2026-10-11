@@ -134,3 +134,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   .game-controls > .btn { font-size: 16px; }
 }
 @media (max-height: 700px) and (max-width: 700px) { .hero-redesign .hero-art { width: 180px; } }
+/* Illustrated team characters (art by Codex): square images, never stretched, cropped or tinted. */
+.pineapple-art{object-fit:contain;aspect-ratio:1/1;height:auto}
+.avatar-picker{display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:8px}
+.avatar-option{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:4px;min-height:48px;padding:8px 4px 7px;border:1px solid var(--line);border-radius:12px;background:var(--white);color:var(--ink);font-size:11px;font-weight:650;line-height:1.2;text-align:center}
+.avatar-option>.pineapple{width:52px;height:52px;margin:0}
+.avatar-option>svg.pineapple{width:44px}
+.avatar-option.selected{border:2px solid var(--green);background:#edf2e8;padding:7px 3px 6px}
+.avatar-option>.icon{position:absolute;top:5px;right:5px;width:15px;height:15px;color:var(--green);stroke-width:2.5}
+.avatar-option:active{background:var(--mint)}
+/* Colour swatches stay comfortable to tap on narrow screens (they were 22 px at 320 px). */
+@media(max-width:360px){.swatch{width:28px;height:28px}}

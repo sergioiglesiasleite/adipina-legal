@@ -1,4 +1,5 @@
 import { COLORS } from './util.js';
+import { avatarFor, avatarImage } from '../content.js';
 
 export const mascot = { index: 0 };
 // Icons and the pineapple mascot, unchanged from the original interface (design by Codex).
@@ -20,7 +21,11 @@ export function icon(name, cls = '') {
   return `<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.star}</svg>`;
 }
 
-export function pineapple(team = {}, cls = '') {
+// A team's pineapple: its illustrated character if it has one, otherwise the classic SVG with colour and accessories.
+// `portrait` picks the compact head for small boxes (turn header, ranking). Decorative: the team name is always next to it.
+export function pineapple(team = {}, cls = '', portrait = false) {
+  const avatar = avatarFor(team.avatar);
+  if (avatar) return `<img class="pineapple pineapple-art ${portrait ? 'pineapple-portrait' : ''} ${cls}" src="./${avatarImage(avatar.id, portrait)}" alt="" width="160" height="160" decoding="async"/>`;
   const color = COLORS.includes(team.color) ? team.color : COLORS[0];
   const acc = team.accessories || [];
   const id = `cross-${++mascot.index}`;
