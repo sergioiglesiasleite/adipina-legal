@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "AdiPiña · Adivina en equipo",
+  "short_name": "AdiPiña",
+  "description": "Dibuja, actúa y da pistas. Un juego para hacer piña.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8ed",
+  "theme_color": "#fbf8ed",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
