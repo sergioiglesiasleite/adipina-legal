@@ -125,5 +125,104 @@ d | Apagón analógico | es 10s | TDT, antena, señal, cambio
 d | TDT | es | televisión digital, antena, canales, decodificador
 d | Infocomercial | | anuncio largo, venta, teléfono, producto
 d | Claqueta | D | rodaje, acción, toma, cine
+f | El rosco | es | Pasapalabra, letras, palabras, bote
+f | Masterchef Junior | 10s es | niños, cocina, concurso, jueces
+f | La Voz Kids | 10s es | niños, cantar, sillas giratorias, concurso
+f | Operación Triunfo 2001 | 00s es | Bisbal, Bustamante, Rosa, academia
+f | La isla de las tentaciones | t 20s es | parejas, infidelidad, hoguera, villa
+f | Mujeres y hombres y viceversa | t 10s es | tronistas, citas, Emma García, pretendientes
+f | El programa de Ana Rosa | es | matinal, Telecinco, Ana Rosa, periodismo
+f | Espejo público | es | matinal, Antena 3, Susanna Griso, actualidad
+f | Al rojo vivo | es | laSexta, Ferreras, política, debates
+f | Telecinco | es | cadena, Mediaset, cinco, ojo
+f | Antena 3 | es | cadena, Atresmedia, televisión, tres
+f | La 1 | es | TVE, pública, cadena, primera
+f | La 2 | es | TVE, documentales, pública, cadena
+f | Cuatro | es | cadena, Mediaset, televisión, cuadrado
+f | laSexta | es | cadena, Atresmedia, verde, televisión
+f | Clan TVE | es | canal infantil, dibujos, niños, TVE
+f | Disney Channel |  | canal, dibujos, niños
+f | Boing | es | canal infantil, dibujos, Cartoon Network, niños
+f | Nickelodeon |  | canal infantil, Bob Esponja, naranja, slime
+f | Cartoon Network |  | canal, dibujos, Ben 10, Gumball
+f | MTV |  | música, videoclips, canal, reality
+f | HBO |  | series, Juego de Tronos, plataforma, cable
+f | Disney+ | 20s | plataforma, Marvel, Star Wars, Pixar
+f | Prime Video | 20s | Amazon, plataforma, series, películas
+f | Telebasura |  | cotilleos, gritos, programas, morbo
+f | Programa del corazón |  | cotilleos, famosos, exclusivas, revistas
+f | Exclusiva |  | primicia, famoso, revista, entrevista
+f | Paparazzi | M | fotos, famosos, persecución, cámara
+m | Los Morancos | 90s es | humoristas, Sevilla, hermanos, imitaciones
+m | Cruz y Raya | 90s es | humoristas, Juan Muñoz, José Mota, sketches
+m | Faemino y Cansado | 90s es | humoristas, absurdo, dúo, El Club de la Comedia
+m | Crackòvia | es | TV3, fútbol, parodia, imitaciones
+m | El cazador | 20s es | concurso, cazadores, preguntas, La 1
+m | Ramón García | es | presentador, capa, campanadas, Grand Prix
+m | Anne Igartiburu | es | presentadora, Corazón, campanadas, TVE
+m | Jordi Hurtado | es | Saber y ganar, presentador, eterno, TVE
+m | Roberto Leal | 20s es | Pasapalabra, presentador, Operación Triunfo, Antena 3
+m | Christian Gálvez | 10s es | Pasapalabra, presentador, Leonardo, Telecinco
+m | Juanra Bonet | 10s es | Boom, presentador, Ahora caigo, Cataluña
+m | Arturo Valls | 10s es | Ahora caigo, presentador, cómico, Valencia
+m | Carlos Sobera | es | ¿Quién quiere ser millonario?, First Dates, presentador, Bilbao
+m | Florentino Fernández | es | humorista, imitador, Flo, Crónicas Marcianas
+m | Javier Sardá | es | Crónicas Marcianas, presentador, gafas, noche
+m | Boris Izaguirre | es | Crónicas Marcianas, Venezuela, escritor, presentador
+m | Emilio Aragón | es | Médico de familia, presentador, Miliki, músico
+m | Mayra Gómez Kemp | 80s es | Un, dos, tres, presentadora, cubana, Ruperta
+m | Chicho Ibáñez Serrador | es | Un, dos, tres, Historias para no dormir, creador, director
+m | Ruperta | 80s es | calabaza, Un, dos, tres, mascota, cero
+m | Ana Obregón | es | presentadora, actriz, Ana y los 7, campanadas
+m | David Broncano | 10s es | La Resistencia, presentador, Jaén, entrevistas
+m | Trancas y Barrancas | 10s es | El Hormiguero, hormigas, marionetas, Pablo Motos
+m | Marron | 10s es | El Hormiguero, ciencia, experimentos, cabeza rapada
+m | Josep Pedrerol | 10s es | El Chiringuito, presentador, fútbol, jugones
+m | Tomás Roncero | 10s es | El Chiringuito, periodista, Real Madrid, As
+m | Carrusel Deportivo | es | radio, fútbol, domingos, SER
+m | El Larguero | es | radio, deportes, noche, Manu Carreño
+m | José María García | 80s es | Butanito, radio, deportes, periodista
+m | Andrés Montes | 00s es | comentarista, baloncesto, ¡Jugón!, gafas
+m | Retransmisión deportiva | M | partido, comentarista, directo, gol
+m | Comentarista de fútbol | M | narrar, partido, gol, micrófono
+m | Moviola |  | repetición, jugada, árbitro, polémica
+m | Repetición de la jugada | M | cámara lenta, gol, polémica, ver otra vez
+m | Mesa de debate | M | tertulianos, discutir, opinar, plató
+m | Tertuliano | M | opinar, debate, tertulia, mesa
+m | Corresponsal | M | extranjero, informar, noticias, enviado
+d | Estudio 1 | es | teatro, TVE, obras, clásico
+d | La casa de la pradera |  | Laura Ingalls, granja, Walnut Grove, familia
+d | Bonanza |  | Ponderosa, Cartwright, western, rancho
+d | Starsky y Hutch |  | policías, coche rojo, Gran Torino, pareja
+d | Los ángeles de Charlie |  | detectives, tres mujeres, voz, Bosley
+d | Corrupción en Miami |  | Crockett, Tubbs, policías, Ferrari
+d | Luz de luna |  | detectives, Bruce Willis, Maddie, agencia
+d | Falcon Crest |  | viñedos, Angela Channing, culebrón, familia
+d | Dallas |  | J. R., petróleo, Texas, Ewing
+d | Dinastía |  | Carrington, ricos, culebrón, Denver
+d | Fawlty Towers |  | hotel, Basil, John Cleese, Manuel
+d | Allo, allo |  | café, Francia ocupada, Resistencia, René
+d | Los payasos de la tele | es | Gaby, Fofó, Miliki, Fofito
+d | Un globo, dos globos, tres globos | es | programa infantil, TVE, María Luisa Seco
+d | Cajón desastre | es | infantil, Miriam Díaz Aroca, TVE, sábado
+d | Xuxa | 90s | presentadora, infantil, Brasil, Ilarie
+d | Carmen Sevilla | es | Telecupón, Cine de barrio, actriz, presentadora
+d | Fin de emisión |  | himno, carta de ajuste, noche, cierre
+d | Desconexión territorial |  | cadena, regional, informativo local, emisión
+d | Audímetro |  | audiencia, medir, aparato, Kantar
+d | Franja horaria |  | horario, emisión, mañana, noche
+d | Late night |  | noche, entrevistas, humor, presentador
+d | Sitcom |  | comedia, risas enlatadas, serie, episodios
+d | Risas enlatadas |  | grabadas, sitcom, público falso, comedia
+d | Spin-off |  | serie derivada, personaje, otra serie, nueva
+d | Final de temporada | M | episodio, cliffhanger, intriga, esperar
+d | Cliffhanger |  | intriga, final, suspense, episodio
+d | Capítulo piloto |  | primer episodio, prueba, serie, cadena
+d | Maratón de series | M | ver todo, sofá, capítulos, seguidos
+d | Cabecera |  | inicio, sintonía, títulos, serie
+d | Cameo |  | aparición breve, famoso, película, sorpresa
+d | Doblaje | M | voces, actores, otro idioma, estudio
+d | Subtítulos | D | leer, idioma original, texto, pantalla
+d | Versión original |  | idioma, subtítulos, VO, sin doblar
 `
 };

@@ -34,15 +34,23 @@ import school from './content/school.js';
 import travel from './content/travel.js';
 import art from './content/art.js';
 import prehistory from './content/prehistory.js';
+import brands from './content/brands.js';
+import quotes from './content/quotes.js';
+import football from './content/football.js';
+import anime from './content/anime.js';
+import creators from './content/creators.js';
+import summer from './content/summer.js';
+import carnival from './content/carnival.js';
 
-// Each mode has a letter used by cards to say where they work best (D dibujo, M mímica, P pistas).
+// Each mode has a letter used by cards to say where they work best (D dibujo, M mímica, P pistas, I imitación).
 export const MODES = {
   drawing: { name: 'Dibujo', verb: 'Dibuja', icon: 'pencil', color: 'lavender', letter: 'D', rule: 'Dibuja sin hablar ni escribir letras o números.' },
   mime: { name: 'Mímica', verb: 'Actúa', icon: 'person', color: 'peach', letter: 'M', rule: 'Usa solo gestos. No hables ni hagas sonidos.' },
   description: { name: 'Descripción', verb: 'Da pistas', icon: 'chat', color: 'mint', letter: 'P', rule: 'Da pistas sin decir la respuesta ni palabras derivadas de ella.' },
   oneword: { name: 'Una palabra', verb: 'Di una palabra', icon: 'chat', color: 'mint', letter: 'P', rule: 'Solo puedes decir una palabra por tarjeta. Sin gestos ni sonidos.' },
   taboo: { name: 'Prohibido', verb: 'Da pistas sin…', icon: 'lock', color: 'lavender', letter: 'P', rule: 'Da pistas sin decir la respuesta ni ninguna de las palabras prohibidas.' },
-  hum: { name: 'Tararea', verb: 'Tararea', icon: 'music', color: 'peach', letter: 'T', rule: 'Tararea o silba la canción. Sin cantar la letra ni hablar.' }
+  hum: { name: 'Tararea', verb: 'Tararea', icon: 'music', color: 'peach', letter: 'T', rule: 'Tararea o silba la canción. Sin cantar la letra ni hablar.' },
+  imitation: { name: 'Imitación', verb: 'Imita', icon: 'star', color: 'peach', letter: 'I', rule: 'Imita su voz, sus gestos y su forma de hablar. Puedes hablar, pero sin decir quién es.' }
 };
 export const BASE_MODES = ['drawing', 'mime', 'description'];
 export const FORMATS = {
@@ -53,6 +61,9 @@ export const DIFFICULTIES = { easy: 'Fácil', medium: 'Media', hard: 'Difícil',
 export const CARD_DIFFICULTIES = { easy: 'Fácil', medium: 'Media', hard: 'Difícil' };
 export const AGES = { any: 'Sin filtro', family: 'Para todas las edades', kids: 'Solo peques' };
 export const ERAS = { '70s': 'Años 70', '80s': 'Años 80', '90s': 'Años 90', '00s': 'Años 2000', '10s': 'Años 2010', '20s': 'Años 2020' };
+// Why a card is reported from the turn screen (client/dialogs.js) and checked by the server (reports.js).
+export const REPORT_REASONS = { unknown: 'Casi nadie la conoce', wrong: 'Está mal escrita o es incorrecta', hard: 'La dificultad no encaja', inappropriate: 'Es inapropiada', mode: 'No funciona en esta modalidad' };
+export const REPORT_COMMENT_MAX = 280;
 // Illustrated team characters (art by Codex in assets/art/pinas-equipo-v1, distribution files in ui/pinas/).
 // Purely visual and free: no rules, points or advantages. A team without one, or with an id that is not in this
 // list, keeps the customisable classic pineapple (colour + accessories), so older saved teams and rooms still work.
@@ -70,7 +81,10 @@ export const AVATAR_FILES = AVATARS.flatMap(avatar => [avatarImage(avatar.id), a
 export const normalize = value => value.normalize('NFD').replace(/[̀-ͯ]/g, '').trim().toLocaleLowerCase('es').replace(/\s+/g, ' ');
 export const slug = value => normalize(value).replace(/[^a-z0-9ñ]+/g, '-').replace(/^-|-$/g, '');
 
-const SOURCES = [cinema, series, books, music, games, famous, fiction, animals, objects, jobs, sports, food, actions, emotions, sayings, places, spain, festivities, cartoons, heroes, history, science, myths, nature, transport, clothes, toys, television, internet, body, school, travel, art, prehistory, christmas, halloween];
+const SOURCES = [cinema, series, books, music, games, famous, fiction, animals, objects, jobs, sports, food, actions, emotions, sayings, places, spain, festivities, cartoons, heroes, history, science, myths, nature, transport, clothes, toys, television, internet, body, school, travel, art, prehistory, brands, quotes, football, anime, creators, christmas, halloween, summer, carnival];
+// Who can be imitated (voice, gestures, way of talking): people, characters and animals. Any other card can opt in
+// with the I tag.
+export const IMITABLE = ['famous', 'fiction', 'heroes', 'cartoons', 'anime', 'creators', 'animals'];
 const DIFFICULTY_CODES = { f: 'easy', m: 'medium', d: 'hard' };
 const AGE_TAGS = { k: 'kids', n: 'all', t: 'teens' };
 
@@ -88,7 +102,7 @@ export function parseCategory(source) {
     if (!card.difficulty) problems.push(`${source.id}, línea ${index + 1}: dificultad «${code}» desconocida.`);
     for (const tag of tags.split(/\s+/).filter(Boolean)) {
       if (AGE_TAGS[tag]) card.ages = AGE_TAGS[tag];
-      else if (/^[DMP]{1,3}$/.test(tag)) card.modes = tag;
+      else if (/^[DMPI]{1,4}$/.test(tag)) card.modes = tag;
       else if (ERAS[tag]) card.era = tag;
       else if (tag === 'es') card.region = 'es';
       else problems.push(`${source.id}, línea ${index + 1}: etiqueta «${tag}» desconocida.`);
@@ -107,6 +121,7 @@ export const CONTENT_PROBLEMS = parsed.flatMap(entry => entry.problems);
 export function cardSupports(card, mode, modeFit = false) {
   if (!card || !Object.hasOwn(MODES, mode)) return false;
   if (mode === 'hum') return card.subcategory === 'Canciones';
+  if (mode === 'imitation') return IMITABLE.includes(card.category) || (card.modes || '').includes('I');
   if (mode === 'taboo' && (card.forbidden?.length || 0) < 3) return false;
   if (modeFit && !(card.modes || 'DMP').includes(MODES[mode].letter)) return false;
   return true;
@@ -121,6 +136,12 @@ function matchesDifficulty(card, difficulty = 'mixed') {
   return card.difficulty === difficulty;
 }
 export function selectCards(config, customCards = []) {
+  // Several packs: a card plays if any of them would pick it, each with its own filters (Nostalgia its decades, De
+  // aquí only Spain…). The same answer from two packs counts once.
+  if (config.packs?.length > 1) {
+    const seen = new Set();
+    return config.packs.flatMap(id => selectCards(packConfig({ ...config, packs: null }, id), customCards)).filter(card => { const key = normalize(card.answer); if (seen.has(key)) return false; seen.add(key); return true; });
+  }
   const source = config.source === 'custom' ? customCards : [...BANK, ...customCards];
   const modes = config.format === 'rounds3' ? FORMATS.rounds3.sequence : config.modes || BASE_MODES;
   const seen = new Set();
@@ -146,26 +167,39 @@ export function selectCards(config, customCards = []) {
 
 const allCategories = CATEGORIES.map(category => category.id);
 const without = (...ids) => allCategories.filter(id => !ids.includes(id));
-const SEASONAL = ['christmas', 'halloween'];
+const SEASONAL = ['christmas', 'halloween', 'summer', 'carnival'];
 // Ready-made selections: each pack is a set of setup values applied on top of the defaults.
 export const PACKS = [
   { id: 'familia', name: 'Familia', icon: 'people', description: 'Para jugar con todas las edades.', config: { categories: without(...SEASONAL), difficulty: 'easy-medium', ages: 'family', modes: ['drawing', 'mime', 'description'], modeStyle: 'mixed', duration: 60 } },
   { id: 'peques', name: 'Peques', icon: 'paw', description: 'De 6 a 10 años: fácil, dibujo y mímica.', config: { categories: without(...SEASONAL), difficulty: 'easy', ages: 'kids', modes: ['drawing', 'mime'], modeStyle: 'mixed', duration: 90, modeFit: true } },
   { id: 'fiesta', name: 'Fiesta', icon: 'star', description: 'Todo vale: mímica, pistas y una palabra.', config: { categories: without(...SEASONAL), difficulty: 'mixed', ages: 'any', modes: ['mime', 'description', 'oneword'], modeStyle: 'mixed', duration: 60 } },
-  { id: 'cultura-pop', name: 'Cultura pop', icon: 'film', description: 'Cine, series, música, famosos e internet.', config: { categories: ['cinema', 'series', 'music', 'famous', 'fiction', 'games', 'television', 'internet', 'heroes', 'cartoons'], difficulty: 'mixed', ages: 'any', modes: ['mime', 'description'], modeStyle: 'mixed', duration: 60 } },
+  { id: 'cultura-pop', name: 'Cultura pop', icon: 'film', description: 'Cine, series, música, famosos, anime, youtubers e internet.', config: { categories: ['cinema', 'series', 'music', 'famous', 'fiction', 'games', 'television', 'internet', 'heroes', 'cartoons', 'quotes', 'anime', 'creators', 'brands'], difficulty: 'mixed', ages: 'any', modes: ['mime', 'description'], modeStyle: 'mixed', duration: 60 } },
   { id: 'nostalgia', name: 'Nostalgia', icon: 'tv', description: 'Lo que marcó los 70, 80, 90 y 2000.', config: { categories: allCategories, difficulty: 'mixed', ages: 'any', eras: ['70s', '80s', '90s', '00s'], modes: ['mime', 'description'], modeStyle: 'mixed', duration: 60 } },
   { id: 'de-aqui', name: 'De aquí', icon: 'leaf', description: 'España: tele, fiestas, expresiones y famosos.', config: { categories: allCategories, difficulty: 'mixed', ages: 'any', region: 'es', modes: ['mime', 'description'], modeStyle: 'mixed', duration: 60 } },
   { id: 'mimica', name: 'Para mímica', icon: 'person', description: 'Tarjetas que se actúan de maravilla.', config: { categories: without(...SEASONAL), difficulty: 'mixed', ages: 'any', modes: ['mime'], modeStyle: 'mixed', duration: 60, modeFit: true } },
   { id: 'dibujar', name: 'Para dibujar', icon: 'pencil', description: 'Tarjetas que se dibujan bien.', config: { categories: without(...SEASONAL), difficulty: 'mixed', ages: 'any', modes: ['drawing'], modeStyle: 'mixed', duration: 90, modeFit: true } },
   { id: 'navidad', name: 'Navidad', icon: 'star', minimum: 150, description: 'Turrones, villancicos y Reyes Magos.', config: { categories: ['christmas'], difficulty: 'mixed', ages: 'any', modes: ['drawing', 'mime', 'description'], modeStyle: 'mixed', duration: 60 } },
+  { id: 'imitaciones', name: 'Imitaciones', icon: 'star', description: 'Famosos, personajes y animales: imítalos sin decir quién es.', config: { categories: IMITABLE, difficulty: 'easy-medium', ages: 'any', modes: ['imitation'], modeStyle: 'mixed', duration: 60 } },
   { id: 'halloween', name: 'Halloween', icon: 'magic', minimum: 120, description: 'Calabazas, sustos y castañas: Halloween y Todos los Santos.', config: { categories: ['halloween'], difficulty: 'mixed', ages: 'any', modes: ['drawing', 'mime', 'description'], modeStyle: 'mixed', duration: 60 } },
+  { id: 'verano', name: 'Verano', icon: 'leaf', minimum: 120, description: 'Playa, piscina, chiringuitos y fiestas del pueblo.', config: { categories: ['summer'], difficulty: 'mixed', ages: 'any', modes: ['drawing', 'mime', 'description'], modeStyle: 'mixed', duration: 60 } },
+  { id: 'carnaval', name: 'Carnaval', icon: 'magic', minimum: 120, description: 'Disfraces, chirigotas, comparsas y desfiles.', config: { categories: ['carnival'], difficulty: 'mixed', ages: 'any', modes: ['drawing', 'mime', 'description'], modeStyle: 'mixed', duration: 60 } },
   { id: 'tres-rondas', name: 'Tres rondas', icon: 'shuffle', description: 'Personajes muy conocidos en descripción, una palabra y mímica.', config: { format: 'rounds3', categories: ['famous', 'fiction', 'heroes', 'cartoons', 'history', 'myths'], difficulty: 'easy-medium', ages: 'any', modes: ['description', 'oneword', 'mime'], modeStyle: 'rounds', duration: 45, pileSize: 40 } }
 ];
-export function packConfig(base, packId) {
-  const pack = PACKS.find(item => item.id === packId);
-  if (!pack) return base;
-  const reset = { format: 'classic', ages: 'any', eras: null, region: null, modeFit: false, pileSize: 40 };
-  return { ...base, ...reset, ...structuredClone(pack.config), source: 'combined', pack: pack.id };
+// One pack id, or several to mix them. A mix plays every mode any of its packs uses, with the longest turn, and
+// keeps the list in `packs` so selectCards applies each pack's own filters. «Tres rondas» has its own format and
+// only plays alone.
+export const SOLO_PACKS = ['tres-rondas'];
+export function packConfig(base, packIds) {
+  const ids = [...new Set(Array.isArray(packIds) ? packIds : [packIds])].filter(id => PACKS.some(item => item.id === id));
+  if (!ids.length) return base;
+  if (ids.length === 1 || ids.some(id => SOLO_PACKS.includes(id))) {
+    const pack = PACKS.find(item => item.id === (ids.find(id => SOLO_PACKS.includes(id)) || ids[0]));
+    const reset = { format: 'classic', ages: 'any', eras: null, region: null, modeFit: false, pileSize: 40, packs: null };
+    return { ...base, ...reset, ...structuredClone(pack.config), source: 'combined', pack: pack.id };
+  }
+  const configs = ids.map(id => packConfig(base, id));
+  const modes = BASE_MODES.concat(Object.keys(MODES)).filter((mode, i, all) => all.indexOf(mode) === i && configs.some(config => config.modes.includes(mode)));
+  return { ...configs[0], categories: [...new Set(configs.flatMap(config => config.categories))], modes, modeStyle: 'mixed', duration: Math.max(...configs.map(config => config.duration)), difficulty: 'mixed', ages: 'any', eras: null, region: null, modeFit: false, pack: null, packs: ids };
 }
 
 // Checks the whole bank. Used by the tests and by anyone editing content (npm run content).

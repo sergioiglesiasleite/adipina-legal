@@ -124,5 +124,86 @@ d | Mal de mar | M | barco, mareo, olas, vomitar
 d | Billete de ida y vuelta | P | regreso, viaje, comprar, tren
 d | Itinerario | P | ruta, planificar, paradas, viaje
 d | Trotamundos | P | viajar, mundo, aventurero, mochilero
+f | Billete de avión | D | volar, asiento, comprar, viaje
+f | Billete de tren | D | vagón, asiento, estación, viaje
+f | Estación de tren | D | andenes, trenes, viajeros, reloj
+f | Estación de autobuses | D | andenes, autocares, viajar, dársena
+f | Andén | D | tren, esperar, vías, raya amarilla
+f | Puerta de embarque | D | aeropuerto, número, embarcar, avión
+f | Almohada de viaje | D | cuello, avión, dormir, hinchable
+f | Antifaz para dormir | D | ojos, avión, oscuridad
+f | Tapones para los oídos | D | ruido, dormir, avión
+f | Guía de viaje | D | libro, ciudad, consejos, turistas
+f | Chanclas con calcetines | M | turista, guiri, sandalias, moda
+f | Mapa del metro | D | líneas, colores, paradas, plano
+f | Excursión en barco | D | mar, paseo, cubierta, costa
+f | Apartamento turístico | M | alquiler, vacaciones, llaves, playa
+f | Habitación de hotel | D | cama, llave, toallas, minibar
+f | Minibar | D | hotel, nevera pequeña, bebidas, caro
+f | Tarjeta de la habitación | D | hotel, abrir, puerta, banda magnética
+f | Animador de hotel | M | juegos, piscina, bailes, turistas
+f | Sello del pasaporte | D | aduana, país, tinta, viajar
+f | Diario de viaje | D | escribir, recuerdos, cuaderno, aventuras
+m | Road trip | M | coche, carretera, amigos, ruta
+m | GPS del coche | D | navegador, ruta, voz, mapa
+m | Recalculando ruta | M | GPS, perderse, voz, desvío
+m | Mareo en el coche | M | vomitar, curvas, ventanilla, viaje
+m | Bolsa para el mareo | D | avión, vomitar, asiento, papel
+m | Demostración de seguridad | M | azafata, chaleco, máscaras, salidas
+m | Despegue | M | avión, pista, subir, motores
+m | Aterrizaje | M | avión, pista, bajar, ruedas
+m | Aplaudir al aterrizar | M | avión, pasajeros, piloto, España
+m | Cabina del piloto | D | mandos, avión, comandante, botones
+m | Comida de avión | D | bandeja, plástico, asiento, azafata
+m | Ventanilla del avión | D | ver, nubes, ovalada, persiana
+m | Cola de embarque | M | esperar, puerta, tarjeta, aeropuerto
+m | Maleta perdida | M | aeropuerto, cinta, reclamar, equipaje
+m | Exceso de equipaje | M | pesar, kilos, pagar, maleta
+m | Control de pasaportes | M | aduana, policía, sello, frontera
+m | Arco detector de metales | D | aeropuerto, pitar, seguridad, pasar
+m | Casa de cambio | D | divisas, dinero, ventanilla, euros
+m | Propina | M | camarero, dinero extra, servicio, dejar
+m | Enchufe de viaje | D | adaptador, país, clavija, cargar
+m | Diferencia horaria | M | jet lag, hora, país, reloj
+m | Traductor del móvil | M | idioma, app, hablar, entender
+m | Free tour | M | guía, gratis, propina, ciudad
+m | Audioguía | D | museo, escuchar, auriculares, número
+m | Ruta gastronómica | M | comer, tapas, restaurantes, probar
+m | Probar la comida local | M | platos típicos, sabores, restaurante, viaje
+m | Mercado local | D | puestos, fruta, artesanía, regatear
+m | Zoco | D | mercado, Marruecos, puestos, regatear
+m | Tienda de campaña | D | acampar, piquetas, lona, montar
+d | Nómada digital |  | trabajar, viajar, portátil, internet
+d | Ecoturismo |  | naturaleza, sostenible, viaje, medio ambiente
+d | Turismo espacial |  | cohetes, millonarios, espacio, viaje
+d | Gap year |  | año sabático, viajar, jóvenes, estudios
+d | Año sabático |  | descanso, viajar, trabajo, un año
+d | Voluntariado en el extranjero |  | ayudar, viaje, ONG, país
+d | Au pair |  | cuidar niños, familia, extranjero, idioma
+d | Intercambio de casas |  | vivienda, vacaciones, cambiar, familias
+d | Turismo de masas |  | multitudes, cruceros, saturación, turistas
+d | Gentrificación |  | barrios, turistas, precios, vecinos
+d | Tasa turística |  | impuesto, hotel, noche, turistas
+d | Temporada alta |  | verano, caro, lleno, vacaciones
+d | Temporada baja |  | barato, vacío, invierno, ofertas
+d | Check-in | M | registrarse, hotel, llegada, llave
+d | Check-out | M | dejar la habitación, hotel, salida, pagar
+d | Upgrade |  | mejora, clase, hotel, gratis
+d | Primera clase | D | avión, lujo, asientos, caro
+d | Aeropuerto de Barajas | es | Madrid, T4, aviones
+d | El Prat | es | aeropuerto, Barcelona, aviones, terminales
+d | Estación de Atocha | es | Madrid, tren, jardín tropical, AVE
+d | Puerto de Algeciras | es | barcos, Estrecho, Marruecos, ferri
+d | Operación Paso del Estrecho | es | Marruecos, verano, coches, ferri
+d | Frontera | D | país, aduana, límite, cruzar
+d | Espacio Schengen |  | fronteras, Europa, libre circulación, pasaporte
+d | Tarjeta sanitaria europea |  | salud, viajar, Europa, médico
+d | Vacunas para viajar | M | fiebre amarilla, pinchazo, viaje, país
+d | Fiebre amarilla |  | vacuna, viajes, mosquito, trópico
+d | Malaria |  | mosquito, trópico, pastillas, enfermedad
+d | Repelente de mosquitos | D | spray, picaduras, viaje, insectos
+d | Globo terráqueo | D | bola del mundo, girar, países, mapa
+d | Embajada |  | país, extranjero, pasaporte, embajador
+d | Consulado |  | extranjero, papeles, ciudadanos, oficina
 `
 };

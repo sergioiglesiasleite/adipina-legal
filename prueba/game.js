@@ -49,6 +49,10 @@ function upgrade(state) {
   return state;
 }
 
+// Reporting swaps the card for free only this many times per turn; beyond that the report is kept but the card stays,
+// so reporting never becomes a way round the skip limit or the penalty the group chose.
+export const REPORT_SWAPS_PER_TURN = 1;
+
 export class Game {
   constructor(config, teams, cards, random = Math.random, { seen = [] } = {}) {
     const errors = validateConfig(config, teams, cards);
@@ -68,7 +72,7 @@ export class Game {
       pile: pile ? pile.map(card => card.id) : null, stage: 1, stageComplete: false,
       used: [], sequence: 0, phase: 'handoff', turnIndex: 0, remaining: 0,
       deadline: null, current: null, mode: null, allPlay: false,
-      turn: { correct: 0, skipped: 0, points: 0, log: [] }, turns: [], adjustments: [], cycles: 0
+      turn: { correct: 0, skipped: 0, points: 0, discarded: 0, log: [] }, turns: [], adjustments: [], cycles: 0
     };
     this.state.remaining = this.turnDuration();
   }
@@ -87,6 +91,7 @@ export class Game {
   get round() { return this.format === 'rounds3' ? this.state.stage : Math.floor(this.state.turnIndex / this.state.teams.length) + 1; }
   get player() { const team = this.team; return team.members?.length ? team.members[team.turns % team.members.length] : null; }
   get canSkip() { const { config, turn, phase } = this.state; return phase === 'playing' && config.skipPolicy !== 'off' && (config.skipPolicy !== 'limited' || turn.skipped < config.skipLimit); }
+  get canDiscard() { const { phase, turn } = this.state; return ['playing', 'paused'].includes(phase) && (turn.discarded ?? 0) < REPORT_SWAPS_PER_TURN; }
   get canUndo() { const { phase, turn } = this.state; return ['playing', 'exhausted'].includes(phase) && turn.log.some(entry => entry.result !== 'pending'); }
   // The mode of the whole turn, when it is fixed (by rounds, a single mode or «Tres rondas»).
   get turnMode() {
@@ -189,6 +194,22 @@ export class Game {
     this.deal(now);
     return true;
   }
+  // A reported card leaves the game without points or penalty, and the next one comes in. It is not a skip (it never
+  // uses up the skip limit). Reporting pauses the clock first, so the turn resumes here; in «Tres rondas» the card
+  // also leaves the pile, so later rounds do not bring it back.
+  discard(now) {
+    const s = this.state;
+    if (!this.canDiscard || !s.current || (s.phase === 'playing' && this.tick(now))) return false;
+    Object.assign(s.turn.log.at(-1), { result: 'discarded', teamId: null, delta: 0, resolvedAt: now });
+    s.turn.discarded = (s.turn.discarded ?? 0) + 1;
+    const id = s.current.id;
+    s.current = null; s.allPlay = false;
+    if (s.pile) s.pile = s.pile.filter(item => item !== id);
+    if (s.phase === 'paused') { s.phase = 'playing'; s.deadline = now + s.remaining; }
+    if (this.format === 'rounds3' && !s.deck.length) { s.stageComplete = true; this.finishTurn(now); return true; }
+    this.deal(now);
+    return true;
+  }
   // Takes back the last answer of this turn and shows that card again. The card that was on screen
   // stays used (in «Tres rondas» it goes back to the pile).
   undo(now) {
@@ -201,6 +222,7 @@ export class Game {
     }
     const entry = s.turn.log.at(-1);
     this.revert(entry);
+    if (entry.result === 'discarded') { s.turn.discarded = Math.max(0, (s.turn.discarded ?? 1) - 1); if (s.pile && !s.pile.includes(entry.id)) s.pile.push(entry.id); }
     if (this.format === 'rounds3' && entry.result !== 'correct') { const at = s.deck.indexOf(entry.id); if (at !== -1) s.deck.splice(at, 1); }
     entry.result = 'pending'; entry.teamId = null; entry.delta = 0; delete entry.resolvedAt;
     s.current = s.cards.find(card => card.id === entry.id); s.mode = entry.mode; s.allPlay = entry.allPlay;
@@ -271,7 +293,7 @@ export class Game {
     if (this.lastTurn) { s.phase = 'finished'; return; }
     if (this.format === 'rounds3' && s.stageComplete) { s.stage++; s.stageComplete = false; s.deck = shuffle(s.pile, this.random); }
     s.turnIndex++; s.phase = 'handoff';
-    s.turn = { correct: 0, skipped: 0, points: 0, log: [] };
+    s.turn = { correct: 0, skipped: 0, points: 0, discarded: 0, log: [] };
     s.remaining = this.turnDuration();
   }
   finishGame() {

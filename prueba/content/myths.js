@@ -126,5 +126,118 @@ d | Gilgamesh | | Mesopotamia, epopeya, rey, Uruk
 d | Moiras | | destino, hilo, tres, cortar
 d | Valhalla | | vikingos, guerreros, Odín, salón
 d | Freya | | diosa, nórdica, amor, gatos
+f | Monstruo debajo de la cama | M | niños, miedo, noche, esconderse
+f | Caldero de bruja | D | pócima, burbujas, hechizo, verde
+f | Pócima mágica | D | frasco, beber, magia, hechicero
+f | Adivina | M | futuro, cartas, bola de cristal, pañuelo
+f | Hechizo | M | magia, conjuro, varita, palabras
+f | Bosque encantado | D | árboles, magia, hadas, oscuro
+f | Príncipe azul | M | rescatar, princesa, caballo blanco, beso
+f | Huevo de dragón | D | eclosionar, escamas, fuego, cría
+f | Tridente | D | Poseidón, tres puntas, mar, arma
+f | Flecha de Cupido | D | amor, corazón, enamorar, ángel
+f | Los doce trabajos de Hércules |  | héroe, tareas, fuerza, mitología
+f | Monte Olimpo |  | dioses, Grecia, Zeus, cima
+f | Dioses del Olimpo |  | Zeus, Hera, Grecia, doce
+f | Hera |  | diosa, esposa de Zeus, Olimpo, celosa
+f | Dioniso |  | vino, fiesta, dios, uvas
+f | Artemisa |  | caza, arco, Luna, diosa
+f | Deméter |  | cosechas, diosa, Perséfone, trigo
+f | Perséfone |  | inframundo, Hades, granada, primavera
+f | Gea |  | Madre Tierra, diosa, titanes, Urano
+f | Cronos |  | titán, tiempo, devorar hijos, Zeus
+f | Titanes |  | gigantes, Cronos, Olimpo, guerra
+m | Pan (dios) |  | flauta, cabra, bosque, sátiro
+m | Hefesto |  | herrero, fuego, cojo, dios
+m | Hestia |  | hogar, fuego, diosa, Olimpo
+m | Eros |  | amor, flechas, Cupido, Psique
+m | Psique |  | alma, Eros, mariposa, princesa
+m | Helena de Troya |  | belleza, Paris, guerra, Esparta
+m | Paris (príncipe) |  | Troya, Helena, manzana, Aquiles
+m | Manzana de la discordia |  | Paris, diosas, la más bella, Troya
+m | Héctor |  | Troya, príncipe, Aquiles, guerrero
+m | Agamenón |  | rey, Micenas, griegos, Troya
+m | Penélope |  | Ulises, tejer, esperar, pretendientes
+m | Circe |  | hechicera, cerdos, Ulises, isla
+m | Calipso |  | ninfa, Ulises, isla, retener
+m | Escila y Caribdis |  | monstruos, estrecho, remolino, Ulises
+m | Medea |  | hechicera, Jasón, venganza, Cólquide
+m | Vellocino de oro |  | Jasón, argonautas, carnero, dorado
+m | Eurídice |  | Orfeo, inframundo, mirar atrás, serpiente
+m | Edipo |  | esfinge, adivinanza, Tebas, destino
+m | Antígona |  | Tebas, hermano, enterrar, Sófocles
+m | Hipnos |  | sueño, dios, dormir, Morfeo
+m | Morfeo |  | sueños, dios, en brazos de, dormir
+m | Némesis |  | venganza, diosa, castigo, justicia
+m | Nike (diosa) |  | victoria, alas, Samotracia
+m | Las nueve musas |  | inspiración, artes, Apolo, hermanas
+m | Ninfas |  | bosques, ríos, jóvenes, naturaleza
+m | Dríade |  | ninfa, árboles, bosque, roble
+m | Náyade |  | ninfa, agua, fuentes, ríos
+m | Arpía |  | mitad pájaro, mujer, garras, monstruo
+m | Jano |  | dos caras, puertas, enero, romano
+m | Júpiter (dios) |  | romano, Zeus, rayos, padre de los dioses
+m | Marte (dios) |  | guerra, romano, Ares, lanza
+m | Venus (diosa) |  | amor, belleza, romana, Afrodita
+m | Vulcano |  | fuego, herrero, romano, volcán
+m | Baco |  | vino, fiesta, romano, Dioniso
+m | Diana cazadora |  | caza, arco, Luna, romana
+m | Frigg |  | diosa nórdica, Odín, esposa, cielo
+m | Balder |  | dios nórdico, luz, muérdago, hermoso
+m | Midgard |  | mundo de los humanos, nórdico, serpiente, Yggdrasil
+m | Jörmungandr |  | serpiente, Midgard, Loki, Thor
+m | Huginn y Muninn |  | cuervos, Odín, pensamiento, memoria
+m | Nornas |  | destino, nórdicas, Yggdrasil, hilo
+m | Amaterasu |  | diosa del sol, Japón, cueva, sintoísmo
+m | Susanoo |  | dios, tormentas, Japón, dragón de ocho cabezas
+m | Tengu |  | Japón, nariz larga, alas, montaña
+m | Oni |  | demonio japonés, cuernos, garrote, rojo
+m | Kappa |  | Japón, río, plato en la cabeza, pepinos
+m | Yokai |  | espíritus, Japón, monstruos, folclore
+d | Rey Mono |  | Sun Wukong, China, bastón, viaje al oeste
+d | Nüwa |  | diosa china, creación, barro, humanos
+d | Dragón chino | D | serpiente, Año Nuevo, suerte, bigotes
+d | Garuda |  | ave, India, Vishnu, águila
+d | Ganesha |  | elefante, dios hindú, obstáculos, ratón
+d | Shiva |  | destructor, hindú, tercer ojo, bailarín
+d | Vishnu |  | protector, hindú, azul, avatares
+d | Brahma |  | creador, hindú, cuatro cabezas, loto
+d | Kali |  | diosa, hindú, lengua, destrucción
+d | Hanuman |  | mono, dios hindú, Ramayana, fuerza
+d | Thoth |  | ibis, escritura, Egipto, sabiduría
+d | Horus |  | halcón, Egipto, ojo, Osiris
+d | Set |  | caos, Egipto, Osiris, desierto
+d | Bastet |  | gata, Egipto, diosa, protección
+d | Sobek |  | cocodrilo, Egipto, Nilo, dios
+d | Ojo de Horus | D | Egipto, protección, amuleto, halcón
+d | Ankh | D | cruz, Egipto, vida, llave
+d | Tláloc |  | lluvia, azteca, dios, agua
+d | Huitzilopochtli |  | sol, guerra, azteca, colibrí
+d | Kukulkán |  | serpiente emplumada, maya, Chichén Itzá, dios
+d | Viracocha |  | creador, inca, Titicaca, dios
+d | Pachamama |  | Madre Tierra, Andes, ofrendas, diosa
+d | Inti |  | sol, inca, dios, oro
+d | Popol Vuh |  | maya, libro sagrado, creación, gemelos
+d | Cuchulainn |  | héroe irlandés, perro de Culann, Ulster, guerrero
+d | Morgana |  | hechicera, Arturo, Avalon, hermana
+d | Dama del Lago |  | Excalibur, Avalon, agua, Arturo
+d | Lancelot |  | caballero, Ginebra, mesa redonda, traición
+d | Avalon |  | isla, Arturo, Morgana, magia
+d | Tristán e Isolda |  | amor, pócima, Cornualles, leyenda
+d | Beowulf |  | héroe, Grendel, dragón, poema
+d | Grendel |  | monstruo, Beowulf, Dinamarca, salón
+d | Sigfrido |  | dragón, Nibelungos, héroe, invulnerable
+d | Nibelungos |  | anillo, tesoro, Sigfrido, Wagner
+d | Lorelei |  | sirena, Rin, roca, canto
+d | Nuberu | es | Asturias, tormentas, nubes, granizo
+d | Xana | es | Asturias, fuentes, ninfa, peinarse
+d | Mari (diosa vasca) | es
+d | Tartalo | es | cíclope, vasco, un ojo, pastor
+d | Lamia |  | sirena, vasca, peine de oro, río
+d | Moura | es | Galicia, encantada, tesoro, castro
+d | Ojáncano | es | Cantabria, cíclope, malvado, un ojo
+d | Anjana | es | Cantabria, hada buena, bastón, bosque
+d | Pesanta | es | Cataluña, perro negro, pesadillas, pecho
+d | Tarasca | es | dragón, Corpus, Toledo, procesión
 `
 };

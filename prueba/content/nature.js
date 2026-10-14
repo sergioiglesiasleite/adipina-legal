@@ -127,5 +127,153 @@ d | Cadena alimentaria | | comer, depredador, presa, plantas
 d | Biodiversidad | | especies, variedad, vida, planeta
 d | Hojas caducas | | otoño, caer, árboles, perenne
 d | Liquen | D | roca, hongo, alga, árbol
+f | Cielo azul | D | despejado, nubes, sol, arriba
+f | Nube negra | D | tormenta, lluvia, gris, amenaza
+f | Relámpago | D | luz, tormenta, rayo, cielo
+f | Llovizna | M | lluvia fina, chirimiri, gotas, poco
+f | Chaparrón | M | lluvia fuerte, de repente, mojarse, corto
+f | Barro | M | tierra mojada, ensuciarse, botas, lluvia
+f | Hielo | D | frío, congelado, resbalar, agua
+f | Carámbano | D | hielo, colgar, tejado, punta
+f | Ventisca | M | nieve, viento, tormenta, frío
+f | Aguanieve | M | lluvia y nieve, frío, mezcla, invierno
+f | Primavera | D | flores, abril, polen, estación
+f | Otoño | D | hojas caídas, octubre, castañas, estación
+f | Invierno | D | frío, nieve, diciembre, estación
+f | Estaciones del año | D | cuatro, primavera, verano, otoño
+f | Hoja seca | D | otoño, marrón, crujir, árbol
+f | Rama | D | árbol, palo, hojas, tronco
+f | Tronco de árbol | D | madera, corteza, anillos, raíces
+f | Raíces | D | árbol, tierra, agua, debajo
+f | Corteza | D | árbol, tronco, rugosa, piel
+f | Tocón | D | árbol cortado, sentarse, anillos, bosque
+f | Anillos del árbol | D | edad, tronco, círculos, contar
+f | Piedra | D | roca, dura, lanzar, camino
+f | Arena | D | playa, desierto, granos, castillo
+f | Pradera | D | hierba, verde, campo, flores
+f | Hierba | D | verde, césped, campo, vacas
+f | Césped | D | jardín, cortar, verde, hierba
+f | Colina | D | montaña pequeña, verde, subir, cuesta
+f | Valle | D | entre montañas, río, abajo, verde
+f | Cumbre | D | cima, montaña, alto, bandera
+f | Arroyo | D | río pequeño, agua, piedras, murmullo
+f | Manantial | D | agua, brotar, fuente, pura
+f | Pozo | D | agua, cubo, profundo, cuerda
+f | Bahía | D | mar, costa, curva, barcos
+f | Península | D | tierra, mar, tres lados, Ibérica
+f | Archipiélago | D | islas, grupo, mar, Canarias
+f | Costa | D | mar, playa, litoral, acantilados
+f | Espuma del mar | D | olas, blanca, orilla, burbujas
+f | Fondo del mar | D | arena, peces, profundidad, algas
+f | Alga | D | mar, verde, playa, viscosa
+m | Corriente marina |  | agua, mar, moverse, Golfo
+m | Corriente del Golfo |  | Atlántico, cálida, Europa, clima
+m | Marea alta |  | mar, subir, luna, orilla
+m | Pleamar |  | marea alta, luna, mar, subir
+m | Bajamar |  | marea baja, mar, retirarse, rocas
+m | Lava | D | volcán, roja, caliente, magma
+m | Magma |  | lava, interior, volcán, fundido
+m | Ceniza volcánica | D | volcán, gris, aviones, nube
+m | Piedra pómez | D | volcánica, flota, ligera, pies
+m | Obsidiana |  | cristal volcánico, negro, afilado, roca
+m | Granito |  | roca, dura, encimera, gris
+m | Mármol |  | roca, blanca, estatuas, vetas
+m | Pizarra (roca) |  | tejados, negra, láminas
+m | Cuarzo | D | cristal, mineral, transparente, reloj
+m | Diamante | D | piedra preciosa, duro, carbono, anillo
+m | Esmeralda | D | piedra preciosa, verde, joya, Colombia
+m | Rubí | D | piedra preciosa, rojo, joya, brillar
+m | Zafiro | D | piedra preciosa, azul, joya, brillar
+m | Amatista | D | piedra, morada, cuarzo, cristal
+m | Geoda | D | piedra, cristales, dentro, partir
+m | Pepita de oro | D | río, buscar, brillante, oro
+m | Salinas | D | sal, evaporar, agua de mar, blanco
+m | Mar de nubes | D | montaña, nubes debajo, cumbre, vista
+m | Cumulonimbo |  | nube de tormenta, alta, rayos, yunque
+m | Cirros |  | nubes altas, finas, plumas, buen tiempo
+m | Halo lunar |  | anillo, luna, nubes, luz
+m | Luna menguante | D | fase, lunar, disminuir, C
+m | Luna creciente | D | fase, lunar, aumentar, D
+m | Estrella polar |  | norte, orientarse, Osa Menor, brillante
+m | Helada | M | frío, hielo, noche, plantas
+m | Ola de frío | M | temperaturas bajas, invierno, abrigos, Siberia
+m | Borrasca |  | lluvia, viento, bajas presiones, mapa
+m | Anticiclón |  | buen tiempo, altas presiones, sol, mapa
+m | Isobaras |  | mapa del tiempo, líneas, presión, meteorología
+m | Frente frío |  | aire frío, lluvias, meteorología, mapa
+m | Árbol centenario | D | viejo, grande, tronco, siglos
+m | Bambú | D | tallo, panda, hueco, crecer rápido
+m | Hiedra | D | trepadora, pared, verde, hojas
+m | Enredadera | D | trepar, planta, pared, enrollarse
+m | Zarza | D | moras, pinchos, arbusto, enredarse
+m | Ortiga | M | picar, planta, hojas, escocer
+m | Romero | D | aromática, planta, cocina, azul
+m | Tomillo | D | aromática, planta, monte, cocina
+m | Eucalipto | D | árbol, Australia, koala, olor
+m | Ciprés | D | árbol, cementerio, alto, puntiagudo
+m | Castaño | D | árbol, castañas, erizos, otoño
+m | Nogal | D | árbol, nueces, madera, sombra
+m | Chopo | D | árbol, río, alto, hojas
+m | Haya | D | árbol, hayedo, otoño, Irati
+m | Abedul | D | árbol, tronco blanco, norte, frío
+m | Magnolio | D | árbol, flores grandes, blancas, perfume
+m | Jacaranda | D | árbol, flores moradas, primavera, calles
+m | Buganvilla | D | flores, fucsia, trepadora, muros
+m | Jazmín | D | flor blanca, olor, noche, verano
+m | Clavel | D | flor, roja, España, solapa
+m | Lirio | D | flor, morada, elegante, jardín
+m | Azucena | D | flor blanca, perfume, Virgen, tallo
+m | Violeta | D | flor pequeña, morada, color, tímida
+d | Edelweiss |  | flor, Alpes, blanca, montaña
+d | Flor de loto | D | agua, sagrada, rosa, Asia
+d | Planta carnívora | D | insectos, atrapar, comer, Venus
+d | Dionea atrapamoscas |  | planta carnívora, cerrarse, moscas, trampa
+d | Rafflesia |  | flor gigante, olor a podrido, Indonesia, parásita
+d | Drago canario | es | árbol, Canarias, sangre de drago, milenario
+d | Sabina |  | árbol, enebro, Hierro, viento
+d | Pinsapo | es | abeto, Andalucía, Grazalema, reliquia
+d | Laurisilva | es | bosque, Canarias, Garajonay, húmedo
+d | Bosque de ribera |  | río, chopos, sauces, orilla
+d | Sotobosque |  | bajo los árboles, arbustos, helechos, sombra
+d | Matorral |  | arbustos, monte bajo, seco, mediterráneo
+d | Páramo |  | llano, frío, desolado, alto
+d | Altiplano |  | meseta alta, Andes, Bolivia, llano
+d | Cañón | D | río, paredes, profundo, Colorado
+d | Desfiladero |  | paso estrecho, montañas, río, pared
+d | Meandro | D | curva, río, serpentea, forma
+d | Afluente |  | río, desembocar, otro río, unirse
+d | Desembocadura |  | río, mar, final, estuario
+d | Estuario |  | río, mar, mezcla, marea
+d | Ría |  | Galicia, mar, entrar, valle
+d | Fiordo | D | Noruega, mar, glaciar, entrante
+d | Morrena |  | glaciar, rocas, arrastrar, depósito
+d | Circo glaciar |  | montaña, hueco, ibón
+d | Ibón | es | lago de montaña, Pirineo, Aragón, glaciar
+d | Turbera |  | pantano, musgo, turba, humedad
+d | Karst |  | roca caliza, cuevas, agua, erosión
+d | Dolina |  | hundimiento, karst, agujero, terreno
+d | Sima | D | agujero profundo, cueva, vertical, oscuro
+d | Estalagmita | D | cueva, suelo, gotas, cal
+d | Erosión |  | desgaste, viento, agua, roca
+d | Sedimento |  | depósito, río, arena, capas
+d | Aluvión |  | inundación, barro, arrastre, río
+d | Corrimiento de tierras |  | deslizamiento, ladera, lluvia, tierra
+d | Poniente |  | viento, oeste, Andalucía, fresco
+d | Levante |  | viento, este, Mediterráneo, Tarifa
+d | Mistral |  | viento, Francia, frío, norte
+d | Brisa marina |  | viento suave, mar, tarde, fresco
+d | Fenómeno de El Niño |  | Pacífico, clima, calentamiento, Perú
+d | Equinoccio |  | día y noche iguales, marzo, septiembre, estaciones
+d | Simbiosis |  | relación, beneficio, dos especies, colaborar
+d | Especie invasora |  | ajena, peligro, expandirse, ecosistema
+d | Especie en peligro de extinción |  | amenazada, desaparecer, protección, lince
+d | Reserva de la biosfera |  | Unesco, protegida, naturaleza, zona
+d | Parque nacional | D | protegido, naturaleza, Doñana, visitar
+d | Huella de animal | D | barro, pisada, rastro, seguir
+d | Madriguera | D | conejo, agujero, refugio, tierra
+d | Colmena | D | abejas, miel, panal, reina
+d | Panal | D | hexágonos, cera, miel, abejas
+d | Termitero | D | termitas, montículo, tierra, África
+d | Presa de castores | D | troncos, río, construir
 `
 };

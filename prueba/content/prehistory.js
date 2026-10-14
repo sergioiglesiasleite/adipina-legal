@@ -110,5 +110,112 @@ d | Fosilización | P | huesos, piedra, millones de años, sedimento
 d | Paleozoico | P | era, trilobites, peces, antes de dinosaurios
 d | Homo erectus | P | erguido, fuego, homínido, África
 d | Evolución humana | D | mono, erguido, homínidos, especies
+f | Dinosaurio con cuello largo | D | herbívoro, gigante, cola, hojas
+f | Diente de dinosaurio | D | afilado, fósil, carnívoro, colmillo
+f | Hueso de dinosaurio | D | fósil, gigante, excavar, museo
+f | Museo de dinosaurios | D | esqueletos, fósiles, visita, sala
+f | Pincel de arqueólogo | D | limpiar, huesos, tierra, excavación
+f | Picar la roca | M | fósil, martillo, excavar, piedra
+f | Fogata en la cueva | D | fuego, cavernícolas, calor, noche
+f | Taparrabos | D | piel, prehistoria, ropa, cavernícola
+f | Collar de dientes | D | adorno, colmillos, cuerda, cavernícola
+f | Manos en negativo | D | pintura, cueva, soplar, silueta
+f | Gruñir como un cavernícola | M | hablar, ruidos, primitivo, ug
+f | Tirar una lanza | M | cazar, apuntar, lanzar, piedra
+f | Pescar con lanza | M | río, pez, pinchar, cazar
+f | Recolectar frutos | M | bayas, árboles, recoger, comida
+f | Asar carne en el fuego | M | palo, hoguera, cazar, comer
+f | Hacer una herramienta de piedra | M | golpear, tallar, filo, sílex
+f | T-Rex con brazos cortos | M | no llega, gracioso, brazos pequeños, tiranosaurio
+f | Huir de un dinosaurio | M | correr, gritar, perseguir, miedo
+f | Montar en un dinosaurio | M | lomo, cabalgar, gigante, prehistoria
+f | Pterosaurio | D | volador, alas, reptil, prehistórico
+f | Ictiosaurio | D | reptil marino, delfín, prehistórico, mar
+f | Mamut congelado | D | hielo, Siberia, peludo, encontrar
+f | Colmillos de mamut | D | marfil, curvos, grandes, elefante
+f | Dodo | D | ave, extinguida, Mauricio, no volaba
+f | Extinción | M | desaparecer, especies, nunca más, meteorito
+m | Therizinosaurus |  | garras enormes, herbívoro, extraño, dinosaurio
+m | Oviraptor |  | ladrón de huevos, plumas, pico, dinosaurio
+m | Gallimimus |  | rápido, avestruz, Jurassic Park, dinosaurio
+m | Compsognathus |  | pequeño, rápido, carnívoro, dinosaurio
+m | Dilophosaurus |  | cresta doble, escupir, Jurassic Park, dinosaurio
+m | Baryonyx |  | pescador, garra, Inglaterra, dinosaurio
+m | Argentinosaurus |  | gigante, Argentina, herbívoro, enorme
+m | Maiasaura |  | buena madre, nidos, pico de pato, dinosaurio
+m | Corythosaurus |  | cresta, casco, pico de pato, dinosaurio
+m | Edmontosaurus |  | pico de pato, herbívoro, manada, dinosaurio
+m | Styracosaurus |  | cuernos, gola, pinchos, dinosaurio
+m | Protoceratops |  | gola, pequeño, Mongolia, dinosaurio
+m | Dinosaurios con plumas |  | aves, plumaje, evolución, descubrimiento
+m | Pájaro terror |  | ave carnívora, prehistórica, no volaba, Sudamérica
+m | Dunkleosteus |  | pez acorazado, mandíbulas, Devónico, prehistórico
+m | Helecho gigante | D | bosque prehistórico, planta, enorme, hojas
+m | Libélula gigante | D | Carbonífero, insecto, enorme, alas
+m | Homo habilis |  | herramientas, humano primitivo, África, hábil
+m | Denisovanos |  | humanos antiguos, Siberia, cueva, ADN
+m | Homo floresiensis |  | hobbit, isla de Flores, pequeño, humano
+m | Bifaz | D | piedra tallada, hacha de mano, sílex, Paleolítico
+m | Punta de flecha | D | piedra, tallada, cazar, arco
+m | Propulsor |  | lanzar, lanzas, más lejos, caza
+m | Arpón de hueso | D | pescar, punta, dientes
+m | Aguja de hueso | D | coser, pieles, agujero, Paleolítico
+m | Flauta de hueso | D | música, prehistórica, agujeros, buitre
+m | Cerámica neolítica | D | vasijas, barro, cocer, Neolítico
+m | Agricultura |  | sembrar, cultivar, Neolítico, cosechar
+m | Domesticación de animales |  | perros, ovejas, Neolítico, ganado
+m | Poblado neolítico | D | casas, chozas, aldea, agricultores
+m | Choza | D | cabaña, ramas, prehistoria, techo
+m | Palafito | D | casa, postes, agua, lago
+m | Megalito |  | piedra grande, menhir, dolmen, monumento
+m | Crómlech | D | círculo, piedras, Stonehenge, megalítico
+m | Cueva de El Castillo | es | Cantabria, pinturas, manos, antiguas
+m | Tito Bustillo | es | cueva, Asturias, pinturas, Ribadesella
+d | Cámbrico |  | explosión de vida, era, trilobites, Paleozoico
+d | Explosión cámbrica |  | diversidad, animales, Cámbrico, aparición
+d | Ordovícico |  | periodo, Paleozoico, mar, invertebrados
+d | Silúrico |  | periodo, Paleozoico, peces, plantas terrestres
+d | Devónico |  | era de los peces, Paleozoico, anfibios, bosques
+d | Carbonífero |  | carbón, bosques, insectos gigantes, Paleozoico
+d | Pérmico |  | extinción, Paleozoico, Pangea, reptiles
+d | Gran Mortandad |  | extinción, Pérmico, vida, catástrofe
+d | Cenozoico |  | mamíferos, era actual, después de dinosaurios, era
+d | Pleistoceno |  | glaciaciones, mamuts, humanos, hielo
+d | Holoceno |  | época actual, después del hielo, agricultura, clima
+d | Antropoceno |  | humanos, era propuesta, impacto, planeta
+d | Gondwana |  | supercontinente, sur, África, Sudamérica
+d | Laurasia |  | supercontinente, norte, Europa, Asia
+d | Deriva continental |  | Wegener, placas, continentes, mover
+d | Tectónica de placas |  | terremotos, montañas, movimiento
+d | Tiktaalik |  | pez con patas, transición, tierra, fósil
+d | Anomalocaris |  | Cámbrico, depredador, extraño, mar
+d | Hallucigenia |  | Cámbrico, extraño, patas, espinas
+d | Burgess Shale |  | fósiles, Canadá, Cámbrico, yacimiento
+d | Yacimiento de Las Hoyas | es | Cuenca, fósiles, Cretácico, aves
+d | Concavenator | es | dinosaurio, Cuenca, joroba, Pepito
+d | Aragosaurus | es | dinosaurio, Teruel, saurópodo, Aragón
+d | Turiasaurus | es | dinosaurio, Teruel, gigante, Europa
+d | Dinópolis | es | Teruel, dinosaurios, parque, museo
+d | Gran Dolina | es | Atapuerca, yacimiento, Homo antecessor, Burgos
+d | Sima de los Huesos | es | Atapuerca, Burgos, preneandertales
+d | Íberos |  | pueblo, Península, escritura, Dama de Elche
+d | Celtíberos |  | pueblo, Numancia, celtas, íberos
+d | Tartessos |  | reino, Huelva, mítico, Argantonio
+d | Argantonio |  | rey, Tartessos, longevo, plata
+d | Tesoro del Carambolo | es | Sevilla, oro, Tartessos, joyas
+d | Cultura del Argar | es | Edad del Bronce, Almería, Murcia, poblados
+d | Cultura de los vasos campaniformes |  | cerámica, campana, Calcolítico, Europa
+d | Calcolítico |  | Edad del Cobre, metal, transición, Neolítico
+d | Ötzi |  | momia, hielo, Alpes, hombre
+d | Niño de Turkana |  | Homo erectus, esqueleto, Kenia, joven
+d | Paranthropus |  | homínido, mandíbula fuerte, África, robusto
+d | Garganta de Olduvai |  | Tanzania, homínidos, fósiles, Leakey
+d | Mary Leakey |  | paleoantropóloga, huellas de Laetoli, Olduvai, Kenia
+d | Juan Luis Arsuaga | es | Atapuerca, paleoantropólogo, divulgador, Madrid
+d | Eudald Carbonell | es | Atapuerca, arqueólogo, Tarragona, sombrero
+d | Mary Anning |  | fósiles, Lyme Regis, ictiosaurio, paleontóloga
+d | Guerra de los Huesos |  | Cope, Marsh, fósiles, rivalidad
+d | Estratigrafía |  | capas, sedimentos, edad, roca
+d | Icnita | D | huella fósil, dinosaurio, roca, pisada
 `
 };

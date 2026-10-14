@@ -1,4 +1,4 @@
-import { BANK, avatarFor, packConfig, normalize, selectCards } from './content.js';
+import { BANK, SOLO_PACKS, avatarFor, packConfig, normalize, selectCards } from './content.js';
 import { Game, distributePlayers, validateConfig } from './game.js';
 import { S, newTeam, cleanConfig } from './client/state.js';
 import { $, clock, download, escape, quantity, uid } from './client/util.js';
@@ -7,9 +7,11 @@ import { applyTextSize, inviteBase, inviteUrl, isNative, keepAwake, launchUrl, o
 import { initSound, ring, success, tick } from './client/sound.js';
 import { api, connectRoom, disconnectRoom, lostAccess, roomAction, saveRoomSession, setRoomHooks } from './client/room.js';
 import { initCanvas, pen, redraw, resetCanvas, stopCanvas } from './client/canvas.js';
-import { canControl, categories, footer, header, isActive, isHost, isViewer, main, selectionInfo } from './client/views.js';
+import { canControl, categories, chosenPacks, footer, header, isActive, isHost, isViewer, main, selectionInfo } from './client/views.js';
 import * as D from './client/dialogs.js';
 import { resultText } from './client/stats.js';
+import { sendReports } from './client/reports.js';
+import { adsAvailable, initAds, openAdPrivacy, policy as adPolicy, preloadInterstitial, setBanner, showInterstitial, showRewarded } from './client/ads.js';
 
 function toast(message) { const el = $('#toast'); el.textContent = message; el.classList.add('visible'); clearTimeout(toast.timer); toast.timer = setTimeout(() => el.classList.remove('visible'), 4500); }
 store.setStorageWarning(() => toast('El navegador no permite guardar. Puedes seguir jugando en esta sesión.'));
@@ -26,6 +28,21 @@ function render() {
   updateTimer();
   trackSeen();
   announce();
+  syncAds();
+}
+// Ads (iPhone app only, see client/ads.js), kept light on purpose: the banner sits under menus and the final results,
+// never during a game nor on the scoreboard. Each turn and each finished game feeds the interstitial policy.
+let adPhase = null;
+function syncAds() {
+  if (!adsAvailable()) return;
+  const phase = S.screen === 'game' ? S.game?.state.phase : null;
+  if (phase !== adPhase) {
+    if (phase === 'summary') { adPolicy.recordTurn(); preloadInterstitial(); }
+    if (phase === 'finished') { adPolicy.recordGameFinished(); preloadInterstitial(); }
+    adPhase = phase;
+  }
+  const inGame = S.screen === 'game';
+  setBanner(!isViewer() && (!inGame || (phase === 'finished' && !adPolicy.adFree)));
 }
 
 // Cards count as seen as soon as this phone shows them (not only at the end), so an abandoned game does not
@@ -156,17 +173,41 @@ async function begin() {
     S.game = new Game(S.config, S.teams, cards, Math.random, { seen }); saveLocal(); go('game');
   }
 }
+// The quick screen edits S.teams directly: how many piñas, each one's character and, when chosen by hand, its people.
+function setTeamCount(count) {
+  while (S.teams.length < count) S.teams.push(newTeam(S.teams.length));
+  S.teams = S.teams.slice(0, count);
+  S.quick.teams = count; S.quick.drawnFrom = null;
+  saveSetup();
+}
+function playersError(players, count) {
+  if (players.length < count) return 'Hacen falta al menos tantas personas como piñas.';
+  if (players.some(name => name.length > 60)) return 'Los nombres pueden tener hasta 60 caracteres.';
+  if (new Set(players.map(normalize)).size !== players.length) return 'Distingue los nombres repetidos, por ejemplo «Ana G.» y «Ana M.».';
+}
+function drawTeams(players) {
+  S.teams = distributePlayers(players, S.teams.length).map((members, i) => ({ ...S.teams[i], members }));
+  S.quick.drawnFrom = S.quick.players; store.rememberPlayers(players); saveSetup();
+}
 function quickStart(customize) {
-  const q = S.quick, players = lines(q.players);
-  if (players.length && players.length < q.teams) { toast('Hacen falta al menos tantas personas como piñas.'); return; }
-  if (new Set(players.map(normalize)).size !== players.length) { toast('Distingue los nombres repetidos, por ejemplo «Ana G.» y «Ana M.».'); return; }
-  S.config = cleanConfig(packConfig(S.config, q.pack));
-  while (S.teams.length < q.teams) S.teams.push(newTeam(S.teams.length));
-  S.teams = S.teams.slice(0, q.teams);
-  if (players.length) {
-    S.teams = distributePlayers(players, q.teams).map((members, i) => ({ ...S.teams[i], members }));
-    S.teamType = 'random'; S.randomPlayers = q.players; S.randomCount = q.teams; store.rememberPlayers(players);
+  const q = S.quick;
+  if (q.teams !== S.teams.length) setTeamCount(q.teams);
+  if (q.teamMode === 'random') {
+    const players = lines(q.players);
+    if (players.length) {
+      const error = playersError(players, S.teams.length); if (error) { toast(error); return; }
+      // A new draw is shown before playing, so everyone sees their piña first.
+      if (q.drawnFrom !== q.players) { drawTeams(players); if (!customize) { render(); toast('Así quedan las piñas. Si os gusta, pulsad «Empezar partida».'); return; } }
+      S.teamType = 'random'; S.randomPlayers = q.players; S.randomCount = S.teams.length;
+    } else S.teams.forEach(team => { team.members = []; });
+  } else {
+    const people = S.teams.flatMap(team => team.members);
+    if (new Set(people.map(normalize)).size !== people.length) { toast('Hay un nombre repetido. Distinguidlos, por ejemplo «Ana G.» y «Ana M.».'); return; }
+    S.teamType = 'manual';
   }
+  if (S.teams.some(team => !team.name.trim())) { toast('Todas las piñas necesitan un nombre.'); return; }
+  if (new Set(S.teams.map(team => normalize(team.name))).size !== S.teams.length) { toast('Usa nombres distintos para las piñas.'); return; }
+  S.config = cleanConfig(packConfig(S.config, q.packs));
   saveSetup();
   if (customize) { S.step = 0; S.savedPlayers = store.loadPlayers(); go('setup'); } else return begin();
 }
@@ -182,7 +223,7 @@ function validateStep() {
   if (step === 3) return validateConfig(config, teams, selectCards(config, S.customCards))[0];
 }
 // Changing any content option leaves the chosen pack: the selection is now your own.
-const customise = () => { S.config.pack = null; };
+const customise = () => { S.config.pack = null; S.config.packs = null; };
 
 // ---- Playing (local or room) ----
 async function gameAction(action, extra = {}) {
@@ -194,6 +235,7 @@ async function gameAction(action, extra = {}) {
   else if (['correct', 'skipped', 'forbidden'].includes(action)) { if (game.answer(action, now) && action === 'correct') success(S.settings); resetDrawing(); }
   else if (action === 'award') { if (game.award(extra.teamId, now)) success(S.settings); resetDrawing(); }
   else if (action === 'undo') { game.undo(now); resetDrawing(); }
+  else if (action === 'discard') { game.discard(now); resetDrawing(); }
   else if (action === 'revise') game.revise(extra.index, extra.result, extra.teamId);
   else if (action === 'adjust') game.adjust(extra.teamId, extra.delta);
   else if (action === 'pause') game.pause(now);
@@ -276,6 +318,8 @@ async function onAction(el, kind) {
   try {
     switch (action) {
       case 'close-dialog': D.closeDialog(); return;
+      case 'ad-free': if (await showRewarded()) { adPolicy.grantAdFreeGame(); toast('¡Hecho! La próxima partida va sin anuncios.'); } else toast('El anuncio no se ha podido ver entero. Inténtalo más tarde.'); render(); return;
+      case 'ad-privacy': if (!(await openAdPrivacy())) toast('Ahora mismo no se pueden abrir las opciones de anuncios.'); return;
       case 'sound': S.settings.muted = !S.settings.muted; store.saveSettings(S.settings); if (!S.settings.muted) { initSound(S.settings); ring(S.settings); } render(); return;
       case 'settings': D.settingsDialog(); return;
       case 'help': D.helpDialog(); return;
@@ -283,15 +327,28 @@ async function onAction(el, kind) {
         if (S.screen === 'game' && S.game?.state.phase !== 'finished' && !isViewer()) { D.exitDialog(); if (!S.remote && S.game?.state.phase === 'playing') { S.game.pause(Date.now()); saveLocal(); render(); } return; }
         if (S.remote) disconnectRoom();
         go('home'); return;
-      case 'new-local': case 'new-room': disconnectRoom({ forget: false }); S.remote = null; S.playType = action === 'new-room' ? 'room' : 'local'; go('quick'); return;
+      case 'new-local': case 'new-room': disconnectRoom({ forget: false }); S.remote = null; S.playType = action === 'new-room' ? 'room' : 'local'; S.quick.teams = S.teams.length; go('quick'); return;
       case 'join-page': go('join'); return;
       case 'restore-local': S.game = store.loadGame(); if (!S.game) { toast('No se pudo recuperar la partida guardada.'); store.saveGame(null); render(); return; } resetDrawing(); go('game'); return;
       case 'restore-room': await connectRoom(loadSession()); return;
       // Quick game
       case 'play-type': S.playType = value; render(); return;
-      case 'quick-pack': S.quick.pack = value; render(); return;
-      case 'quick-less': S.quick.teams = Math.max(2, S.quick.teams - 1); render(); return;
-      case 'quick-more': S.quick.teams = Math.min(12, S.quick.teams + 1); render(); return;
+      // Packs mix; «Tres rondas» has its own format and plays alone. At least one stays selected.
+      case 'quick-pack': {
+        const others = S.quick.packs.filter(id => !SOLO_PACKS.includes(id));
+        const next = SOLO_PACKS.includes(value) ? [value] : others.includes(value) ? others.filter(id => id !== value) : [...others, value];
+        if (!next.length) return toast('Elige al menos un pack.');
+        S.quick.packs = next; render(); return;
+      }
+      case 'quick-less': setTeamCount(Math.max(2, S.teams.length - 1)); render(); return;
+      case 'quick-more': setTeamCount(Math.min(12, S.teams.length + 1)); render(); return;
+      case 'quick-team-mode': S.quick.teamMode = value; S.quick.drawnFrom = null; if (value === 'random') S.teams.forEach(team => { team.members = []; }); saveSetup(); render(); return;
+      case 'quick-shuffle': {
+        const players = lines(S.quick.players);
+        if (!players.length) return toast('Escribid vuestros nombres, una persona por línea.');
+        const error = playersError(players, S.teams.length); if (error) return toast(error);
+        drawTeams(players); render(); return;
+      }
       case 'quick-start': await quickStart(false); return;
       case 'quick-customize': await quickStart(true); return;
       case 'use-preset': { const preset = store.loadPresets()[Number(value)]; if (!preset) return; S.config = cleanConfig(preset.config); if (Array.isArray(preset.teams) && preset.teams.length >= 2) S.teams = structuredClone(preset.teams); saveSetup(); await begin(); return; }
@@ -322,7 +379,12 @@ async function onAction(el, kind) {
       case 'mode': S.config.modes = S.config.modes.includes(value) ? S.config.modes.filter(v => v !== value) : [...S.config.modes, value]; break;
       case 'mode-style': S.config.modeStyle = value; break;
       case 'drawing-option': S.config.drawing = value; break;
-      case 'pack': S.config = cleanConfig(packConfig(S.config, value)); break;
+      case 'pack': {
+        const current = chosenPacks(S.config).filter(id => !SOLO_PACKS.includes(id));
+        const next = SOLO_PACKS.includes(value) ? [value] : current.includes(value) ? current.filter(id => id !== value) : [...current, value];
+        if (next.length) S.config = cleanConfig(packConfig(S.config, next)); else customise();
+        break;
+      }
       case 'category': customise(); S.config.categories = S.config.categories.includes(value) ? S.config.categories.filter(v => v !== value) : [...S.config.categories, value]; break;
       case 'all-categories': customise(); S.config.categories = categories().map(c => c.id); break;
       case 'no-categories': customise(); S.config.categories = []; break;
@@ -407,7 +469,9 @@ async function onAction(el, kind) {
       case 'copy-viewer': { const result = await share({ title: 'Marcador de AdiPiña', text: 'Marcador de la partida', url: value }); if (result === 'copied') toast('Enlace copiado.'); return; }
       case 'continue-local': continueLocally(); return;
       // Game
-      case 'ready': case 'correct': case 'skipped': case 'forbidden': case 'pause': case 'resume': case 'reuse': case 'next': case 'rematch': case 'undo': D.closeDialog(); await gameAction(action); return;
+      // Natural breaks for an interstitial: passing the phone to the next piña (one phone) and a rematch.
+      case 'next': case 'rematch': D.closeDialog(); if (!S.remote || action === 'rematch') await showInterstitial(); await gameAction(action); return;
+      case 'ready': case 'correct': case 'skipped': case 'forbidden': case 'pause': case 'resume': case 'reuse': case 'undo': D.closeDialog(); await gameAction(action); return;
       case 'finish': D.closeDialog(); await gameAction('finish'); return;
       case 'finish-confirm': D.finishDialog(); return;
       case 'award-picker': D.awardDialog('allPlay'); return;
@@ -417,8 +481,29 @@ async function onAction(el, kind) {
       case 'revise-set': D.closeDialog(); await gameAction('revise', { index: Number(value), result: el.dataset.result, teamId: el.dataset.team || null }); return;
       case 'adjust-score': D.adjustDialog(); return;
       case 'adjust': await gameAction('adjust', { teamId: value, delta: Number(el.dataset.delta) }); D.adjustDialog(); return;
-      case 'report-card': { const card = S.game.state.current; if (!card) return; S.reportCard = { ...card, mode: S.game.state.mode }; D.reportDialog(S.reportCard); return; }
-      case 'report-reason': { const card = S.reportCard; if (!card) return D.closeDialog(); S.reportCard = null; store.addReport({ id: card.id, answer: card.answer, category: card.category, reason: el.textContent.trim(), mode: card.mode, date: new Date().toISOString() }); D.closeDialog(); toast('Gracias. Tarjeta reportada en este móvil.'); return; }
+      case 'report-card': {
+        const card = S.game.state.current; if (!card) return;
+        S.reportCard = { ...card, mode: S.game.state.mode };
+        // Reporting stops the clock, so it never costs the team time. Closing without a reason resumes the turn.
+        S.reportPaused = S.game.state.phase === 'playing' && canControl() && S.game.canDiscard;
+        D.reportDialog(S.reportCard, S.reportPaused, () => { if (!S.reportCard) return; S.reportCard = null; if (S.reportPaused) { S.reportPaused = false; gameAction('resume'); } });
+        if (S.reportPaused) await gameAction('pause');
+        return;
+      }
+      case 'report-entry': {
+        // From the turn summary: the clock has already stopped and the result stays as it is.
+        const entry = S.game.state.turn.log[Number(value)]; if (!entry) return;
+        S.reportCard = { id: entry.id, answer: entry.answer, category: BANK.find(card => card.id === entry.id)?.category || entry.id.split(':')[0], mode: entry.mode };
+        S.reportPaused = false;
+        D.reportDialog(S.reportCard, null, () => { S.reportCard = null; });
+        return;
+      }
+      case 'report-reason': { const card = S.reportCard; if (!card) return D.closeDialog(); S.reportCard = null; store.addReport({ id: card.id, answer: card.answer, category: card.category, reasonId: value, reason: el.textContent.trim(), comment: $('#report-comment')?.value.trim() || '', mode: card.mode, date: new Date().toISOString(), sent: false }); D.closeDialog();
+        // The reported card goes without points or penalty; the next one comes in and the clock starts again.
+        const swap = S.reportPaused;
+        if (swap) { S.reportPaused = false; await gameAction('discard'); }
+        const sent = await sendReports();
+        toast(`Gracias. Tarjeta ${swap ? 'cambiada' : 'reportada'}${sent ? ', la revisaremos.' : '; el reporte se enviará cuando haya conexión.'}`); return; }
       case 'open-canvas': S.drawingOpen = true; render(); return;
       case 'ink': pen.ink = value; pen.eraser = false; render(); return;
       case 'eraser': pen.eraser = !pen.eraser; render(); return;
@@ -426,7 +511,7 @@ async function onAction(el, kind) {
       case 'clear-canvas': pen.strokes = []; redraw(); return;
       case 'exit-game': if (!S.remote && S.game.state.phase === 'playing') { S.game.pause(Date.now()); saveLocal(); render(); } D.exitDialog(); return;
       case 'confirm-exit': D.closeDialog(); if (S.remote) { S.stream?.close(); S.stream = null; S.remote = null; S.connected = false; } S.game = null; go('home'); return;
-      case 'another-game': disconnectRoom(); store.saveGame(null); S.step = 0; go('quick'); return;
+      case 'another-game': await showInterstitial(); disconnectRoom(); store.saveGame(null); S.step = 0; S.quick.teams = S.teams.length; go('quick'); return;
       case 'share-result': { const result = await share({ title: 'Resultado de AdiPiña', text: resultText(S.game.state, S.game.winners) }); if (result === 'copied') toast('Resultado copiado.'); else if (!result) toast('Este navegador no permite compartir.'); return; }
       // Settings and data
       case 'export-custom': await exportCustom(); return;
@@ -495,6 +580,7 @@ onForeground(() => {
   if (S.remote) api(`/api/rooms/${S.remote.code}`).then(applySnapshot).catch(error => toast(error.message));
   // Browsers release the screen lock when the page is hidden; take it again if this phone is mid-turn.
   if (S.game?.state.phase === 'playing' && isActive()) keepAwake();
+  sendReports(); // Reports made without connection.
 });
 
 if ('serviceWorker' in navigator && globalThis.isSecureContext) navigator.serviceWorker.register('./sw.js').catch(() => {});
@@ -518,3 +604,5 @@ if (scoreboard) history.replaceState(null, '', location.pathname);
 onOpenUrl(url => { try { if (!openLink(new URL(url))) render(); } catch { /* Not a link for this app. */ } });
 render();
 if (!S.settings.onboarded && !scoreboard) { S.settings.onboarded = true; store.saveSettings(S.settings); D.onboardingDialog(); }
+// Consent (Apple tracking prompt, Google EU form) is asked once the first screen is up, not over a blank app.
+if (adsAvailable()) setTimeout(() => initAds().then(syncAds), 1500);

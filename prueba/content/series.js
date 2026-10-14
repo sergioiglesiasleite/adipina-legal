@@ -125,5 +125,97 @@ d | Line of Duty | 10s
 d | Fargo (la serie) | 10s t
 d | Hit | 20s es
 d | Cardo | 20s es t
+f | Padre de familia | t | Peter Griffin, Stewie, perro, Quahog
+f | Futurama |  | Fry, Bender, robot, año 3000
+f | Pasión de gavilanes | 00s | Reyes, hermanos, Elizondo, telenovela
+f | Betty, la fea | 00s | Ecomoda, gafas, Colombia, telenovela
+f | Rebelde | 00s | RBD, uniforme, colegio, México
+f | Un paso adelante | 00s es | academia, baile, Lola, Upa Dance
+f | Los misterios de Laura | 00s es | detective, policía, María Pujalte
+f | El barco | 10s es | velero, Estrella Polar, fin del mundo, tripulación
+f | Sin tetas no hay paraíso | t 00s es | El Duque, Catalina, narco, Miguel Ángel Silvestre
+f | Amar es para siempre | 10s es | Plaza de los Frutos, telenovela, Antena 3, barrio
+f | Los protegidos | 10s es | poderes, niños, familia falsa, huida
+f | Aída | 00s es | Esperanza Sur, Mauricio Colmenero, bar, Chema
+f | Matrimonio con hijos | 90s | Al Bundy, zapatería, Peggy, sofá
+f | Malcolm | 00s | Hal, Lois, hermanos, genio
+f | Hannah Montana | 00s k | Miley, peluca, cantante, doble vida
+f | iCarly | 00s k | webshow, Sam, Freddie, Seattle
+f | La niñera | 90s | Fran Fine, voz nasal, Nueva York, mayordomo
+f | Embrujadas | 90s | hermanas, brujas, libro de las sombras, San Francisco
+f | Buffy, cazavampiros | 90s | estaca, vampiros, Sunnydale, instituto
+f | Sabrina, cosas de brujas | 90s | gato Salem, bruja, adolescente, tías
+f | Glee | 10s | coro, instituto, canciones, Rachel
+f | La reina del sur | 10s | Teresa Mendoza, narco, México, Kate del Castillo
+f | Smallville | 00s | Superman, Clark Kent, granja, Lex Luthor
+f | Heartstopper | 20s | Charlie, Nick, instituto, cómic
+f | Sex Education | 10s | Otis, terapia, instituto, Maeve
+f | The Witcher (la serie) | 10s | Geralt, brujo, Henry Cavill, Ciri
+f | La casa de las flores | 10s | floristería, familia, México, Paulina
+m | Hermanos de sangre | 00s | soldados, Segunda Guerra Mundial, compañía Easy, Spielberg
+m | El ala oeste de la Casa Blanca | 00s | presidente, asesores, Washington, pasillos
+m | 24 | 00s | Jack Bauer, contrarreloj, terrorismo, CTU
+m | Héroes | 00s | poderes, animadora, salvar el mundo, Hiro
+m | Fringe | 00s | FBI, fenómenos, universo paralelo, Walter
+m | Sons of Anarchy | t 00s | moteros, club, California, Jax
+m | Mentes criminales | 00s | FBI, perfiles, asesinos, unidad
+m | Castle | 00s | escritor, policía, Nueva York, Beckett
+m | El mentalista | 00s | Patrick Jane, psíquico, CBI, Red John
+m | Monk | 00s | detective, manías, germofobia, San Francisco
+m | Doctor Mateo | 00s es | médico, pueblo, Asturias, San Martín del Sella
+m | Policías, en el corazón de la calle | 00s es | comisaría, Madrid, patrulla
+m | El comisario | 90s es | comisaría, San Antonio, Tito Valverde, policías
+m | Ana y los 7 | 00s es | niñera, Ana Obregón, siete hijos, bailarina
+m | Lleno, por favor | 90s es | gasolinera, Alfredo Landa, comedia, Antena 3
+m | Manos a la obra | 90s es | albañiles, Benito, Manolo, obras
+m | Menudo es mi padre | 90s es | El Fary, taxista, Madrid, comedia
+m | Toy Boy | 10s es | stripper, Marbella, cárcel, Hugo
+m | Sky Rojo | 20s es | prostíbulo, huida, tres mujeres, Canarias
+m | Ozark | 10s | blanqueo, lago, familia Byrde, cártel
+m | The Boys | t 20s | superhéroes malvados, Homelander, Butcher, Vought
+m | Only Murders in the Building | 20s | pódcast, edificio, asesinato, Steve Martin
+m | The Last of Us (la serie) | 20s | Joel, Ellie, hongo, zombis
+m | Shōgun | 20s | Japón, samurái, inglés, Toranaga
+m | Severance | 20s | oficina, recuerdos, Lumon, trabajo
+m | Yellowstone | 20s | rancho, Montana, Kevin Costner, vaqueros
+m | The White Lotus | 20s | hotel, vacaciones, ricos, crimen
+m | Arcane | 20s | League of Legends, Vi, Jinx, Piltover
+d | Curro Jiménez | 70s es | bandolero, Sierra de Ronda, Sancho Gracia, caballo
+d | Los ladrones van a la oficina | 90s es | Fernán Gómez, timadores, Antonio Ozores, comedia
+d | Turno de oficio | 80s es | abogados, juzgados, Juan Luis Galiardo, despacho
+d | Anillos de oro | 80s es | divorcio, abogados, Imanol Arias, matrimonio
+d | Fortunata y Jacinta (serie) | 80s es | Galdós, Ana Belén, Madrid, adaptación
+d | Los gozos y las sombras | 80s es | Galicia, Pueblanueva, Torrente Ballester, Carlos Larrañaga
+d | Juncal | 80s es | torero, Paco Rabal, Sevilla, retirado
+d | Brigada Central | 80s es | policía, Imanol Arias, Flores, comisario
+d | El súper | 90s es | supermercado, culebrón, Telecinco, Hispano
+d | Querido maestro | 90s es | profesor, Imanol Arias, pueblo, colegio
+d | Hostal Royal Manzanares | 90s es | Lina Morgan, comedia, Madrid
+d | Javier ya no vive solo | 00s es | Emilio Aragón, hermana, piso, comedia
+d | Mis adorables vecinos | 00s es | familia rica, urbanización, Paz Padilla, Bea
+d | Cuestión de sexo (serie) | 00s es | parejas, comedia, Cuatro, Hugo Silva
+d | Sé quién eres | 10s es | abogado, amnesia, Francesc Garrido, desaparecida
+d | Mar de plástico | 10s es | invernaderos, Almería, asesinato, Guardia Civil
+d | La peste | 10s es | Sevilla, siglo XVI, epidemia, Inquisición
+d | Carlos, rey emperador | 10s es | Carlos V, monarca, Austrias, Álvaro Cervantes
+d | Treme | 10s | Nueva Orleans, músicos, huracán, Katrina
+d | Deadwood | 00s | western, pueblo minero, Al Swearengen, Dakota
+d | Oz | 90s | cárcel, presos, HBO, Emerald City
+d | Roma (la serie) | 00s | Julio César, legionarios, Vorenus, Pullo
+d | The Office (Reino Unido) | 00s | Ricky Gervais, oficina, Slough, David Brent
+d | The IT Crowd | 00s | informáticos, sótano, Moss, Roy
+d | Black Books | 00s | librería, Bernard, Dylan Moran, vino
+d | Arrested Development | 00s | familia Bluth, dinero, casa modelo, narrador
+d | Community | 10s | universidad comunitaria, grupo de estudio, Abed, Jeff
+d | Parks and Recreation | 10s | Leslie Knope, parques, Pawnee, Ron Swanson
+d | 30 Rock | 00s | Liz Lemon, televisión, NBC, Jack Donaghy
+d | Curb Your Enthusiasm | 00s | Larry David, incómodo, Los Ángeles, Seinfeld
+d | Babylon Berlin | 10s | años veinte, policía, cabaret
+d | Gomorra | 10s | Nápoles, camorra, Savastano, mafia
+d | Skam | 10s | instituto, Noruega, adolescentes, redes
+d | The Expanse | 10s | espacio, Marte, Cinturón, Rocinante
+d | Battlestar Galactica | 00s | cylones, nave, humanos, flota
+d | Shameless | 10s | familia Gallagher, Chicago, Frank, pobreza
+d | Veep | 10s | vicepresidenta, Selina Meyer, Washington, sátira
 `
 };

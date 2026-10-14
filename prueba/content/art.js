@@ -119,5 +119,134 @@ d | Galería Uffizi | P | Florencia, Botticelli, Italia, Médici
 d | Bienal de Venecia | P | exposición, Italia, pabellones, arte contemporáneo
 d | ARCO | P es | feria, Madrid, arte contemporáneo, galerías
 d | Comisario de exposiciones | P | museo, seleccionar, obras, organizar
+f | Colores primarios | D | rojo, amarillo, azul, mezclar
+f | Mezclar colores | M | paleta, pintura, nuevo color, pincel
+f | Carboncillo | D | dibujo, negro, manchar, carbón
+f | Tinta china | D | negra, pluma, dibujo, tintero
+f | Calcar | M | papel, copiar, transparente, dibujo
+f | Viñeta | D | cómic, cuadro, bocadillo, tira
+f | Bocadillo de cómic | D | diálogo, globo, texto
+f | Tira cómica | D | viñetas, periódico, humor, Mafalda
+f | Ilustración | M | dibujo, libro, cuento, ilustrador
+f | Ilustrador | M | dibujos, libros, cuentos, encargos
+f | Foto en blanco y negro | D | sin color, antigua, gris, cámara
+f | Retrato de familia | D | foto, posar, cuadro
+f | Museo de cera | D | figuras, famosos, Madame Tussauds, réplicas
+f | Madame Tussauds |  | museo de cera, Londres, figuras, famosos
+f | Estatua viviente | M | quieta, calle, moneda, maquillaje
+f | Músico callejero | M | calle, guitarra, monedas, funda
+f | Telón | D | teatro, rojo, abrir, escenario
+f | Escenario | D | teatro, actores, focos, tablas
+f | Butaca | D | teatro, cine, asiento, rojo
+f | El lago de los cisnes | M | ballet, Chaikovski, cisne, bailarina
+f | Ópera | M | cantar, teatro, soprano, drama
+f | Musical | M | cantar, bailar, Broadway, teatro
+m | Retrospectiva |  | exposición, toda la obra, artista, museo
+m | Mecenas |  | patrocinador, arte, dinero, Médici
+m | Médici |  | Florencia, mecenas, familia, Renacimiento
+m | Renacimiento |  | Florencia, Leonardo, Miguel Ángel, siglo XV
+m | Gótico |  | catedrales, arcos apuntados, vidrieras, Edad Media
+m | Románico |  | arcos de medio punto, iglesias, Edad Media, muros gruesos
+m | Rococó |  | adornos, Francia, siglo XVIII, curvas
+m | Neoclasicismo |  | Grecia, Roma, columnas, siglo XVIII
+m | Romanticismo |  | emoción, naturaleza, siglo XIX, sublime
+m | Realismo |  | vida real, siglo XIX, Courbet, sin idealizar
+m | Modernismo |  | Gaudí, curvas, Barcelona, art nouveau
+m | Art déco |  | años veinte, geometría, lujo, Chrysler
+m | Bauhaus |  | escuela, Alemania, diseño, funcional
+m | Fauvismo |  | colores violentos, Matisse, fieras, salvaje
+m | Futurismo |  | velocidad, Italia, máquinas, movimiento
+m | Arte conceptual |  | idea, obra, concepto, contemporáneo
+m | Instalación artística |  | espacio, obra, contemporánea, montaje
+m | Performance | M | arte en vivo, cuerpo, artista, acción
+m | Land art |  | paisaje, naturaleza, intervenir, gran escala
+m | Escultura de hielo | D | tallar, frío, derretir, figura
+m | Escultura de arena | D | playa, figura, castillo, tallar
+m | Papel maché | M | periódico, cola, moldear, piñata
+m | Tapiz | D | tela, pared, tejido, escena
+m | Acrílico |  | pintura, plástica, seca rápido, lienzo
+m | Pastel (técnica) |  | tizas, colores suaves, difuminar, pintura
+m | Grabado |  | plancha, tinta, estampar, copias
+m | Litografía |  | piedra, grabado, impresión, copias
+m | Serigrafía |  | pantalla, tinta, camisetas, Warhol
+m | Xilografía |  | madera, grabado, tallar, estampar
+m | Orfebrería |  | oro, plata, joyas, artesano
+m | Pan de oro |  | dorar, lámina, retablos, fino
+m | Mármol de Carrara |  | piedra, escultura, Italia, blanco
+m | Cincel | D | esculpir, martillo, piedra, tallar
+m | Claude Monet |  | impresionismo, nenúfares, Giverny, francés
+m | Pierre-Auguste Renoir |  | impresionismo, baile, francés, retratos
+m | Edgar Degas |  | bailarinas, impresionismo, francés, pastel
+m | Paul Cézanne |  | bodegones, manzanas, Montaña Sainte-Victoire, francés
+m | Paul Gauguin |  | Tahití, colores, francés, posimpresionismo
+m | Henri Matisse |  | fauvismo, recortes, colores, francés
+m | Gustav Klimt |  | El beso, oro, Viena, mujeres
+m | Edvard Munch |  | El grito, noruego, angustia, expresionismo
+m | René Magritte |  | surrealismo, bombín, manzana, belga
+m | Rembrandt |  | holandés, luz, retratos, La ronda de noche
+m | Johannes Vermeer |  | La joven de la perla, holandés, luz, ventana
+m | Caravaggio |  | claroscuro, barroco, italiano, Baco
+m | Rafael Sanzio |  | Renacimiento, madonas, Escuela de Atenas, italiano
+m | Sandro Botticelli |  | Nacimiento de Venus, Florencia, Renacimiento, primavera
+m | Miguel Ángel |  | Capilla Sixtina, David, Piedad, escultor
+m | Donatello |  | escultor, Florencia, Renacimiento, tortuga ninja
+m | El Bosco |  | Jardín de las delicias, holandés, monstruos, Prado
+m | Jackson Pollock |  | goteo, salpicar, abstracto, estadounidense
+m | Mark Rothko |  | rectángulos de color, abstracto, estadounidense, capilla
+m | Keith Haring |  | figuras, grafiti, colores, contornos
+m | Jean-Michel Basquiat |  | grafiti, corona, Nueva York, neoexpresionismo
+m | Roy Lichtenstein |  | cómic, puntos, arte pop, viñetas
+m | Yayoi Kusama |  | lunares, calabazas, japonesa, espejos
+d | Tiziano |  | veneciano, Renacimiento, rojo, retratos
+d | Tintoretto |  | Venecia, manierismo, Última Cena, pintor
+d | Durero |  | alemán, grabados, autorretrato, liebre
+d | Jan van Eyck |  | Matrimonio Arnolfini, óleo, flamenco, espejo
+d | Rubens |  | barroco, flamenco, mujeres, Las tres gracias
+d | Van Dyck |  | retratos, flamenco, barroco, Carlos I
+d | José de Ribera |  | Españoleto, barroco, Nápoles, tenebrismo
+d | Gregorio Fernández | es | imaginero, barroco, Valladolid, escultor
+d | Alonso Cano | es | Granada, pintor, escultor, barroco
+d | Mariano Fortuny | es | pintor, Reus, orientalismo, La vicaría
+d | Ramón Casas | es | Barcelona, modernismo, Els Quatre Gats, tándem
+d | Santiago Rusiñol | es | modernismo, Sitges, jardines, pintor
+d | Julio Romero de Torres | es | Córdoba, mujeres morenas, La Fuensanta, pintor
+d | Ignacio Zuloaga | es | pintor, Eibar, españolada, retratos
+d | Juan Gris | es | cubismo, Madrid, París, bodegones
+d | María Blanchard | es | cubismo, Santander, pintora, París
+d | Antoni Tàpies | es | informalismo, materia, Barcelona, cruces
+d | Eduardo Chillida | es | escultor, Peine del Viento, hierro, San Sebastián
+d | Jorge Oteiza | es | escultor, vasco, vacío, Aránzazu
+d | Antonio López | es | hiperrealismo, Gran Vía, membrillo, pintor
+d | Manolo Valdés | es | escultor, Equipo Crónica, meninas, Valencia
+d | Cristina Iglesias | es | escultora, San Sebastián, celosías, agua
+d | Equipo Crónica | es | arte pop, Valencia, crítica, pareja
+d | El Peine del Viento | es | Chillida, San Sebastián, escultura, rocas
+d | La Dama de Elche | es | íbera, busto, Alicante, Museo Arqueológico
+d | La Dama de Baza | es | íbera, escultura, Granada, sentada
+d | Toros de Guisando | es | verracos, Ávila, piedra, vetones
+d | Pórtico de la Gloria | es | Santiago, Maestro Mateo, catedral, románico
+d | Maestro Mateo | es | Pórtico de la Gloria, escultor, Santiago, románico
+d | Arco de herradura | D | califal, árabe, Córdoba, curva
+d | Bóveda de crucería | D | gótico, nervios, techo, catedral
+d | Arbotante |  | gótico, apoyo, catedral, exterior
+d | Rosetón | D | catedral, vidriera, circular, gótico
+d | Capitel | D | columna, arriba, dórico, corintio
+d | Frontón (arquitectura) |  | triángulo, templo, fachada, griego
+d | Ábside |  | iglesia, semicircular, cabecera, altar
+d | Claustro |  | patio, monasterio, galerías, columnas
+d | Cripta |  | subterránea, iglesia, tumbas, bajo el altar
+d | Pantocrátor |  | Cristo, románico, majestad, ábside
+d | Tímpano (arquitectura) |  | portada, semicírculo, relieve, iglesia
+d | Mocárabes |  | Alhambra, techo, panal, árabe
+d | Azulejo | D | cerámica, Portugal, pared, azul
+d | Arquitectura mudéjar |  | ladrillo, Teruel, cristiano y musulmán, arte
+d | Plateresco |  | Salamanca, fachada, adornos, Renacimiento
+d | Churrigueresco |  | barroco, adornos, Churriguera, recargado
+d | Museo Dalí de Figueres | es
+d | Tate Modern |  | Londres, arte moderno, central eléctrica, museo
+d | Museo de Orsay |  | París, estación, impresionistas, reloj
+d | Rijksmuseum |  | Ámsterdam, Rembrandt, Vermeer, museo
+d | Guggenheim de Nueva York |  | espiral, Frank Lloyd Wright, museo, Quinta Avenida
+d | Museo Británico |  | Londres, Piedra de Rosetta, antigüedades
 `
 };

@@ -122,5 +122,91 @@ d | Hat-trick | | tres goles, partido, jugador, balón
 d | Ace | | saque, tenis, directo, punto
 d | Tie-break | | tenis, desempate, set, juego
 d | Prórroga | | empate, tiempo extra, partido, minutos
+f | Carrera de cien metros | M | velocidad, atletismo, tacos de salida, sprint
+f | Bicicleta estática | M | pedalear, gimnasio, quieta, sudar
+f | Cinta de correr | M | gimnasio, máquina, velocidad
+f | Flexiones | M | brazos, suelo, subir, bajar
+f | Sentadillas | M | piernas, agacharse, glúteos, ejercicio
+f | Estiramientos | M | músculos, calentar, flexibilidad, piernas
+f | Voltereta | M | rodar, suelo, gimnasia, cabeza
+f | Rueda lateral | M | gimnasia, manos, pies, girar
+f | Raqueta de tenis | D | pelota, cuerdas, golpear, pista
+f | Canasta | D | baloncesto, aro, red, encestar
+f | Portería | D | fútbol, red, gol, postes
+f | Balón de baloncesto | D | naranja, botar, canasta, rayas
+f | Pelota de tenis | D | amarilla, peluda, raqueta, botar
+f | Guantes de boxeo | D | puños, rojo, ring
+f | Ring de boxeo | D | cuerdas, esquinas, combate
+f | Cinturón negro | D | kárate, judo, maestro, artes marciales
+f | Trampolín | M | saltar, piscina, tabla, altura
+f | Medalla de plata | D | segundo, podio, olimpiada, premio
+f | Medalla de bronce | D | tercero, podio, olimpiada, premio
+f | Antorcha olímpica | M | fuego, relevos, Juegos Olímpicos, llama
+f | Aros olímpicos | D | cinco, colores, Juegos Olímpicos, anillos
+f | Carrera de caballos | M | jinete, hipódromo, meta, galope
+f | Pesca | M | caña, anzuelo, río, peces
+m | Marcha atlética | M | caminar rápido, cadera, atletismo, talón
+m | Lanzamiento de peso | M | bola, girar, atletismo, empujar
+m | Lanzamiento de disco | M | girar, plato, atletismo, Discóbolo
+m | Triple salto | M | atletismo, tres saltos, foso, arena
+m | Carrera de vallas | M | saltar, obstáculos, atletismo, pista
+m | Trail running | M | montaña, correr, senderos, desnivel
+m | Ironman |  | triatlón, nadar, bici, maratón
+m | Escalada en hielo | M | piolet, cascada helada, crampones, frío
+m | Alpinismo | M | montaña, cumbre, cuerda, piolet
+m | Espeleología | M | cuevas, linterna, casco, cuerda
+m | Puenting | M | saltar, puente, cuerda elástica, vértigo
+m | Tirolina | M | cable, deslizar, arnés, altura
+m | Wakeboard | M | tabla, lancha, saltos, agua
+m | Esquí acuático | M | lancha, esquís, agua, cuerda
+m | Saltos de palanca | M | piscina, diez metros, piruetas, entrar al agua
+m | Barra fija | M | gimnasia, girar, colgarse, agarre
+m | Anillas | M | gimnasia, colgar, fuerza, cruz
+m | Potro con arcos | M | gimnasia, piernas, girar, manos
+m | Barras asimétricas | M | gimnasia, girar, dos alturas, saltar
+m | Barra de equilibrio | M | gimnasia, estrecha, saltos
+m | Cinta de gimnasia rítmica | M | lazo, girar, ondas
+m | Parkour | M | saltar, ciudad, obstáculos, muros
+m | BMX | M | bicicleta, saltos, trucos, rampa
+m | Mountain bike | M | bicicleta, montaña, barro, cuestas
+m | Ciclismo en pista | M | velódromo, curvas, bici, peralte
+m | Contrarreloj | M | cronómetro, solo, ciclismo, tiempo
+m | Pelotón | M | ciclistas, grupo, carrera, rueda
+m | Rally | M | coches, tierra, copiloto, curvas
+m | Karting | M | coches pequeños, circuito, carreras, casco
+m | Motocross | M | motos, barro, saltos, tierra
+m | Trial | M | moto, obstáculos, equilibrio, piedras
+m | Dakar |  | rally, desierto, coches, motos
+m | MotoGP |  | motos, circuito, Márquez, carreras
+m | Gran Premio de Mónaco |  | Fórmula 1, calles, Montecarlo, yates
+m | Pit stop | M | ruedas, boxes, cambiar, segundos
+m | Bandera a cuadros | D | final, carrera, meta, ganador
+m | Kendo | M | espada de bambú, Japón, armadura, gritos
+m | Sumo | M | luchadores, Japón, círculo, empujar
+m | Lucha grecorromana | M | luchar, tapiz, agarres, olímpica
+m | Kickboxing | M | patadas, puños, ring, combate
+m | Jiu-jitsu | M | suelo, llaves, Brasil, kimono
+m | Defensa personal | M | protegerse, técnicas, llaves, clase
+d | Hockey sobre hielo | M | stick, disco, patines, porterías
+d | Fútbol sala | M | pabellón, cinco, balón pequeño, futsal
+d | Fútbol playa | M | arena, descalzos, chilenas
+d | Ultimate frisbee | M | disco, equipos, zona de anotación, lanzar
+d | Squash | M | raqueta, pared, pelota, sala
+d | Frontón | M | pared, pelota, pala, cancha
+d | Cesta punta | M | jai alai, pelota, frontón
+d | Tiro olímpico | M | pistola, diana, precisión, puntería
+d | Apnea | M | aguantar la respiración, profundidad, bucear, récord
+d | Salto de esquí | M | trampolín, nieve, volar, esquís
+d | Esquí alpino | M | eslalon, nieve, palos, bajada
+d | Eslalon | M | puertas, zigzag, esquí, piragüismo
+d | Halfpipe | M | snowboard, tubo, saltos, nieve
+d | Duatlón |  | correr, bici, correr, prueba
+d | Orientación | M | mapa, brújula, balizas, monte
+d | Dragon boat | M | barco dragón, remos, tambor, equipo
+d | Croquet | M | mazos, aros, bolas, césped
+d | Rana (juego) | M es | lanzar, monedas, boca, tabla
+d | Snooker | M | billar, bolas rojas, taco, británico
+d | Póker | M t | cartas, fichas, farol, apuesta
+d | Bridge |  | cartas, parejas, subasta, triunfo
 `
 };

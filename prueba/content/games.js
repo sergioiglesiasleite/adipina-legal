@@ -118,5 +118,109 @@ d | Retrogaming | | antiguos, consolas, nostalgia, clásicos
 d | eSports | | competición, profesional, videojuegos, torneo
 d | Glitch | | error, fallo, juego, atravesar
 d | Mundo abierto | | explorar, libre, mapa, grande
+f | Super Mario Odyssey |  | Cappy, gorra, Nintendo Switch, reinos
+f | Super Mario 64 | 90s | castillo, estrellas, Nintendo 64, Peach
+f | Luigi's Mansion |
+f | Pokémon Amarillo | 90s k | Pikachu, Game Boy, Kanto, entrenador
+f | Mario Party |  | tablero, minijuegos, estrellas, dados
+f | Wii Fit | 00s | tabla, ejercicio, yoga, Wii
+f | Nintendogs | 00s k | perro, Nintendo DS, mascota, cuidar
+f | Plantas contra Zombis | 00s | girasol, guisantes, jardín, cerebros
+f | Fruit Ninja | 10s | cortar, frutas, dedo, espada
+f | Temple Run | 10s | correr, templo, monos, móvil
+f | Brawl Stars | 10s | Supercell, peleas, móvil, brawlers
+f | Geometry Dash | 10s | cubo, saltar, ritmo, pinchos
+f | Rocket League | 10s | coches, fútbol, pelota, turbo
+f | Pou | 10s k | mascota, móvil, alimentar, patata
+f | Talking Tom | 10s k | gato, repite, móvil, hablar
+f | Hay Day | 10s | granja, Supercell, cultivos, móvil
+f | Donkey Kong Country | 90s | gorila, plátanos, Diddy, Super Nintendo
+f | Kingdom Hearts | 00s | Sora, Disney, llave espada, Final Fantasy
+f | Ratchet & Clank | 00s | robot, lombax, armas, PlayStation
+f | Jak and Daxter | 00s | comadreja, aventura, PlayStation 2, Naughty Dog
+f | Sly Cooper | 00s | mapache, ladrón, PlayStation, bastón
+f | Little Big Planet | 00s | Sackboy, crear niveles, muñeco, PlayStation
+f | Cut the Rope | 10s | caramelo, cuerda, Om Nom, cortar
+f | Wordle | 20s | palabra, cinco letras, verde, diario
+f | Pokémon Diamante y Perla | 00s | Nintendo DS, Sinnoh, Dialga, Palkia
+f | Tekken | 90s | lucha, King, Heihachi, combos
+f | Pong | 70s | raquetas, pelota, Atari, primer videojuego
+f | Frogger | 80s | rana, cruzar, carretera, troncos
+f | Galaga | 80s | naves, disparar, recreativa, insectos
+f | Asteroids | 80s | nave, rocas, disparar, Atari
+f | Arkanoid | 80s | ladrillos, nave, pelota, romper
+f | Bubble Bobble | 80s | dragones, burbujas, Bub, Bob
+m | Mega Man | 80s | robot azul, Dr. Wily, cañón, Capcom
+m | Bomberman |  | bombas, laberinto, explotar, muñeco
+m | Metal Slug | 90s | soldados, tanques, recreativa, disparos
+m | Double Dragon | 80s | hermanos, peleas, calle, recreativa
+m | Contra | 80s | soldados, Konami, alienígenas, disparos
+m | Ghosts 'n Goblins | 80s | caballero, calzoncillos, armadura, demonios
+m | Banjo-Kazooie | 90s | oso, pájaro, Rare, Nintendo 64
+m | GoldenEye 007 | 90s | Bond, Nintendo 64, multijugador, pistolas
+m | Star Fox | 90s | Fox McCloud, nave Arwing, zorro, Nintendo
+m | F-Zero | 90s | carreras futuristas, Captain Falcon, velocidad, Nintendo
+m | Paper Mario |  | papel, plano, rol
+m | Metroid Prime | 00s | Samus, primera persona, GameCube, alienígenas
+m | Fire Emblem |  | estrategia, espadas, Nintendo, tácticas
+m | Okami | 00s | lobo, pincel, Amaterasu, Japón
+m | Devil May Cry | 00s | Dante, demonios, espada, pistolas
+m | Bayonetta | 10s | bruja, pistolas en los tacones, pelo, Platinum
+m | Uncharted | 00s | Nathan Drake, tesoros, PlayStation, aventurero
+m | Horizon Zero Dawn | 10s | Aloy, máquinas, arco, dinosaurios robot
+m | Ghost of Tsushima | 20s | samurái, Jin Sakai, Japón, mongoles
+m | Marvel's Spider-Man | 10s | Nueva York, telarañas, Insomniac, PlayStation
+m | Batman: Arkham Asylum | 00s | manicomio, Joker, Gotham, murciélago
+m | Mass Effect | 00s | comandante Shepard, galaxia, Normandía, rol
+m | Fallout |  | refugio, nuclear, Pip-Boy, apocalipsis
+m | The Elder Scrolls V: Skyrim | 10s | dragones, Fus Ro Dah, nórdico, rol
+m | Diablo |  | infierno, rol, Blizzard, loot
+m | Hearthstone | 10s | cartas, Warcraft, taberna, Blizzard
+m | Valorant | 20s | shooter, agentes, Riot, táctico
+m | PUBG | 10s | battle royale, sartén, isla, paracaídas
+m | Dota 2 | 10s | MOBA, Valve, héroes, torres
+m | Shovel Knight | 10s | pala, caballero, píxeles, indie
+m | Terraria | 10s | 2D, cavar, construir, aventuras
+m | Papers, Please | 10s | frontera, pasaportes, inspector, sellos
+m | Untitled Goose Game | 10s | oca, travesuras, pueblo, graznar
+m | It Takes Two | 20s | cooperativo, pareja, muñecos, divorcio
+m | Baldur's Gate 3 | 20s | rol, dados, Larian, Dungeons and Dragons
+m | Zelda: Breath of the Wild | 10s | Link, Hyrule, Switch, mundo abierto
+m | Zelda: Ocarina of Time | 90s | Link, Nintendo 64, Ganondorf
+m | Pikmin | 00s | Olimar, plantitas, nave, colores
+m | Ori and the Blind Forest | 10s | espíritu, bosque, luz, plataformas
+d | Maniac Mansion | 80s | LucasArts, tentáculo, aventura gráfica
+d | Day of the Tentacle | 90s | tentáculo morado, LucasArts, viajes en el tiempo, Bernard
+d | Grim Fandango | 90s | Manny Calavera, muertos, LucasArts, México
+d | Full Throttle | 90s | moteros, Ben, LucasArts, aventura gráfica
+d | Indiana Jones and the Fate of Atlantis | 90s | LucasArts, Atlántida, aventura gráfica, Sophia
+d | Wolfenstein 3D | 90s | nazis, laberinto, shooter, id Software
+d | Quake | 90s | shooter, id Software, multijugador, rocket jump
+d | Duke Nukem 3D | 90s | gafas de sol, chulo, alienígenas, shooter
+d | Carmageddon | 90s | coches, atropellos, carreras, polémico
+d | Command & Conquer | 90s | estrategia, Tiberio, GDI, Nod
+d | Warcraft III | 00s | orcos, humanos, estrategia, Blizzard
+d | Civilization | 90s | Sid Meier, imperio, turnos, historia
+d | SimCity | 80s | alcalde, ciudad, construir, Maxis
+d | RollerCoaster Tycoon | 90s | parque de atracciones, montañas rusas, gestión, visitantes
+d | Theme Hospital | 90s | gestión, enfermedades, Bullfrog
+d | Pc Fútbol | 90s es | mánager, Dinamic, Liga, gestión
+d | Army Moves | 80s es | Dinamic, Spectrum, soldado, desierto
+d | Livingstone, supongo | 80s es | Opera Soft, explorador, África, Spectrum
+d | Navy Moves | 80s es | Dinamic, buzo, submarino, Spectrum
+d | Psychonauts | 00s | Raz, mentes, campamento, Double Fine
+d | Braid | 00s | tiempo, rebobinar, indie, puzles
+d | Fez | 10s | 3D, girar, sombrero, indie
+d | Super Meat Boy | 10s | carne, sierras, indie, difícil
+d | Return of the Obra Dinn | 10s | barco, investigador, muertes, reloj
+d | What Remains of Edith Finch | 10s | casa, familia, muertes, historias
+d | Firewatch | 10s | torre de vigilancia, bosque, walkie, Wyoming
+d | Katamari Damacy | 00s | bola, rodar, Príncipe, pegar cosas
+d | Parappa the Rapper | 90s | perro rapero, ritmo, PlayStation, gorro
+d | Crazy Taxi | 90s | Sega, recoger, música punk
+d | Jet Set Radio | 00s | grafitis, patines, Sega, Tokio
+d | Shenmue | 90s | Ryo Hazuki, Dreamcast, Yokosuka, venganza
+d | Earthbound | 90s | Ness, gorra, rol, Super Nintendo
+d | Chrono Trigger | 90s | viajes en el tiempo, Crono, rol, Square
 `
 };

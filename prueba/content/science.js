@@ -124,5 +124,116 @@ m | Luna llena y nueva | | fases, cuarto creciente, menguante, noche
 m | Planetario | | estrellas, cúpula, proyección, museo
 d | Laika | | perra, espacio, Sputnik, Unión Soviética
 d | Pedro Duque | es | astronauta español, ministro, Soyuz, espacio
+f | Electricidad estática | M | globo, pelo, chispa, frotar
+f | Agua hirviendo | D | burbujas, cien grados, vapor, olla
+f | Hielo derritiéndose | D | agua, calor, gotas, sólido
+f | Vapor de agua | D | nube, calor, condensación, olla
+f | Ciclo del agua | D | evaporación, lluvia, nubes, ríos
+f | Estados de la materia |  | sólido, líquido, gaseoso, cambio
+f | Sistema solar | D | planetas, Sol, órbitas, ocho
+f | Órbita | D | girar, planeta, alrededor, trayectoria
+f | Asteroide | D | roca, espacio, chocar, cinturón
+f | Cráter | D | agujero, Luna, meteorito, volcán
+f | Galaxia | D | estrellas, espiral, Vía Láctea, millones
+f | Calentamiento global |  | clima, temperatura, CO2, deshielo
+f | Reciclaje | M | contenedores, plástico, papel, reutilizar
+f | Contenedor amarillo | D | envases, plástico, latas, reciclar
+f | Contenedor azul | D | papel, cartón, reciclar, cajas
+f | Contenedor verde | D | vidrio, botellas, reciclar, iglú
+f | Placa solar | D | sol, energía, tejado, paneles
+f | Bombilla LED | D | luz, ahorro, eficiente, diodo
+f | Germen | D | microbio, lavarse las manos, enfermedad, pequeño
+f | Microbio | D | pequeño, microscopio, bacteria, invisible
+f | Ratón de laboratorio | M | experimentos, blanco, jaula, científicos
+f | Experimento | M | laboratorio, probar, científico, resultado
+f | Inventor | M | idea, invento, bombilla, patente
+m | Termodinámica |  | calor, energía, entropía, física
+m | Inercia |  | Newton, movimiento, seguir, frenar
+m | Fricción | M | rozamiento, superficies, calor, frenar
+m | Velocidad del sonido |  | barrera, avión, eco, metros por segundo
+m | Barrera del sonido |  | avión, estampido, supersónico, velocidad
+m | Eco | M | rebotar, voz, montaña, repetir
+m | Onda | D | agua, propagarse, sonido, oscilar
+m | Frecuencia |  | hercios, onda, radio, vibración
+m | Ultrasonido |  | ecografía, murciélagos, oír, alta frecuencia
+m | Resonancia magnética |  | tubo, imagen, hospital, imán
+m | Electrocardiograma | D | corazón, pitidos, líneas, hospital
+m | Antibiótico |  | bacterias, medicina, penicilina, infección
+m | Penicilina |  | Fleming, moho, antibiótico, descubrimiento
+m | Louis Pasteur |  | vacuna, rabia, pasteurizar, leche
+m | Pasteurización |  | leche, calentar, bacterias, Pasteur
+m | Thomas Edison |  | bombilla, inventor, fonógrafo, patentes
+m | Alexander Graham Bell |  | teléfono, inventor, escocés, llamada
+m | Guglielmo Marconi |  | radio, inventor, ondas, italiano
+m | Johannes Gutenberg |  | imprenta, Biblia, tipos móviles, alemán
+m | Nicolás Copérnico |  | heliocentrismo, Sol, astrónomo, Polonia
+m | Johannes Kepler |  | órbitas, elipses, astrónomo, leyes
+m | Edwin Hubble |  | expansión del universo, galaxias, telescopio, astrónomo
+m | Carl Sagan |  | Cosmos, divulgador, punto azul pálido, astrónomo
+m | Dmitri Mendeléyev |  | tabla periódica, químico, ruso, elementos
+m | Antoine Lavoisier |  | química, oxígeno, conservación de la masa, francés
+m | Gregor Mendel |  | guisantes, genética, herencia, monje
+m | Estación meteorológica | D | tiempo, termómetro, viento, datos
+m | Pluviómetro | D | lluvia, medir, litros, recipiente
+m | Barómetro |  | presión, atmósfera, tiempo, mercurio
+m | Sismógrafo | D | terremotos, medir, aguja, temblor
+m | Anemómetro | D | viento, medir, cazoletas, girar
+m | Balanza de precisión | D | pesar, laboratorio, gramos, exacta
+m | Pipeta | D | gotas, laboratorio, líquido, medir
+m | Centrifugadora |  | girar, separar, laboratorio, rápido
+m | Apolo 11 |  | Luna, 1969, Armstrong, misión
+m | Sputnik |  | satélite, soviético, 1957, primero
+m | Yuri Gagarin |  | primer hombre en el espacio, soviético, Vostok, cosmonauta
+m | SpaceX |  | cohetes, Elon Musk, Falcon, reutilizar
+m | Telescopio James Webb | 20s | espacio, infrarrojo, espejos dorados, NASA
+m | NASA |  | Estados Unidos, espacio, astronautas, cohetes
+m | Lluvia ácida |  | contaminación, ácido, bosques
+m | Deshielo de los polos |  | calentamiento, hielo, Ártico, nivel del mar
+m | Energía eólica |  | viento, molinos, renovable, aerogeneradores
+m | Energía nuclear |  | central, uranio, átomo, reactor
+m | Central hidroeléctrica |  | presa, agua, electricidad, turbinas
+d | Entropía |  | desorden, termodinámica, energía, aumentar
+d | Mecánica cuántica |  | partículas, incertidumbre, Planck, átomos
+d | Principio de incertidumbre |  | Heisenberg, posición, velocidad, cuántica
+d | Teoría de cuerdas |  | dimensiones, física, universo
+d | Dilatación del tiempo |  | relatividad, velocidad, reloj, Einstein
+d | Paradoja de los gemelos |  | relatividad, viaje espacial, envejecer, hermano
+d | Efecto Doppler |  | sonido, ambulancia, frecuencia, acercarse
+d | Efecto mariposa |  | caos, pequeño cambio, consecuencias, aleteo
+d | Teoría del caos |  | sistemas, impredecible, efecto mariposa, matemáticas
+d | Número pi | D | 3, 14, círculo, infinito, decimales
+d | Número áureo |  | proporción, 1, 618, Fibonacci, belleza
+d | Sucesión de Fibonacci |  | números, conejos, espiral, sumar
+d | Fractal | D | repetición, patrón, infinito, copo
+d | Computación cuántica |  | cúbits, superposición, ordenador, futuro
+d | CRISPR |  | edición genética, ADN, tijeras, Mojica
+d | Francis Mojica | es | CRISPR, Alicante, microbiólogo, bacterias
+d | Célula madre |  | regenerar, embrión, tejidos, medicina
+d | Clonación |  | copia, oveja Dolly, genética, idéntico
+d | Genoma humano |  | ADN, secuenciar, genes, proyecto
+d | Proteína |  | aminoácidos, músculos, comida, cadena
+d | Enzima |  | proteína, acelerar, reacción, digestión
+d | Hormona |  | glándula, insulina, sangre, mensajero
+d | Sinapsis |  | neuronas, conexión, impulso, cerebro
+d | Plasma (estado) |  | cuarto estado, sol, gas ionizado, rayos
+d | Neutrino |  | partícula, fantasma, atravesar, neutra
+d | Antimateria |  | positrón, aniquilación, partícula opuesta, energía
+d | Quark |  | partícula, protón, subatómica, tres
+d | CERN |  | Ginebra, acelerador, partículas, laboratorio
+d | Radiotelescopio | D | antena, ondas de radio, espacio, plato
+d | Púlsar |  | estrella de neutrones, gira, pulsos, radio
+d | Quásar |  | galaxia, brillante, agujero negro, lejano
+d | Enana blanca |  | estrella muerta, densa, pequeña, brillante
+d | Gigante roja |  | estrella, final, expandirse
+d | Estrella de neutrones |  | densa, supernova, púlsar, colapso
+d | Horizonte de sucesos |  | agujero negro, límite, no escapar, luz
+d | Ondas gravitacionales |  | LIGO, Einstein, espacio-tiempo, fusión
+d | Radiación de fondo de microondas |  | Big Bang, eco, universo, temperatura
+d | Paradoja de Fermi |  | extraterrestres, dónde están, universo, vida
+d | Ecuación de Drake |  | civilizaciones, galaxia, probabilidad, extraterrestres
+d | Proyecto Manhattan |  | bomba atómica, Oppenheimer, Los Álamos, guerra
+d | Ley de Ohm |  | electricidad, resistencia, voltaje, intensidad
+d | Jaula de Faraday |  | protección, electricidad, metal, rayos
+d | Bobina de Tesla |  | rayos, alto voltaje, chispas
 `
 };

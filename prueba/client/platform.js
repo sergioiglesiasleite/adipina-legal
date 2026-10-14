@@ -16,6 +16,7 @@ function plugin(name) {
   return registered.get(name);
 }
 export const isNative = () => !!nativeApp();
+export { plugin as nativePlugin };
 
 // ---- Room server ----
 // The web client talks to its own origin. The iOS build sets window.ADIPINA_SERVER (an HTTPS address) before

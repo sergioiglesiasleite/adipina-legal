@@ -8,7 +8,6 @@ f | Rafael Nadal | 00s es | tenis, Roland Garros, Manacor, raqueta
 f | Pablo Picasso | es | Guernica, cubismo, pintor, Málaga
 f | Albert Einstein | | relatividad, físico, pelo, lengua
 f | Michael Jackson | 80s | Thriller, moonwalk, guante, rey del pop
-f | Ibai Llanos | 20s es | streamer, Twitch, Velada, Bilbao
 f | Cristina Pedroche | 10s es | Campanadas, vestido, Nochevieja, Vallecas
 f | Pau Gasol | 00s es | baloncesto, NBA, Lakers, Sant Boi
 f | Antonio Banderas | 90s es | actor, Málaga, Zorro, Hollywood
@@ -47,8 +46,6 @@ f | Neil Armstrong | 70s | Luna, astronauta, pequeño paso, Apolo
 f | Nelson Mandela | 90s | Sudáfrica, apartheid, presidente, cárcel
 f | La Madre Teresa de Calcuta | | monja, India, pobres, sari
 f | El papa Francisco | 10s | Vaticano, Argentina, Bergoglio, iglesia
-f | MrBeast | 20s | YouTube, retos, millones, regalos
-f | Rubius | 10s es | El Rubius, youtuber, Andorra, Mangel
 m | Frida Kahlo |
 m | Salvador Dalí | es
 m | Pedro Almodóvar | 80s es
@@ -138,5 +135,85 @@ d | Joaquín Sorolla | es
 d | Isabel Allende |
 d | Hedy Lamarr |
 d | Valentina Tereshkova |
+f | John Lennon |  | Beatles, gafas redondas, Imagine, Yoko
+f | Will Smith | 00s | El príncipe de Bel-Air, Men in Black, actor, bofetada
+f | Johnny Depp | 00s | Jack Sparrow, actor, Eduardo Manostijeras, pirata
+f | Tom Hanks | 90s | Forrest Gump, Náufrago, actor, Woody
+f | Jackie Chan | 90s | kung fu, actor, Hong Kong, acrobacias
+f | Arnold Schwarzenegger | 80s | Terminator, culturista, gobernador, Austria
+f | Sylvester Stallone | 80s | Rocky, Rambo, actor, boxeador
+f | Dwayne Johnson | 10s | La Roca, luchador, actor, calvo
+f | Zendaya | 20s | actriz, Euphoria, Dune, Spider-Man
+f | Ariana Grande | 10s | coleta alta, cantante, Wicked, voz
+f | Harry Styles | 20s | One Direction, cantante, As It Was, británico
+f | Michelle Obama | 10s | primera dama, Estados Unidos, Barack, Becoming
+f | La reina Letizia | 10s es | periodista, Felipe VI, Asturias
+f | Walt Disney |  | Mickey, dibujos, parques, productor
+m | Concha Velasco | es | actriz, Chica ye-ye, Las chicas de la Cruz Roja, Valladolid
+m | Carmen Maura | es | actriz, Almodóvar, Volver, Mujeres al borde
+m | Imanol Arias | es | actor, Cuéntame, Antonio Alcántara, Brigada Central
+m | Ana Belén | es | actriz, cantante, Víctor Manuel, Madrid
+m | Marisol | es | niña prodigio, Pepa Flores, Málaga, cantante
+m | Massiel | es | La, la, la, Eurovisión, 1968, cantante
+m | Ana Torroja | 80s es | Mecano, cantante, Hijo de la Luna, voz
+m | Alaska | 80s es | Movida, Fangoria, A quién le importa, cantante
+m | Loquillo | 80s es | rockero, Cadillac solitario, Barcelona, tupé
+m | Andrés Pajares | es | cómico, actor, Ay, Carmela, Esteso
+m | Fernando Esteso | es | cómico, La ramona pechugona, Pajares, actor
+m | Florentino Pérez | es | Real Madrid, presidente, ACS, empresario
+m | Iñaki Gabilondo | es | periodista, Cadena SER, entrevistas, Hoy por hoy
+m | Matías Prats | es | periodista, Antena 3, noticias, voz
+m | Mercedes Milá | es | periodista, Gran Hermano, entrevistas, presentadora
+m | Jesús Quintero | es | El loco de la colina, entrevistas, silencios, Huelva
+m | Ana Rosa Quintana | es | presentadora, matinal, Telecinco, periodista
+m | Jorge Javier Vázquez | es | presentador, Sálvame, Telecinco, Badalona
+m | Risto Mejide | 10s es | gafas de sol, publicista, jurado, Todo es mentira
+m | Wyoming | es | El Intermedio, presentador, Gran Wyoming, laSexta
+m | Paz Padilla | es | humorista, Cádiz, presentadora, Sálvame
+m | Eva Hache | es | humorista, presentadora, Segovia, Club de la Comedia
+m | Edurne | es | cantante, Operación Triunfo, Got Talent, Eurovisión
+m | Chenoa | 00s es | Operación Triunfo, cantante, Mallorca, Cuando tú vas
+m | Manu Carrasco | es | cantante, Huelva, Que nos sigan las pintadas, Isla Cristina
+m | Pau Donés | 00s es | Jarabe de Palo, La flaca, cantante, sombrero
+m | Fito Cabrales | es | Fito y Fitipaldis, Bilbao, rock, Soldadito marinero
+m | Manolo García | es | El Último de la Fila, cantante, Barcelona, rock
+m | Kurt Cobain | 90s | Nirvana, grunge, Seattle, guitarrista
+m | Amy Winehouse | 00s | Rehab, moño, británica, soul
+m | Diego Rivera |  | muralista, México, Frida, pintor
+m | Fernando Botero |  | gordos, Colombia, pintor, escultor
+m | Jorge Drexler | 00s | cantautor, Uruguay, Óscar, Al otro lado del río
+d | Leonardo Torres Quevedo | es | inventor, ajedrecista, transbordador, Cantabria
+d | Juan de la Cierva | es | autogiro, inventor, Murcia, helicóptero
+d | Jerónimo de Ayanz | es | inventor, máquina de vapor, buzo, Navarra
+d | Emilia Pardo Bazán | es | escritora, La Tribuna, Galicia, condesa
+d | Carmen de Burgos | es | periodista, Colombine, Almería, escritora
+d | Victoria Kent | es | abogada, prisiones, República, Málaga
+d | María Moliner | es | diccionario, bibliotecaria, Zaragoza, lexicógrafa
+d | Sofonisba Anguissola |  | pintora, Felipe II, renacimiento, Cremona
+d | Artemisia Gentileschi |  | pintora, barroco, Judith, Roma
+d | Maruja Mallo | es | pintora, Generación del 27, sin sombrero, Galicia
+d | Remedios Varo |  | pintora, surrealista, México, Girona
+d | Rosalind Franklin |  | ADN, fotografía 51, química, doble hélice
+d | Lise Meitner |  | fisión nuclear, física, Austria, meitnerio
+d | Katherine Johnson |  | NASA, matemática, Figuras ocultas, Apolo
+d | Margaret Hamilton |  | software, Apolo 11, NASA, código
+d | Tim Berners-Lee |  | World Wide Web, inventor, CERN, británico
+d | Linus Torvalds |  | Linux, finlandés, programador, pingüino
+d | Grace Hopper |  | programadora, COBOL, bug, almirante
+d | Arantxa Sánchez Vicario | 90s es | tenista, Roland Garros, Barcelona
+d | Conchita Martínez | 90s es | tenista, Wimbledon, Monzón, campeona
+d | Manolo Santana | es | tenista, Wimbledon, Copa Davis, Madrid
+d | Ángel Nieto | es | motociclista, 12+1, Zamora, campeón
+d | Paquito Fernández Ochoa | es | esquiador, oro olímpico, Sapporo, Madrid
+d | Fermín Cacho | 90s es | atleta, 1500 metros, Barcelona 92, Soria
+d | Carlos Sainz | es | rally, piloto, Dakar, Madrid
+d | Jorge Lorenzo | 10s es | motociclista, Mallorca, MotoGP, campeón
+d | Pedro Delgado | 80s es | ciclista, Perico, Tour de Francia, Segovia
+d | Alberto Contador | 00s es | ciclista, Pinto, Tour, pistolero
+d | Teresa Perales | es | nadadora, paralímpica, medallas, Zaragoza
+d | Ona Carbonell | es | natación sincronizada, Barcelona, olímpica, medallas
+d | Lydia Valentín | es | halterofilia, León, olímpica, pesas
+d | Ruth Beitia | es | salto de altura, Santander, oro olímpico, Río
+d | Ray Zapata | es | gimnasta, suelo, Tokio, Lanzarote
 `
 };

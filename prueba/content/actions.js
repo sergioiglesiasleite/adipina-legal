@@ -148,5 +148,133 @@ d | Montar una tienda de campaña | | camping, varillas, piquetas, lona
 d | Encender una barbacoa | | carbón, fuego, soplar, carne
 d | Hacer un nudo de corbata | | cuello, camisa, vuelta, formal
 d | Romper una piñata | | palo, ojos vendados, caramelos, golpear
+f | Andar de puntillas |  | silencio, pies, despacio, dedos
+f | Jugar a la rayuela |  | tiza, saltar, cuadros, piedra
+f | Jugar al pilla pilla |  | correr, tocar, perseguir, la llevas
+f | Jugar a las sillas |  | música, sentarse, quitar, quedarse sin
+f | Jugar al fútbol |  | balón, gol, patear, equipo
+f | Botar una pelota |  | rebotar, suelo, baloncesto, mano
+f | Encestar |  | canasta, baloncesto, tiro, aro
+f | Chutar |  | balón, pierna, gol, patada
+f | Columpiarse |  | columpio, parque, balancear, alto
+f | Tirarse por el tobogán |  | parque, deslizar, bajar, niños
+f | Trepar a un árbol |  | ramas, subir, tronco, hojas
+f | Bucear |  | agua, aguantar la respiración, gafas, fondo
+f | Tirarse de cabeza |  | piscina, salto, manos, agua
+f | Secarse con la toalla |  | baño, mojado, frotar, ducha
+f | Vestirse |  | ropa, ponerse, mañana, armario
+f | Ponerse el abrigo |  | frío, mangas, salir, chaqueta
+f | Abrocharse la camisa |  | botones, cerrar, ojales, vestirse
+f | Subir la cremallera |  | cerrar, chaqueta, tirar, pantalón
+f | Mirarse al espejo |  | reflejo, cara, peinarse, guapo
+f | Lavarse la cara |  | agua, jabón, mañana, toalla
+f | Sonarse la nariz |  | pañuelo, mocos, resfriado, soplar
+f | Rascarse |  | picor, uñas, piel, mosquito
+f | Estirarse |  | brazos, despertarse, bostezo, músculos
+f | Despertarse |  | mañana, despertador, abrir los ojos, cama
+f | Poner el despertador |  | hora, alarma, móvil, dormir
+f | Apagar la luz |  | interruptor, oscuro, noche, dormir
+f | Llamar al timbre |  | puerta, ding dong, casa, visita
+f | Comer palomitas |  | cine, maíz, bol, película
+f | Morder una manzana |  | fruta, dientes, crujir, roja
+f | Beber con pajita |  | sorber, vaso, refresco, tubo
+f | Brindar |  | copas, chin chin, celebrar, levantar
+f | Servir agua |  | jarra, vaso, echar, mesa
+f | Cortar el pan |  | cuchillo, barra, rebanadas, cocina
+f | Untar mantequilla |  | tostada, cuchillo, desayuno, pan
+f | Hacer un bocadillo |  | pan, jamón, abrir, merienda
+f | Freír un huevo |  | sartén, aceite, yema, cocina
+f | Hervir agua |  | olla, burbujas, fuego, pasta
+f | Remover la sopa |  | cuchara, olla, girar, caldo
+f | Probar la comida |  | cuchara, sabor, cocinero, soplar
+f | Lavar la ropa |  | lavadora, detergente, sucia, colada
+f | Pasar la aspiradora |  | polvo, suelo, ruido, alfombra
+f | Fregar el suelo |  | fregona, cubo, agua, mojado
+f | Limpiar los cristales |  | ventana, trapo, brillar, spray
+f | Quitar el polvo |  | trapo, muebles, plumero, limpiar
+f | Sacar la basura |  | bolsa, contenedor, tirar, noche
+f | Doblar la ropa |  | camisetas, ordenar, armario, plegar
+m | Hacer una mudanza |  | cajas, piso nuevo, cargar, camión
+m | Montar en globo |  | aerostático, cesta, volar, fuego
+m | Remar en canoa |  | río, pala, barca, agua
+m | Navegar en velero |  | viento, vela, mar, barco
+m | Hacer windsurf |  | tabla, vela, viento, olas
+m | Hacer snowboard |  | tabla, nieve, montaña, deslizarse
+m | Lanzar bolas de nieve |  | guerra, invierno, tirar
+m | Tirarse en trineo |  | nieve, bajar, cuesta, deslizar
+m | Encender una hoguera |  | fuego, leña, campamento, cerillas
+m | Asar castañas |  | otoño, fuego, castañera, calientes
+m | Ordenar el armario |  | ropa, perchas, cajones, colocar
+m | Colgar un cuadro |  | clavo, martillo, pared, recto
+m | Cambiar una bombilla |  | lámpara, enroscar, luz, escalera
+m | Desatascar el fregadero |  | desatascador, tubería, agua, cocina
+m | Arreglar un pinchazo |  | rueda, bici, parche, aire
+m | Repostar gasolina |  | gasolinera, coche, surtidor, llenar
+m | Aparcar en batería |  | coche, plaza, maniobra, marcha atrás
+m | Aparcar en paralelo |  | coche, hueco, maniobra, bordillo
+m | Hacer un adelantamiento |  | coche, carretera, pasar, intermitente
+m | Poner el intermitente |  | coche, girar, avisar, luz
+m | Abrocharse el cinturón |  | coche, seguridad, clic, avión
+m | Pagar con tarjeta |  | datáfono, pin, compra, contactless
+m | Sacar dinero del cajero |  | billetes, tarjeta, banco, pin
+m | Contar dinero |  | billetes, monedas, sumar, cartera
+m | Regatear |  | precio, mercadillo, rebajar, vendedor
+m | Probarse ropa |  | probador, talla, espejo, tienda
+m | Envolver un regalo |  | papel, celo, lazo, sorpresa
+m | Escribir una carta |  | papel, sobre, querido, sello
+m | Firmar |  | nombre, bolígrafo, documento, rúbrica
+m | Hacer un examen |  | preguntas, nervios, folio, nota
+m | Levantar la mano en clase |  | preguntar, profesor, turno, brazo
+m | Hacer los deberes |  | colegio, casa, cuaderno, tareas
+m | Sacar punta |  | lápiz, sacapuntas, afilar, virutas
+m | Hacer un avión de papel |  | doblar, folio, lanzar, volar
+m | Jugar a la gallinita ciega |  | ojos vendados, buscar, tocar, adivinar
+m | Jugar al teléfono escacharrado |  | susurrar, oído, mensaje, cambiar
+m | Jugar a piedra, papel o tijera |  | manos, ganar, tres, elegir
+m | Barajar las cartas |  | mezclar, mazo, juego, repartir
+m | Hacer trampas |  | engañar, juego, ganar, tramposo
+m | Lanzar una moneda |  | cara o cruz, aire, suerte, girar
+m | Pedir un deseo |  | estrella fugaz, velas, cerrar los ojos, soplar
+m | Contar ovejas |  | dormir, insomnio, saltar valla, números
+m | Roncar |  | dormir, ruido, nariz, molestar
+m | Hablar en sueños |  | dormir, murmurar, noche, sonámbulo
+m | Madrugar |  | temprano, despertador, mañana, sueño
+m | Trasnochar |  | tarde, noche, sin dormir, fiesta
+m | Echarse la siesta |  | sofá, tarde, dormir, después de comer
+d | Hacer origami |  | papel, doblar, Japón, figuras
+d | Hacer ganchillo |  | aguja, lana, tejer, abuela
+d | Tallar madera |  | navaja, figura, artesano, virutas
+d | Hacer cerámica en el torno |  | barro, girar, manos, vasija
+d | Soplar vidrio |  | horno, caña, fundido, artesano
+d | Herrar un caballo |  | herradura, casco, clavos, herrero
+d | Esquilar una oveja |  | lana, tijeras, granja, cortar
+d | Vendimiar |  | uvas, cortar, cesto, viñedo
+d | Pisar uvas |  | vino, pies, lagar, morado
+d | Recoger aceitunas |  | olivo, vara, red, campo
+d | Amasar pan |  | harina, masa, manos, horno
+d | Hacer churros |  | masa, churrera, freír, aceite
+d | Hacer sushi |  | arroz, alga, enrollar, pescado
+d | Abrir una ostra |  | cuchillo, concha, perla, marisco
+d | Pelar gambas |  | marisco, cabeza, cáscara, manos
+d | Descorchar una botella |  | sacacorchos, vino, tapón, ¡pop!
+d | Echar el ancla |  | barco, fondear, cadena, puerto
+d | Izar una bandera |  | mástil, subir, cuerda, ondear
+d | Hacer un nudo marinero |  | cuerda, barco, atar, lazo
+d | Remendar una red |  | pescador, hilo, agujeros, puerto
+d | Hacer un placaje |  | rugby, derribar, agarrar, jugador
+d | Hacer un mate |  | baloncesto, aro, saltar, colgarse
+d | Hacer un saque de honor |  | partido, famoso, inicial, ceremonia
+d | Dar el pésame |  | funeral, condolencias, abrazo, lo siento
+d | Pedir la mano |  | anillo, rodilla, boda, propuesta
+d | Cortar la tarta nupcial |  | boda, novios, cuchillo, pisos
+d | Lanzar el ramo |  | boda, novia, flores, solteras
+d | Hacer una reverencia |  | inclinarse, rey, saludo, respeto
+d | Hacer un juramento |  | mano, prometer, solemne, Biblia
+d | Dar un discurso |  | atril, público, micrófono, hablar
+d | Hacer una entrevista de trabajo |  | candidato, preguntas, currículum, nervios
+d | Teletrabajar |  | casa, ordenador, reunión, pijama
+d | Hacer una presentación |  | diapositivas, público, proyector, puntero
+d | Escribir en la pizarra |  | tiza, profesor, borrar, clase
+d | Hacer una foto de grupo |  | todos juntos, patata, posar, cámara
 `
 };

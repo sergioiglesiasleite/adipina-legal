@@ -145,5 +145,76 @@ d | Jason Voorhees | P t | máscara de hockey, Viernes 13, campamento, machete
 d | Bram Stoker | P | Drácula, escritor, irlandés, novela
 d | Mary Shelley | P | Frankenstein, escritora, monstruo, novela
 d | Zugarramurdi | P es | cuevas, Navarra, brujas, Inquisición
+f | Fantasma con sábana | D | agujeros, ¡buuu!, flotar
+f | Esqueleto bailando | M | huesos, baile, calavera, moverse
+f | Momia andando | M | vendas, brazos estirados, lenta, Egipto
+f | Vampiro durmiendo en un ataúd | M | dormir, cerrar, día, Drácula
+f | Hombre lobo transformándose | M | luna llena, aullar, pelo, garras
+f | Frankenstein andando | M | tornillos, brazos rígidos, monstruo, verde
+f | Monstruo del armario | M | puerta, miedo, niños, noche
+f | Ojos brillando en la oscuridad | D | miedo, noche, mirar, monstruo
+f | Mano saliendo de la tierra | D | tumba, zombi, cementerio, dedos
+f | Gato negro con la espalda arqueada | D | bufar, miedo, bruja, erizado
+f | Pedir caramelos | M | puertas, truco o trato, disfraz, bolsa
+f | Dedos de bruja (galletas) | D | uñas, almendra, comida de miedo
+f | Maquillaje de zombi | M | heridas, cara, sangre falsa, pálido
+f | Araña de plástico | D | broma, asustar, patas, juguete
+f | Murciélago de papel | D | recortar, ventana, alas, negro
+f | Casa decorada para Halloween | D | calabazas, telarañas, luces, jardín
+f | Escalera que cruje | M | madera, ruido, miedo, noche
+f | Sótano oscuro | D | bajar, miedo, escaleras, linterna
+f | Muñeca diabólica | M | Chucky, ojos, miedo, juguete
+f | Payaso terrorífico | M | Pennywise, globo rojo, sonrisa, miedo
+m | Escape room de miedo | M | encerrados, pistas, terror, salir
+m | Leyenda urbana |  | historia, miedo, amigo de un amigo, rumor
+m | La chica de la curva | es | leyenda urbana, autostop, carretera, fantasma
+m | Bloody Mary |  | espejo, tres veces, leyenda, nombre
+m | Psicofonía |  | voces, grabación, fantasmas, Cuarto Milenio
+m | Médium | M | espíritus, sesión, hablar con muertos, trance
+m | Sesión de espiritismo | M | mesa, velas, espíritus, ouija
+m | Muñeco vudú | D | alfileres, maldición, magia
+m | Ajo contra vampiros | D | colgar, ristra, proteger, olor
+m | Estaca | D | vampiro, madera, corazón, matar
+m | Bala de plata | D | hombre lobo, matar, disparar, metal
+m | Necronomicón |  | libro de los muertos, Lovecraft, maldito, hechizos
+m | Cthulhu |  | Lovecraft, tentáculos, monstruo, primigenio
+m | Familia Monster |  | Herman, Lily, abuelo, monstruos
+m | Sally (Pesadilla antes de Navidad) |  | muñeca de trapo, cosida, Jack, Pesadilla antes de Navidad
+m | Stephen King |  | escritor, terror, It, El resplandor
+m | It |  | Pennywise, payaso, Derry, globos
+m | Carrie |  | sangre, baile de graduación, telequinesis, King
+m | Cementerio de animales |  | Stephen King, gato, resucitar, Maine
+m | Edgar Allan Poe |  | escritor, cuervo, terror, gato negro
+m | El cuervo (poema) |  | Poe, nunca más, pájaro
+m | El monte de las ánimas | es | Bécquer, leyenda, Soria, Todos los Santos
+d | Jack O'Lantern |  | farolillo, calabaza, leyenda irlandesa, nabo
+d | Papel picado | D | México, Día de Muertos, colores, recortes
+d | Mictlán |  | inframundo, azteca, muertos, viaje
+d | Xoloitzcuintle |  | perro, México, sin pelo, Coco
+d | Gachas de los Santos | es | dulce, Todos los Santos, harina, Castilla
+d | Velatorio |  | difunto, velar, noche, tanatorio
+d | Tanatorio |  | velatorio, difunto, flores, despedida
+d | Esquela | D | periódico, fallecimiento, anuncio, cruz
+d | Epitafio |  | lápida, inscripción, frase, tumba
+d | Panteón |  | tumba familiar, cementerio, mausoleo, piedra
+d | Mausoleo | D | tumba, monumento, grande, cementerio
+d | Nicho | D | cementerio, pared, tumba, lápida
+d | Osario |  | huesos, cementerio, restos, depósito
+d | Catacumbas |  | túneles, huesos, París, Roma
+d | Momias de Guanajuato |  | México, museo, naturales
+d | Isla de las Muñecas |  | México, Xochimilco, muñecas colgadas, miedo
+d | Castillo de Bran |  | Drácula, Rumanía, Transilvania
+d | Vlad el Empalador |  | Drácula, Rumanía, príncipe, Valaquia
+d | Isabel Báthory |  | condesa sangrienta, Hungría, castillo, leyenda
+d | Los Warren |  | demonólogos, Annabelle, Expediente Warren, pareja
+d | Expediente Warren |  | The Conjuring, demonios, casa
+d | Insidious |  | película, demonio, más allá, niño
+d | Paranormal Activity |  | cámaras, casa, demonio, grabación
+d | El proyecto de la bruja de Blair |  | bosque, cámara, perdidos
+d | Midsommar | t | Suecia, secta, flores, verano
+d | Saw | t | puzle, trampas, muñeco, juego
+d | Candyman | t | espejo, cinco veces, garfio, abejas
+d | Slender Man |  | alto, sin cara, traje, bosque
+d | Creepypasta |  | historias de terror, internet, foros, leyendas
 `
 };

@@ -54,7 +54,8 @@ export const savePresets = presets => write('presets', presets.slice(-30));
 export const loadHistory = () => list(read('history', []), entry => isObject(entry) && Array.isArray(entry.teams) && typeof entry.date === 'string', 50);
 export function addHistory(entry) { write('history', [...loadHistory(), entry].slice(-50)); }
 export const loadReports = () => list(read('reports', []), report => isObject(report) && typeof report.answer === 'string', 500);
-export function addReport(report) { write('reports', [...loadReports(), report].slice(-500)); }
+export const saveReports = reports => write('reports', reports.slice(-500));
+export function addReport(report) { saveReports([...loadReports(), report]); }
 export const clearReports = () => write('reports', []);
 
 // ---- Clear everything this app stored on the device ----

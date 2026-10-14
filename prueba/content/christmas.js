@@ -155,5 +155,73 @@ d | Fum, fum, fum | es
 d | Santa Claus llegó a la ciudad |
 d | Rockin' Around the Christmas Tree |
 d | Happy Xmas (War Is Over) | 70s
+f | Regalos de Navidad | D | papel, lazo, árbol, abrir
+f | Abrir los regalos | M | papel, ilusión, árbol, mañana
+f | Envolver regalos | M | papel, celo, lazo, tijeras
+f | Decorar el árbol | M | bolas, luces, espumillón, estrella
+f | Montar el Belén | M | figuritas, musgo, portal, río
+f | Copo de nieve de papel | D | recortar, ventana, doblar
+f | Ángel de nieve | M | tumbarse, brazos, alas
+f | Fábrica de juguetes | D | Polo Norte, elfos, regalos, Papá Noel
+f | Galletas para Papá Noel | M | leche, plato, noche, dejar
+f | Buzón real | D | cartas, Reyes Magos, paje, centro comercial
+f | Zapatos junto al árbol | D | Reyes, noche, regalos, ventana
+f | Agua para los camellos | M | Reyes, cubo, noche, beber
+f | Camellos de los Reyes | D | Reyes Magos, desierto, joroba, cabalgata
+f | Caramelos de la cabalgata | M | lanzar, coger, Reyes, bolsa
+f | Corona del roscón | D | papel, rey, dorada
+f | Cena de Nochebuena | M | familia, mesa, langostinos, cenar
+f | Brindis de Navidad | M | copas, cava, familia, deseos
+f | Bandeja de dulces navideños | D | turrones, polvorones, plato, mesa
+f | Chocolate caliente | D | taza, invierno, churros, espeso
+f | Gorro con pompón | D | invierno, lana, bola, cabeza
+f | Vacaciones de Navidad | M | colegio, sin clase, diciembre, familia
+f | Botella de anís | D | rascar, villancico, instrumento, Navidad
+m | Casita de jengibre | D | galletas, caramelos, Hansel y Gretel, glaseado
+m | Bastón de caramelo | D | rayas, rojo y blanco, gancho, dulce
+m | Estrella del árbol | D | punta, arriba, brillar, decoración
+m | Musgo del Belén | D | verde, suelo, campo
+m | Río de papel de plata | D | Belén, brillante, agua, figuras
+m | Castillo de Herodes | D | Belén, rey, malo, figuritas
+m | Lavandera del Belén | D | figurita, río, ropa, lavar
+m | Pastor con ovejas | D | Belén, figura, rebaño, cayado
+m | Encendido de luces de Navidad | M | ciudad, alcalde, botón, inauguración
+m | Luces de Vigo | 20s es | Abel Caballero, Navidad, Galicia
+m | Mercado de Navidad de la Plaza Mayor | es | Madrid, puestos, figuritas, pelucas
+m | Atragantarse con las uvas | M | Nochevieja, doce, prisa, toser
+m | Felicitar el año | M | abrazos, llamar, mensajes, feliz año
+m | Propósitos de Año Nuevo | M | gimnasio, dieta, promesas, enero
+m | Cuesta de enero |  | gastos, dinero, sueldo, después de Navidad
+m | Rebajas de enero | M | descuentos, colas, tiendas, ropa
+m | Devolver un regalo | M | ticket, tienda, cambiar, enero
+m | Regalo de última hora | M | prisa, centro comercial, 24, sin ideas
+m | Consomé |  | caldo, Navidad, taza, primero
+m | Canelones de San Esteban | es | Cataluña, 26 de diciembre, sobras, bechamel
+m | San Esteban | es | 26 de diciembre, Cataluña, festivo, canelones
+m | Escudella | es | Cataluña, sopa, galets, Navidad
+m | Anguila de mazapán | es | Toledo, Navidad, dulce
+d | Solsticio de invierno |  | día más corto, diciembre, sol, astronomía
+d | Saturnales |  | romanos, fiesta, diciembre, regalos
+d | Yule |  | fiesta nórdica, invierno, tronco, solsticio
+d | Tronco de Navidad | D | bûche de Noël, pastel, chocolate, rollo
+d | Pudin de Navidad | D | inglés, flambeado, frutas, acebo
+d | Stollen |  | pan dulce, alemán, frutas, azúcar glas
+d | Pandoro |  | italiano, dulce, estrella, azúcar glas
+d | Posadas |  | México, Navidad, peregrinos, piñatas
+d | Parranda |  | Puerto Rico, Navidad, música, casas
+d | Jólabókaflóð |  | Islandia, libros, Nochebuena, regalar
+d | Gato de Navidad islandés |  | Jólakötturinn, Islandia, ropa nueva, gigante
+d | Santa Lucía |  | Suecia, corona de velas, 13 de diciembre, procesión
+d | Sinterklaas |  | Países Bajos, 5 de diciembre, barco, España
+d | Christkind |  | niño Jesús, Alemania, regalos, ángel
+d | Ded Moroz |  | Abuelo Frío, Rusia, Snegúrochka, Año Nuevo
+d | Hogmanay |  | Escocia, Año Nuevo, celebración, Auld Lang Syne
+d | Auld Lang Syne |  | canción, Año Nuevo, escocesa, despedida
+d | Árbol de Navidad del Rockefeller Center |  | Nueva York, pista de hielo, gigante, luces
+d | Fantasmas de las Navidades | D | pasado, presente, futuro, Scrooge
+d | Tiny Tim |  | Cuento de Navidad, Dickens, niño, muleta
+d | Mirra |  | regalo, resina, Baltasar, perfume
+d | Censo de Augusto |  | empadronarse, Belén, José, romanos
+d | Pesebre | D | comedero, Niño Jesús, paja, Belén
 `
 };

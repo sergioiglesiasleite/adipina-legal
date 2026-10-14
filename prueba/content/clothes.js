@@ -125,5 +125,103 @@ d | Gola | | cuello, volantes, antiguo, plisado
 d | Capote | M | torero, rosa, capa, toro
 d | Mono de esquí | D | nieve, entero, acolchado, montaña
 d | Pañuelo de bolsillo | D | chaqueta, traje, pico, elegante
+f | Zapatos | D | pies, cordones, suela, tienda
+f | Botines | D | botas cortas, tobillo, zapatos, invierno
+f | Zapatillas de ballet | D | punta, bailarina, rosa, cintas
+f | Botas de montaña | D | senderismo, suela gruesa, monte, cordones
+f | Botas de vaquero | D | oeste, tacón, espuelas, cuero
+f | Cordones | D | atar, zapatos, lazo, nudo
+f | Camiseta de tirantes | D | verano, hombros, sin mangas, calor
+f | Camiseta de manga larga | D | brazos, invierno, mangas, algodón
+f | Blusa | D | camisa de mujer, botones, elegante, tela fina
+f | Top | D | corto, camiseta, ombligo, verano
+f | Body | D | bebé, pieza única, corchetes, entrepierna
+f | Pelele | D | bebé, pijama de una pieza, pies, dormir
+f | Minifalda | D | corta, falda, piernas, años sesenta
+f | Pantalón de pana | D | rayas, tela, otoño, abuelo
+f | Chaqueta vaquera | D | tela vaquera, azul, botones, cazadora
+f | Cazadora de cuero | D | motero, negra, cremallera, chupa
+f | Anorak | D | abrigo, capucha, montaña, impermeable
+f | Parka | D | abrigo, capucha, pelo, largo
+f | Forro polar | D | abrigo, suave, montaña, cremallera
+f | Pasamontañas | D | cara, agujeros, frío, esquí
+f | Visera | D | sol, frente, tenis, gorra sin copa
+f | Sombrero de paja | D | sol, playa, verano, ala
+f | Sujetador | D | ropa interior, mujer, copas, tirantes
+f | Bragas | D | ropa interior, mujer, braga, algodón
+f | Camiseta interior | D | debajo, blanca, tirantes, abuelo
+m | Enagua | D | debajo de la falda, encaje, antigua, blanca
+m | Faja | D | cintura, apretar, abuela, tirar
+m | Camisón | D | dormir, largo, abuela, noche
+m | Vestido de novia | D | blanco, boda, cola, velo
+m | Velo de novia | D | boda, cara, tul
+m | Traje de chaqueta | D | americana, pantalón, oficina, corbata
+m | Americana | D | chaqueta, traje, botones, solapas
+m | Chaqué | D | boda, padrino, faldones, chaleco
+m | Vestido de fiesta | D | elegante, largo, gala, brillo
+m | Jersey de cuello alto | D | cuello vuelto, punto, invierno, Steve Jobs
+m | Jersey de rombos | D | punto, abuelo, años 80
+m | Jersey navideño | D | renos, Navidad, feo, punto
+m | Trenca | D | abrigo, botones de palillo, capucha, colegio
+m | Estola | D | piel, hombros, elegante, gala
+m | Pashmina | D | chal, hombros, lana fina, abrigar
+m | Capucha | D | cabeza, sudadera, lluvia, cubrir
+m | Alfiler de corbata | D | sujetar, oro, elegante
+m | Broche | D | joya, alfiler, solapa, adorno
+m | Colgante | D | collar, cadena, joya, cuello
+m | Gargantilla | D | collar corto, cuello, ajustado, joya
+m | Tobillera | D | tobillo, pulsera, pie, adorno
+m | Piercing | D | agujero, aro, nariz, ombligo
+m | Reloj de bolsillo | D | cadena, chaleco, antiguo, tapa
+m | Maletín | D | ejecutivo, asa, documentos, cuero
+m | Bandolera | D | bolso, cruzado, correa, hombro
+m | Sombrero de fieltro | D | ala, elegante, Indiana Jones, cinta
+m | Gorro de dormir | D | borla, noche, Scrooge, pijama
+m | Gorro de aviador | D | orejeras, piloto, gafas, cuero
+m | Casco de moto | D | cabeza, proteger, visera, motorista
+m | Casco de bici | D | cabeza, ciclista, proteger, aire
+m | Zapatillas con luces | D | niños, brillar, pisar, colores
+m | Zapatillas con ruedas | D | Heelys, deslizar, talón, niños
+m | Zapatos de claqué | D | baile, chapa, ruido, zapateado
+m | Botas altas | D | rodilla, tacón, invierno, mosqueteras
+m | Botas de esquí | D | rígidas, nieve, esquís, hebillas
+m | Plataformas | D | zapatos altos, suela gruesa, Spice Girls, años 90
+d | Abarcas | D es | Menorca, sandalias, cuero, neumático
+d | Madreñas | D es | Asturias, madera, zuecos, barro
+d | Botas camperas | D es | campo, cuero, caña, montar
+d | Náuticos | D | barco, cuero, cordón lateral, pijo
+d | Merceditas | D | zapatos de niña, hebilla, charol, colegio
+d | Bailarinas (zapatos) | D | planas, mujer, cómodas
+d | Cuñas | D | tacón, esparto, verano, sandalias
+d | Sandalias de gladiador | D | tiras, piernas, romanas, verano
+d | Caftán | D | túnica, larga, Marruecos, holgada
+d | Túnica | D | larga, holgada, romana, tela
+d | Hanbok | D | Corea, traje tradicional, falda, colores
+d | Qipao | D | China, vestido, cuello mandarín, seda
+d | Dirndl | D | Alemania, Oktoberfest, delantal, corsé
+d | Lederhosen | D | Alemania, pantalones de cuero, tirantes, Oktoberfest
+d | Barretina | D es | Cataluña, gorro rojo, tradicional, caído
+d | Cachirulo | D es | Aragón, pañuelo, cabeza, baturro
+d | Zaragüelles | D es | Murcia, huertano, pantalones, blancos
+d | Refajo | D es | falda, tradicional, lana, regional
+d | Traje regional | D es | fiestas, tradicional, pueblo, región
+d | Jubón | D | antiguo, ajustado, Renacimiento, caballero
+d | Calzas | D | medievales, piernas, ajustadas, hombre
+d | Mitones | D | guantes sin dedos, punta, frío, lana
+d | Yukata | D | Japón, verano, algodón, kimono ligero
+d | Obi | D | cinturón japonés, kimono, ancho, lazo
+d | Geta | D | sandalias japonesas, madera, dientes, Japón
+d | Kufiya | D | pañuelo, Oriente Medio, cuadros, cabeza
+d | Hiyab | D | velo, cabeza, mujer, musulmana
+d | Capa española | D es | larga, paño, Madrid, castiza
+d | Levita | D | chaqueta larga, siglo XIX, elegante, faldones
+d | Fajín | D | cintura, militar, tela, banda
+d | Charreteras | D | hombros, militar, flecos, uniforme
+d | Hombreras | D | relleno, hombros, años 80, chaqueta
+d | Babi | D es | colegio, cuadros, niños, bata
+d | Mandil | D | delantal, cocina, cuero, herrero
+d | Chaleco salvavidas | D | barco, flotar, naranja, emergencia
+d | Traje de apicultor | D | abejas, careta, red, blanco
+d | Traje ignífugo | D | bombero, fuego, plateado, proteger
 `
 };

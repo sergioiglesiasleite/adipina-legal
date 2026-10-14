@@ -124,5 +124,101 @@ d | Cerbatana | M | soplar, tubo, dardo, apuntar
 d | Peonza de cuerda | M | lanzar, girar, punta, enrollar
 d | Simon (juego electrónico) | 80s | colores, sonidos, memoria, secuencia
 d | Lite-Brite | 80s | luces, clavijas, colores, dibujar
+f | Osito de peluche | D | blando, abrazar, oso, dormir
+f | Sonajero | D | bebé, sonido, agitar, plástico
+f | Chupete | D | bebé, boca, chupar, dormir
+f | Móvil de cuna | D | girar, colgar, bebé, música
+f | Cubos apilables | D | torre, bebé, colores, encajar
+f | Bloques de construcción | D | piezas, apilar, torre, madera
+f | Tren de madera | D | vías, vagones, niños
+f | Caballito de palo | D | cabeza de caballo, galopar, cabalgar
+f | Espada de juguete | D | plástico, luchar, pirata, caballero
+f | Pistola de burbujas | D | pompas, soplar, apretar, jabón
+f | Garaje de juguete | D | coches, rampa, ascensor, aparcar
+f | Pista de coches | D | circuito, curvas, carrera
+f | Hot Wheels | D | coches pequeños, pistas, Mattel, metal
+f | Carrito de muñecas | D | empujar, muñeca, pasear, ruedas
+f | Supermercado de juguete | D | caja registradora, comida de plástico, vender, comprar
+f | Maletín de médico de juguete | D | estetoscopio, jeringa, jugar a médicos, curar
+f | Pizarra mágica | D | dibujar, borrar, magnética, lápiz
+f | Telesketch | D | dibujar, ruedas, agitar, borrar
+f | Arena mágica | D | moldear, niños, arena cinética, pegarse
+f | Pinturas de dedos | D | manos, colores, mancharse, pintar
+f | Cuaderno de colorear | D | dibujos, lápices, niños
+f | Pegatinas | D | pegar, álbum, colecciones, papel
+f | Álbum de cromos | D | pegar, sobres, repetidos, colección
+f | Dados | D | lanzar, seis caras, puntos, suerte
+f | Figuras de dinosaurios | D | plástico, T-Rex, colección, jugar
+f | Granja de juguete | D | animales, establo, tractor, granjero
+f | Teléfono de juguete | D | marcar, rueda, sonido, niños
+f | Tambor de juguete | D | baquetas, ruido, golpear, desfile
+f | Piano de juguete | D | teclas, pequeño, colores, música
+m | Muñeca de trapo | D | tela, cosida, antigua, blanda
+m | Muñeca de porcelana | D | frágil, antigua, vestido, cara blanca
+m | Muñecas recortables | D | papel, vestidos, recortar, pestañas
+m | Polly Pocket | 90s | muñeca pequeña, estuche, casita, bolsillo
+m | Bratz | 00s | muñecas, labios, moda, cabezonas
+m | Monster High | 10s | muñecas, monstruos, instituto, moda
+m | LOL Surprise | 10s | bola, capas, sorpresa, muñeca
+m | Cabbage Patch Kids | 80s | muñecos repollo, adopción, mofletes, certificado
+m | Barriguitas | 70s es | muñecos, barriga, pequeños, Famosa
+m | Madelman | 70s es | muñeco articulado, aventuras, soldado, España
+m | Geyperman | 70s es | muñeco, Geyper, soldado, articulado
+m | Airgam Boys | 80s es | muñecos, España, articulados, cascos
+m | Sudoku |  | números, nueve, cuadrícula, lógica
+m | Crucigrama |  | palabras, horizontales, verticales, periódico
+m | Sopa de letras |  | buscar palabras, cuadrícula, rodear
+m | Ahorcado | M | palabra, letras, dibujo, adivinar
+m | Las siete diferencias | D | comparar, dibujos, buscar, encontrar
+m | Unir los puntos | D | números, dibujo, lápiz, seguir
+m | Trabalenguas | M | difícil, decir rápido, tres tristes tigres, lengua
+m | Juego de las películas | M | mímica, títulos, adivinar, palabras
+m | Quién es quién | D | caras, preguntas, adivinar, tablero
+m | Mastermind | D | colores, código, adivinar, clavijas
+m | Dobble | D | cartas redondas, símbolos, rapidez, igual
+m | Dixit |  | cartas ilustradas, imaginación, narrador, conejos
+m | Virus! | es | cartas, órganos, contagiar, Tranjis
+m | Exploding Kittens |  | gatos, cartas, explotar, desactivar
+m | Carcassonne |  | losetas, caminos, ciudades, meeples
+m | Ticket to Ride |  | trenes, rutas, vagones, cartas
+m | Party & Co |  | mímica, dibujo, tararear, equipos
+m | Tabú |  | palabras prohibidas, cartas, describir, zumbador
+m | Cranium |  | arcilla, tararear, dibujar, equipos
+m | Time's Up |  | personajes, tres rondas, una palabra, mímica
+m | Lince (juego) | D | tablero de imágenes, buscar, rápido, fichas
+m | Cocodrilo dentista | M | dientes, morder, apretar, juego
+m | Pie Face | 10s | nata, cara, girar, sorpresa
+d | Kendama | D | Japón, bola, taza, palo
+d | Taba | M | hueso, lanzar, juego antiguo, caras
+d | Juego de los chinos | M es | monedas, manos, adivinar, total
+d | Muñeco de ventrílocuo | D | boca, hablar, mano, cómico
+d | Linterna mágica | D | proyectar, imágenes, cristal, antigua
+d | Zoótropo | D | girar, animación, ranuras, ilusión
+d | Taumatropo |  | disco, girar, ilusión óptica, hilos
+d | Cajita de música | D | bailarina, girar, melodía, cuerda
+d | Muñeco de cuerda | D | llave, girar, andar, mecanismo
+d | Mono de los platillos | D | tambor, cuerda, chocar
+d | Muñeco tentetieso | D | volver, levantarse, balancear, base
+d | Caja sorpresa | D | resorte, muñeco, saltar, manivela
+d | Spirograph | D | círculos, dibujos, ruedas dentadas, espiral
+d | Meccano |  | piezas metálicas, tornillos, construir, grúa
+d | Geomag | D | imanes, bolas, barras, construir
+d | Robot programable | D | código, aprender, niños, órdenes
+d | Detector de metales | D | playa, pitidos, tesoros, buscar
+d | Walkie-talkie | D | hablar, antena, cambio, corto
+d | Teléfono de vasos | D | cuerda, vasos de yogur, hablar, oír
+d | Pistola láser | D | luz, juego, chaleco, disparar
+d | Pinball | D | flippers, bola, máquina, puntos
+d | Game & Watch | 80s | Nintendo, pantalla LCD, portátil, juego
+d | Nintendo DS | 00s | consola portátil, dos pantallas, lápiz
+d | Sega Mega Drive | 90s | consola, Sonic, 16 bits
+d | Super Nintendo | 90s | consola, Mario, 16 bits, mando gris
+d | Nintendo 64 | 90s | consola, cartuchos, Mario 64, mando con tres asas
+d | Nintendo Wii | 00s | mando con movimiento, Wii Sports, consola, sensor
+d | Xbox | 00s | Microsoft, consola, Halo, verde
+d | Atari 2600 | 70s | consola, joystick, cartuchos, retro
+d | ZX Spectrum | 80s | ordenador, cintas, Sinclair, goma
+d | Amstrad CPC | 80s | ordenador, cintas, monitor verde, ochentero
+d | MSX | 80s | ordenador, cartuchos, japonés, ochentero
 `
 };

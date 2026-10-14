@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Privacidad de AdiPiña</title>
+<style>
+  :root { --bg: #fbf8ed; --card: #fffdf7; --text: #343548; --muted: #615d66; --accent: #ad584b; --line: #d9d2c0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1d1c24; --card: #26252f; --text: #f1ede2; --muted: #b9b2a6; --accent: #f0a294; --line: #44424f; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; line-height: 1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: calc(24px + env(safe-area-inset-top)) 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  .updated, footer { color: var(--muted); font-size: .9rem; }
+  a { color: var(--accent); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 4px 20px; margin: 16px 0; }
+  ul { padding-left: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  footer { margin-top: 48px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+<h1>Política de privacidad de AdiPiña</h1>
+<p class="updated">Última actualización: 14 de octubre de 2026</p>
+
+<p>Esta política explica qué datos trata <strong>AdiPiña</strong> (la app de iPhone y su versión web) y para qué. AdiPiña es un juego presencial de adivinanzas por equipos: se juega sin cuenta y no necesita tu nombre real.</p>
+
+<h2>1. Responsable</h2>
+<p>AdiPiña la desarrolla y mantiene Sergio Iglesias Leite, desarrollador independiente. Para cualquier consulta sobre esta política o sobre tus datos, escribe a <a href="mailto:sergioiglesiasleite@gmail.com">sergioiglesiasleite@gmail.com</a>.</p>
+
+<h2>2. Lo que AdiPiña no recoge</h2>
+<p>No hay registro, cuentas, email ni teléfono. La app no usa la cámara, el micrófono, los contactos ni tu ubicación, y no incluye herramientas de analítica.</p>
+
+<h2>3. Datos guardados en tu móvil</h2>
+<p>Los ajustes, los equipos y sus integrantes, vuestras respuestas propias, la partida en curso, las tarjetas ya vistas, las partidas favoritas, el historial y las tarjetas que reportes se guardan solo en tu dispositivo. Se borran desde Ajustes › Borrar todos los datos de este móvil, o al desinstalar la app.</p>
+
+<h2>4. Salas: un móvil por piña</h2>
+<div class="card">
+<p>Si creas una sala o te unes a una, la partida se guarda en un servidor para que todos los móviles la vean igual. Se envían y guardan:</p>
+<ul>
+<li>Las reglas, los nombres de las piñas y de sus integrantes (pueden ser apodos) y las respuestas propias que uséis.</li>
+<li>El estado de la partida: turnos, puntos, tarjetas y acciones.</li>
+<li>Credenciales temporales de la sala, guardadas como huella cifrada (hash), nunca en claro.</li>
+</ul>
+<p>Los demás participantes ven los nombres y el marcador. La respuesta de cada tarjeta solo llega al móvil de la piña que juega ese turno.</p>
+<p><strong>Cuánto se guarda:</strong> una sala cerrada por el maestro se borra en ese momento. Una sala sin actividad durante seis horas deja de ser accesible y se borra en la siguiente limpieza automática, que se ejecuta cada diez minutos.</p>
+</div>
+<p>El servidor usa <strong>Supabase</strong> como proveedor de base de datos y funciones. Para frenar abusos se cuentan las peticiones por dirección IP; la IP no se guarda en claro, sino transformada con una clave secreta del servidor (HMAC), y esos contadores se borran a los pocos minutos (los de reportes, en 24 horas).</p>
+
+<h2>5. Tarjetas reportadas</h2>
+<p>Durante un turno puedes reportar una tarjeta (por ejemplo, si está mal escrita o casi nadie la conoce). Para poder revisarla se envían al servidor la tarjeta, el motivo, la modalidad, si lo hay, el comentario opcional que escribas y si viene de la app de iPhone o de la web. <strong>No se guarda la IP, ningún identificador del dispositivo ni datos de la sala.</strong> No escribas nombres ni datos personales en el comentario. Los reportes se borran al revisarlos y, en todo caso, a los 12 meses.</p>
+
+<h2>6. Invitaciones y marcador de la tele</h2>
+<p>Los enlaces de invitación y del marcador abren una página alojada en GitHub Pages. GitHub recibe, como cualquier web, tu IP, el navegador y la dirección solicitada, incluido el código de sala de una invitación. La credencial del marcador viaja en la parte de la dirección que el navegador no envía a GitHub. Consulta la <a href="https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">declaración de privacidad de GitHub</a>.</p>
+
+<h2>7. Publicidad (solo en la app de iPhone)</h2>
+<p>La app muestra pocos anuncios de <strong>Google AdMob</strong>: un banner en los menús y en los resultados (nunca durante un turno), algún anuncio a pantalla completa entre partidas y un vídeo opcional para jugar la siguiente partida sin anuncios. La versión web no tiene anuncios. Para mostrarlos, Google puede tratar:</p>
+<table>
+<thead><tr><th>Dato</th><th>Para qué</th></tr></thead>
+<tbody>
+<tr><td>Identificador de publicidad (IDFA), solo si lo permites</td><td>Medir y, con tu consentimiento, personalizar los anuncios</td></tr>
+<tr><td>Dirección IP</td><td>Estimar el país o la región</td></tr>
+<tr><td>Datos técnicos del dispositivo (modelo, sistema, idioma)</td><td>Servir un anuncio compatible</td></tr>
+<tr><td>Interacciones con los anuncios</td><td>Medir resultados y evitar fraude</td></tr>
+</tbody>
+</table>
+<p>AdiPiña no envía a Google ni a ningún tercero las respuestas, los nombres de equipos o integrantes, vuestro contenido ni el estado de las partidas. Google trata estos datos como responsable según su <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad</a> y <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">el uso de datos de sus socios</a>.</p>
+
+<h2>8. Tu consentimiento</h2>
+<p>Antes de pedir ningún anuncio, el iPhone te pregunta si permites el rastreo (App Tracking Transparency). En el Espacio Económico Europeo, el Reino Unido y Suiza, además, verás el formulario de consentimiento de Google. Si no das permiso, los anuncios no se personalizan. Puedes cambiar tu elección en Ajustes › Privacidad de los anuncios, dentro de la app, y el permiso de rastreo en los Ajustes del iPhone.</p>
+
+<h2>9. Bases legales</h2>
+<ul>
+<li><strong>Salas:</strong> prestar el servicio que pides al crear o unirte a una sala.</li>
+<li><strong>Reportes y límites contra abusos:</strong> el interés legítimo en mantener el contenido correcto y el servicio disponible.</li>
+<li><strong>Anuncios personalizados:</strong> tu consentimiento, que puedes retirar cuando quieras.</li>
+</ul>
+
+<h2>10. Menores</h2>
+<p>AdiPiña es un juego para grupos y familias, pensado para que los más pequeños jueguen acompañados de personas adultas. No pide datos personales de nadie. Si crees que un menor ha escrito datos personales en una sala o un reporte, escríbenos y los borraremos.</p>
+
+<h2>11. Tus derechos</h2>
+<p>Puedes pedir acceso, rectificación o supresión de tus datos, u oponerte a su tratamiento, escribiendo a <a href="mailto:sergioiglesiasleite@gmail.com">sergioiglesiasleite@gmail.com</a>. No envíes nunca la clave del maestro ni códigos de recuperación. Los datos de tu móvil los controlas tú desde Ajustes. Para los datos que trata Google, usa su <a href="https://myaccount.google.com/data-and-privacy" target="_blank" rel="noopener">panel de privacidad</a>. Si no estás conforme, puedes reclamar ante la <a href="https://www.aepd.es" target="_blank" rel="noopener">Agencia Española de Protección de Datos</a>.</p>
+
+<h2>12. Cambios</h2>
+<p>Si cambia lo que hace la app con los datos, actualizaremos esta política en esta misma dirección, con la fecha de la última actualización al principio.</p>
+
+<footer>AdiPiña · <a href="soporte.html">Ayuda y contacto</a></footer>
+</main>
+</body>
+</html>

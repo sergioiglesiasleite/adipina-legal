@@ -124,5 +124,138 @@ d | Sistema inmunitario | | defensas, anticuerpos, virus, glóbulos blancos
 d | Metabolismo | | energía, quemar, calorías, procesos
 d | Adrenalina | M | hormona, miedo, emoción, susto
 d | Hormonas | | adolescencia, glándulas, química, cuerpo
+f | Frente | D | cabeza, cejas, arrugas, sudor
+f | Nuca | M | cabeza, detrás, cuello, pelo
+f | Pierna | D | rodilla, muslo, andar, pie
+f | Brazo | D | codo, mano, hombro, músculo
+f | Muslo | D | pierna, arriba, rodilla, carne
+f | Pantorrilla | D | pierna, gemelo, detrás, músculo
+f | Palma de la mano | D | líneas, dentro, aplaudir
+f | Puño | M | mano cerrada, golpe, dedos, apretar
+f | Pulgar | M | dedo gordo, mano, me gusta, arriba
+f | Dedo índice | M | señalar, mano, segundo
+f | Dedo gordo del pie | M | pie, uña, grande, pisar
+f | Planta del pie | D | pie, abajo, cosquillas, pisar
+f | Trenza | D | pelo, entrelazar, tres mechones, peinado
+f | Coleta | D | pelo, goma, atrás, peinado
+f | Flequillo | D | pelo, frente, cortar, delante
+f | Calvicie | D | sin pelo, cabeza, brillar, entradas
+f | Rizos | D | pelo, ondas, rizado, muelles
+f | Melena | D | pelo largo, león, suelta, larga
+f | Patillas | D | pelo, cara, orejas, Elvis
+f | Perilla | D | barba, barbilla, pequeña, chiva
+f | Dientes de leche | D | niños, caer, Ratoncito Pérez, pequeños
+f | Colmillo | D | diente, puntiagudo, vampiro, canino
+f | Muela | D | diente, atrás, masticar, grande
+f | Encías | M | dientes, rosa, boca, sangrar
+f | Saliva | M | boca, babas, escupir, líquido
+f | Lágrima | D | ojo, llorar, gota, triste
+f | Moco | M | nariz, resfriado, pañuelo, verde
+f | Eructo | M | gases, boca, ruido, refresco
+f | Sudor | M | calor, gotas, oler, ejercicio
+f | Granos | D | piel, adolescentes, cara, acné
+f | Arañazo | D | gato, piel, raya, rasguño
+f | Herida | D | sangre, tirita, corte, curar
+f | Costra | D | herida, rascar, seca, curar
+f | Sangrar por la nariz | M | sangre, cabeza atrás, pañuelo
+f | Dolor de cabeza | M | pastilla, jaqueca, migraña
+f | Dolor de garganta | M | tragar, caramelo, anginas
+f | Dolor de oído | M | oreja, otitis, gotas, niños
+m | Anginas |  | garganta, inflamadas, fiebre, amígdalas
+m | Amígdalas | D | garganta, anginas, operar, dos
+m | Otitis |  | oído, dolor, infección, gotas
+m | Conjuntivitis |  | ojo rojo, legañas, infección, gotas
+m | Legañas | M | ojos, mañana, dormir, despertar
+m | Orzuelo | D | párpado, grano, ojo, inflamado
+m | Gripe |  | fiebre, virus, invierno, cama
+m | Sarampión |  | manchas, vacuna, niños, virus
+m | Paperas |  | cuello hinchado, niños, vacuna, mofletes
+m | Diabetes |  | azúcar, insulina, sangre, análisis
+m | Asma | M | respirar, inhalador, ahogo, alergia
+m | Inhalador | D | asma, respirar, apretar, pulmones
+m | Insulina |  | diabetes, inyección, azúcar, páncreas
+m | Tensión arterial |  | presión, tensiómetro, brazo, sangre
+m | Tensiómetro | D | brazo, presión, apretar, médico
+m | Colesterol |  | grasa, sangre, análisis, corazón
+m | Glucosa |  | azúcar, sangre, energía, diabetes
+m | Vitamina C |  | naranja, defensas, resfriado, zumo
+m | Calcio |  | huesos, leche, dientes, fuerte
+m | Hierro (nutriente) |  | sangre, lentejas, anemia, espinacas
+m | Anemia |  | hierro, cansancio, palidez, sangre
+m | Grupo sanguíneo |  | A, B, cero, donar
+m | Donar sangre | M | bolsa, aguja, ayudar, transfusión
+m | Transfusión |  | sangre, bolsa, hospital, donante
+m | Trasplante de órganos |  | donante, corazón, riñón, cirugía
+m | Quirófano | D | operar, cirujano, bisturí, hospital
+m | Bisturí | D | cortar, cirujano, quirófano, afilado
+m | Puntos de sutura | D | herida, coser, hilo, cicatriz
+m | Sala de espera | M | médico, sentarse, número, esperar
+m | Receta médica | D | médico, farmacia, papel, medicamento
+m | Pastilla | D | tragar, agua, medicina, cápsula
+m | Supositorio | M | medicina, trasero, fiebre, bebé
+m | Pomada | M | crema, piel, untar, picor
+m | Guantes de látex | D | médico, manos, blancos, desechables
+m | Bata de hospital | D | paciente, abierta, detrás, camilla
+m | Camilla | D | tumbarse, hospital, ruedas, ambulancia
+m | Gotero | D | suero, vena, colgar, hospital
+m | Fisioterapia | M | masaje, rehabilitación, lesión, ejercicios
+m | Masaje | M | espalda, manos, relajar, músculos
+m | Acupuntura | M | agujas, china, puntos, medicina
+m | Contractura | M | músculo, dolor, espalda, nudo
+m | Tortícolis | M | cuello, dolor, girar, rígido
+m | Lumbago | M | espalda baja, dolor, agacharse, riñones
+d | Hernia discal |  | espalda, vértebras, dolor, columna
+d | Escoliosis |  | columna torcida, espalda, curvatura, corsé
+d | Ciática |  | nervio, pierna, dolor, espalda
+d | Menisco |  | rodilla, rotura, cartílago, deportistas
+d | Ligamento cruzado |  | rodilla, rotura, futbolistas, operación
+d | Fractura | D | hueso roto, escayola, radiografía, caída
+d | Luxación |  | hueso, salirse, articulación, dislocar
+d | Articulación |  | rodilla, codo, unión, huesos
+d | Cartílago |  | oreja, nariz, flexible, articulaciones
+d | Médula ósea |  | huesos, sangre, donante, interior
+d | Médula espinal |  | columna, nervios, espalda, cerebro
+d | Sistema nervioso |  | nervios, cerebro, médula, señales
+d | Glándula |  | hormonas, sudor, tiroides, segregar
+d | Tiroides |  | glándula, cuello, hormonas, metabolismo
+d | Hipófisis |  | glándula, cerebro, hormonas, crecimiento
+d | Intestino delgado |  | digestión, tubo, largo, nutrientes
+d | Intestino grueso |  | colon, digestión, agua, final
+d | Apéndice |  | intestino, apendicitis, derecha, operar
+d | Vejiga |  | orina, pis, aguantar, órgano
+d | Laringe |  | garganta, voz, cuerdas vocales, nuez
+d | Cuerdas vocales |  | voz, cantar, garganta, vibrar
+d | Bronquios |  | pulmones, aire, ramas, respirar
+d | Alvéolos |  | pulmones, oxígeno, bolsitas, intercambio
+d | Córnea |  | ojo, transparente, lentillas, delante
+d | Iris |  | ojo, color, pupila, azul
+d | Cristalino |  | ojo, lente, cataratas, enfocar
+d | Cataratas (ojo) |  | ojo, opaco, operación, ancianos
+d | Miopía | M | ver de lejos, gafas, borroso, ojo
+d | Hipermetropía |  | ver de cerca, gafas, ojo, enfocar
+d | Astigmatismo |  | ojo, borroso, gafas, córnea
+d | Daltonismo |  | colores, rojo y verde, confundir, ojo
+d | Vértebra |  | columna, hueso, espalda, disco
+d | Húmero |  | brazo, hueso, hombro, codo
+d | Radio y cúbito |  | antebrazo, huesos, muñeca, codo
+d | Peroné |  | pierna, hueso, tibia, fino
+d | Omóplato |  | espalda, hueso, hombro, escápula
+d | Pelvis |  | cadera, hueso, piernas, abajo
+d | Cráneo | D | cabeza, hueso, calavera, cerebro
+d | Mandíbula | D | boca, hueso, masticar, abajo
+d | Fontanela |  | bebé, cabeza, blanda, cráneo
+d | Glóbulos blancos |  | defensas, sangre, infección, células
+d | Plaquetas |  | coagular, sangre, herida, costra
+d | Anticuerpos |  | defensas, vacuna, virus, proteínas
+d | Ganglios |  | cuello, hinchados, infección, linfa
+d | Melanina |  | piel, color, moreno, sol
+d | Queratina |  | uñas, pelo, proteína, piel
+d | Colágeno |  | piel, proteína, arrugas, elástica
+d | Endorfinas |  | felicidad, ejercicio, cerebro, química
+d | Serotonina |  | felicidad, cerebro, neurotransmisor, ánimo
+d | Dopamina |  | placer, recompensa, cerebro, neurotransmisor
+d | Cortisol |  | estrés, hormona, glándulas, nervios
+d | Ritmo circadiano |  | reloj biológico, dormir, día, noche
+d | Melatonina |  | sueño, hormona, oscuridad, dormir
 `
 };

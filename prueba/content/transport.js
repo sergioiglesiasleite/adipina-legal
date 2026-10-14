@@ -123,5 +123,96 @@ d | Tren cremallera | | montaña, pendiente, Montserrat, dientes
 d | Batíscafo Trieste | | profundidad, Marianas, inmersión, récord
 d | Tranvía de Sóller | es | Mallorca, madera, naranjas, puerto
 d | Vaporetto | | Venecia, canales, barco, transporte público
+f | Bicicleta de montaña | D | ruedas gordas, monte, pedalear, barro
+f | Bicicleta de carreras | D | fina, rápida, manillar curvo, ciclista
+f | Bici con ruedines | D | aprender, niños, ruedas pequeñas, equilibrio
+f | Bicicleta eléctrica | D | batería, pedalear, motor, ciudad
+f | Camión de helados | D | música, verano, ventanilla
+f | Furgoneta de reparto | D | paquetes, entregar, repartidor, puerta trasera
+f | Moto de policía | D | sirena, agente, casco, persecución
+f | Moto de carreras | D | circuito, velocidad, MotoGP, tumbarse
+f | Scooter | D | moto pequeña, ciudad, Vespa, asiento
+f | Ciclomotor | D | moto pequeña, cincuenta, casco, ruido
+f | Coche de choque | D | feria, chocar, pista, antena
+f | Autobús turístico | D | dos pisos, sin techo, ciudad, monumentos
+f | Autocar | D | viaje, excursión, maletero, carretera
+f | Coche de golf | D | eléctrico, campo, palos, pequeño
+f | Carrito de la compra | D | supermercado, empujar, ruedas, moneda
+f | Avión de pasajeros | D | alas, aeropuerto, despegar
+f | Avión de combate | D | caza, militar, rápido, piloto
+f | Jet privado | D | lujo, avión pequeño, ricos, viaje
+f | Barco de pesca | D | redes, pescadores, puerto, mar
+f | Lancha motora | D | rápida, mar, motor, salpicar
+f | Barca de remos | D | remar, estanque, madera, lago
+f | Balsa | D | troncos, río, flotar, náufrago
+f | Petrolero | D | barco grande, petróleo, mar, tanque
+f | Buque de carga | D | contenedores, puerto, mercancías, grande
+f | Barco de vapor | D | chimenea, río, paletas, Misisipi
+f | Tren de mercancías | D | vagones, carga, largo, locomotora
+f | Coche cama | D | tren, literas, dormir, noche
+f | Vagón restaurante | D | tren, comer, mesas, viaje
+f | Tren de juguete | D | vías, regalo, circular, niños
+f | Trenecito turístico | D | ciudad, ruedas, vagones, turistas
+m | Trolebús | D | autobús eléctrico, cables, ciudad, catenaria
+m | Furgoneta camper | D | Volkswagen, surf, viajar, dormir
+m | Todoterreno | D | 4x4, campo, barro, ruedas grandes
+m | Pick-up | D | caja abierta, camioneta, carga, americana
+m | SUV | D | coche grande, alto, familiar, ciudad
+m | Utilitario | D | coche pequeño, ciudad, barato, aparcar
+m | Coche clásico | D | antiguo, colección, cromado, restaurado
+m | Hot rod | D | coche modificado, llamas, motor, americano
+m | Lowrider | M | coche, saltar, suspensión, hidráulico
+m | Quitanieves | D | nieve, carretera, pala, invierno
+m | Cosechadora | D | campo, trigo, cosechar, agricultura
+m | Apisonadora | D | asfalto, aplanar, rodillo, obras
+m | Carretilla elevadora | D | palés, almacén, horquillas, cargar
+m | Bulldozer | D | pala, empujar, tierra, obras
+m | Grúa torre | D | obra, alta, construcción, girar
+m | Camión volquete | D | tierra, volcar, obras, carga
+m | Camión frigorífico | D | frío, alimentos, transportar, refrigerado
+m | Tráiler | D | camión, remolque, carretera, largo
+m | Papamóvil | D | papa, cristal, saludar, coche blanco
+m | Carroza real | D | rey, caballos, dorada, desfile
+m | Trineo de perros | D | huskies, nieve, Alaska, tirar
+m | Motonieve | D | nieve, moto, esquís, frío
+m | Telecabina | D | montaña, cable, cabina, esquí
+m | Módulo lunar | D | Apolo, Luna, aterrizar, patas
+m | Rover marciano | D | Marte, robot, ruedas, explorar
+m | Sonda espacial | D | espacio, explorar, planetas, sin tripulación
+m | Cápsula espacial | D | astronautas, reentrada, paracaídas, mar
+m | Drone | D | volar, hélices, cámara, mando
+m | Autogiro | D | rotor, Juan de la Cierva, aeronave, volar
+m | Dirigible | D | globo alargado, flotar, cielo, gas
+m | Piragua | D | remo, río, alargada, deporte
+m | Barcaza | D | río, plana, carga, canal
+m | Bote salvavidas | D | naufragio, rescate, barco, emergencia
+m | Lancha de salvamento | D | socorristas, rescate, mar, rápida
+d | Fragata | D | barco de guerra, velas, armada, cañones
+d | Destructor | D | barco de guerra, armada, rápido, misiles
+d | Acorazado | D | barco de guerra, blindado, cañones, grande
+d | Goleta | D | velero, dos mástiles, rápido, vela
+d | Nao | D | barco, Victoria, Elcano, velas
+d | Sampán | D | barca, Asia, río, techo
+d | Sumergible | D | submarino pequeño, profundidad, explorar, Titanic
+d | Tranvía de San Francisco | D | cable, cuestas, campana, California
+d | Metro de Londres |  | Tube, mind the gap, subterráneo
+d | Tren bala | D | Japón, Shinkansen, rápido, morro
+d | Glacier Express |  | tren, Suiza, Alpes, panorámico
+d | Tren de la fresa | es | Madrid, Aranjuez, histórico, vapor
+d | Transcantábrico | es | tren de lujo, norte de España, costa, turismo
+d | Tren de Sóller | es | Mallorca, madera, histórico, naranjas
+d | Puente colgante de Vizcaya | es | transbordador, Portugalete, Getxo, góndola
+d | Ecto-1 |  | Cazafantasmas, ambulancia, sirena, coche
+d | Mystery Machine |  | Scooby-Doo, furgoneta, flores, pandilla
+d | Enterprise |  | Star Trek, nave, capitán Kirk, espacio
+d | Nautilus |  | submarino, capitán Nemo, Julio Verne, mar
+d | Arca de Noé |  | barco, animales, diluvio, parejas
+d | Palanquín |  | silla, porteadores, cargar, noble
+d | Carreta de bueyes | D | ruedas de madera, campo, lento
+d | Carromato | D | carro cubierto, oeste, caballos, lona
+d | Isetta |  | coche burbuja, puerta delantera, pequeño, años 50
+d | Biscúter | es | coche pequeño, España, años 50, Paco Martínez Soria
+d | Renault 4 | es | cuatro latas, coche, España, clásico
+d | Citroën 2CV |  | dos caballos, coche, Francia, clásico
 `
 };

@@ -126,5 +126,108 @@ d | Mención honorífica | P | premio, distinción, nota, reconocimiento
 d | Logaritmo | P | matemáticas, base, exponente, calculadora
 d | Comentario de texto | P | lengua, analizar, tema, estructura
 d | Clase de filosofía | P | Platón, pensar, bachillerato, preguntas
+f | Profesor de gimnasia | M | chándal, silbato, deporte, educación física
+f | Compañero de pupitre | M | sentarse al lado, clase, amigo, mesa
+f | Bandeja del comedor | D | comida, plástico, compartimentos, cole
+f | Monitor de comedor | M | niños, vigilar, comer
+f | Bolígrafo azul | D | escribir, tinta, tapa, capuchón
+f | Bolígrafo de cuatro colores | D | botones, rojo, verde
+f | Goma de nata | D | borrar, blanca, Milan, olor
+f | Agenda escolar | D | deberes, apuntar, días, notas
+f | Forrar los libros | M | plástico, aironfix, septiembre
+f | Etiqueta con el nombre | D | libros, escribir, pegar
+f | Chándal del colegio | D | educación física, uniforme, deporte
+f | Función de Navidad | M | teatro, villancicos, padres, escenario
+f | Obra de teatro del colegio | M | disfraces, escenario, padres, papel
+f | Diploma | D | papel, nombre, premio, graduación
+f | Estrella dorada | D | premio, pegatina, bien hecho, cuaderno
+f | Rincón de lectura | D | libros, cojines, aula, leer
+f | Rincón de pensar | M | castigo, sentarse, reflexionar
+f | Manualidades | M | tijeras, pegamento, cartulina, hacer
+f | Gomets | D | pegatinas, círculos, colores, infantil
+f | Punzón | D | picar, contorno, infantil, figura
+f | Tijeras de punta redonda | D | cortar, niños, seguras, papel
+f | Pegamento de barra | D | pegar, papel, tubo, girar
+f | Témperas | D | pintar, colores, pinceles, agua
+m | Asignatura |  | materia, horario, clase, profesor
+m | Horario de clases | D | asignaturas, horas, semana, tabla
+m | Lengua castellana |  | gramática, ortografía, verbos, asignatura
+m | Matemáticas |  | números, sumas, problemas, asignatura
+m | Ciencias Sociales |  | historia, geografía, mapas, asignatura
+m | Ciencias Naturales |  | animales, plantas, cuerpo humano, asignatura
+m | Valores éticos |  | asignatura, alternativa, ética, respeto
+m | Latín |  | lengua muerta, rosa rosae, declinaciones, Roma
+m | Dibujo técnico | D | escuadra, compás, planos, láminas
+m | Ortografía |  | tildes, faltas, b y v, reglas
+m | Faltas de ortografía | M | errores, tildes, rojo, corregir
+m | Tilde | D | acento, palabras, ortografía, agudas
+m | Verbos irregulares |  | conjugar, inglés, memorizar, lista
+m | Sujeto y predicado |  | oración, análisis, gramática, verbo
+m | Sustantivo |  | nombre, palabra, gramática, cosas
+m | Adjetivo |  | calificar, palabra, gramática, cualidad
+m | Sinónimos y antónimos |  | palabras, iguales, contrarias, significado
+m | Redacción | M | escribir, texto, tema, folio
+m | Resumen | M | corto, ideas principales, texto, escribir
+m | Mapa conceptual | D | esquema, ideas, flechas, conceptos
+m | Problema de matemáticas | M | enunciado, resolver, operación, solución
+m | División | D | repartir, dividendo, cociente, resto
+m | Multiplicación | D | tablas, por, producto, veces
+m | Resta | D | quitar, menos, operación, restar
+m | Fracciones | D | quebrados, numerador, denominador, partes
+m | Decimales |  | coma, números, décimas, centésimas
+m | Porcentaje |  | por ciento, descuento, cien, símbolo
+m | Geometría |  | figuras, ángulos, triángulos, círculo
+m | Perímetro |  | contorno, sumar lados, figura, medir
+m | Ángulo recto | D | noventa grados, escuadra, esquina, L
+m | Calculadora científica | D | operaciones, funciones, botones, examen
+m | Ábaco | D | bolitas, contar, varillas, antiguo
+m | Mapa mudo | D | sin nombres, geografía, rellenar, ríos
+m | Comunidades autónomas |  | España, mapa, diecisiete, regiones
+m | Semana de exámenes | M | estudiar, nervios, junio, apuntes
+m | Hacer pellas | M | faltar, clase, escaparse, novillos
+m | Expulsado de clase | M | castigo, salir, pasillo, profesor
+m | Tutoría |  | tutor, padres, reunión, alumno
+m | Examen tipo test | D | opciones, a b c d, marcar, cruces
+m | Examen oral | M | hablar, profesor, preguntas, nervios
+d | Nota de corte |  | universidad, acceso, carrera, selectividad
+d | EBAU | es | selectividad, universidad, exámenes, bachillerato
+d | FP | es | formación profesional, oficio, ciclos, prácticas
+d | Ciclo formativo | es | FP, grado medio, grado superior, prácticas
+d | Prácticas en empresa |  | estudiantes, trabajo, experiencia, becario
+d | Becario | M | prácticas, café, joven, aprender
+d | Máster |  | posgrado, universidad, especialización, título
+d | Doctorado |  | tesis, doctor, universidad, investigación
+d | Facultad |  | universidad, carrera, edificio, decano
+d | Decano |  | facultad, universidad, jefe, profesor
+d | Campus universitario | D | universidad, edificios, estudiantes, césped
+d | Residencia de estudiantes |  | universidad, habitaciones, compartir, comedor
+d | Piso de estudiantes | M | compartir, universidad, alquiler, nevera
+d | Revisión del examen | M | nota, profesor, reclamar, corrección
+d | Premio extraordinario |  | mejor expediente, distinción, fin de carrera
+d | Expediente académico |  | notas, historial, universidad, media
+d | Título universitario | D | graduado, diploma, carrera, enmarcar
+d | Birrete | D | graduación, gorro, lanzar, cuadrado
+d | Juramento hipocrático |  | médicos, jurar, ética, Hipócrates
+d | Cátedra |  | profesor titular, universidad, plaza, catedrático
+d | Catedrático | M | profesor, cátedra, universidad, experto
+d | Lección magistral |  | profesor, hablar, clase, aula magna
+d | Aula magna |  | salón de actos, universidad, ceremonias, grande
+d | Seminario |  | grupo pequeño, debate, universidad, tema
+d | Bibliografía |  | libros, fuentes, citar, trabajo
+d | Plagio |  | copiar, trabajo, ajeno, detectar
+d | Nota al pie | D | página, abajo, número, aclaración
+d | Índice | D | libro, capítulos, páginas, principio
+d | Prólogo |  | libro, introducción, autor, principio
+d | Epílogo |  | final, libro, después, conclusión
+d | LOGSE | 90s es | ley, ESO, educación, reforma
+d | ESO | es | secundaria, obligatoria, instituto, cuatro cursos
+d | Guardería | M | bebés, niños pequeños, cuidar, escuela infantil
+d | Escuela rural |  | pueblo, pocos niños, varios cursos, aula única
+d | Colegio bilingüe |  | inglés, asignaturas, idioma
+d | Intercambio escolar | M | extranjero, familia, idioma, estudiantes
+d | Viaje de estudios | M | instituto, excursión, autobús, compañeros
+d | Tintero | D | tinta, pluma, antiguo, pupitre
+d | Pizarrín | D | pizarra pequeña, antigua, escribir, pizarra
+d | Enciclopedia Álvarez | es | libro, escuela antigua, todo en uno, primer grado
 `
 };

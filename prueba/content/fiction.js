@@ -149,5 +149,83 @@ d | Marion Crane | t
 d | Tom Ripley |
 d | Philip Marlowe |
 d | El inspector Clouseau |
+f | Wally | k | rayas rojas, gafas, buscar, gorro
+f | Willy Wonka |  | chocolate, fábrica, sombrero de copa, Umpa Lumpas
+f | Peter Griffin | t | Padre de familia, gordo, Quahog, risa
+f | Stewie Griffin | t | bebé, cabeza de balón, Padre de familia, malvado
+f | Rick Sanchez | t | científico, Morty, portal, eructar
+f | Bender |  | robot, Futurama, doblador, cerveza
+f | Fry |  | Futurama, repartidor, congelado, pelirrojo
+f | Leela |  | Futurama, un ojo, capitana, morado
+f | Krusty el payaso |  | Simpson, televisión, risa
+f | Milhouse |  | Simpson, gafas, amigo de Bart, pelo azul
+f | Moe Szyslak |  | Simpson, taberna, barman, bromas telefónicas
+f | Apu |  | Simpson, Badulaque, tienda, gracias vuelva
+f | Abuelo Simpson |  | Abe, residencia, batallitas
+f | Maggie Simpson | k | chupete, bebé, estrella
+f | Barney Gumble | t | Simpson, eructo, taberna, bebedor
+f | Sideshow Bob |  | Simpson, pelo, villano, rastrillos
+f | Joey Tribbiani |  | Friends, actor, comida, ¿cómo lo llevas?
+f | Rachel Green |  | Friends, camarera, moda, Ross
+f | Ross Geller |  | Friends, paleontólogo, divorcios, Rachel
+f | Chandler Bing |  | Friends, chistes, Monica, sarcástico
+f | Monica Geller |  | Friends, cocinera, ordenada, Chandler
+f | Phoebe Buffay |  | Friends, guitarra, Smelly Cat, masajista
+m | Steve Urkel | 90s | gafas, tirantes, ¿he sido yo?, vecino
+m | Al Bundy | 90s | zapatero, Matrimonio con hijos, sofá, Peggy
+m | Dexter Morgan | t | forense, asesino, Miami, sangre
+m | Don Draper |  | Mad Men, publicista, años sesenta, whisky
+m | Saul Goodman |  | abogado, Better Call Saul, Breaking Bad, trajes
+m | Jesse Pinkman | t | Breaking Bad, socio, Walter White, caravana
+m | Tyrion Lannister |  | Juego de Tronos, enano, vino, Mano del Rey
+m | Arya Stark |  | Juego de Tronos, Aguja, lista, Braavos
+m | Cersei Lannister |  | Juego de Tronos, reina, vino, vergüenza
+m | Joffrey |  | Juego de Tronos, rey cruel, boda, veneno
+m | El Profesor (La casa de papel) | 10s es | atraco, gafas, plan, Sergio Marquina
+m | Tokio (La casa de papel) | 10s es | atracadora, narradora, flequillo, moto
+m | Amador Rivas | 10s es | La que se avecina, mandanga, Maite, sofá
+m | Fermín Trujillo | 10s es | La que se avecina, Mirador de Montepinar, Enrique, viejo verde
+m | Mauricio Colmenero | 00s es | Aída, bar, Reyes Católicos, carnicero
+m | Diego Serrano | 00s es | Los Serrano, padre, bar, cerveza
+m | Antonio Alcántara | es | Cuéntame, padre, San Genaro, Imanol Arias
+m | Carlos Alcántara | es | Cuéntame, narrador, hijo, San Genaro
+m | Sam Spade |  | detective, El halcón maltés, Bogart, San Francisco
+m | Nancy Drew |  | detective, joven, misterios, libros
+m | Pippin y Merry |  | hobbits, Comunidad del Anillo, Comarca, bromistas
+m | Sam Gamyi |  | hobbit, Frodo, fiel, jardinero
+m | Ghostface | t | Scream, máscara, cuchillo, llamadas
+m | Samara | t | The Ring, pozo, pelo largo, cinta
+m | Gizmo |  | Gremlins, mogwai, agua, medianoche
+d | Ignatius J. Reilly |  | La conjura de los necios, Nueva Orleans, gorra de cazador, salchichas
+d | Auguste Dupin |  | detective, Poe, Rue Morgue, París
+d | Maigret |  | comisario, Simenon, pipa, París
+d | Kurt Wallander |  | inspector, Suecia, Mankell, Ystad
+d | Petra Delicado | es | inspectora, Barcelona, Alicia Giménez Bartlett, Garzón
+d | Bevilacqua | es | guardia civil, Lorenzo Silva, Chamorro, sargento
+d | El comisario Montalbano |  | Sicilia, Vigàta, Camilleri, comida
+d | Harry el Sucio |  | Clint Eastwood, Magnum, policía, San Francisco
+d | Mad Max |  | Mel Gibson, desierto, policía, coche
+d | Fausto |  | pacto, diablo, Mefistófeles, Goethe
+d | Mefistófeles |  | diablo, Fausto, pacto, alma
+d | Rey Lear |  | Shakespeare, hijas, Cordelia, locura
+d | Macbeth |  | Shakespeare, brujas, Escocia, ambición
+d | Lady Macbeth |  | Shakespeare, manos manchadas, Escocia, ambición
+d | Shylock |  | El mercader de Venecia, libra de carne, prestamista, Shakespeare
+d | Próspero |  | La tempestad, mago, isla, Shakespeare
+d | Puck |  | El sueño de una noche de verano, duende, Shakespeare, travieso
+d | Bartleby |  | escribiente, preferiría no hacerlo, Melville, oficina
+d | Ismael |  | Moby Dick, narrador, llamadme, ballenero
+d | Emma Bovary |  | Madame, Flaubert, aburrimiento, Yonville
+d | Señor Rochester |  | Jane Eyre, mansión, esposa loca, Thornfield
+d | Dorian Gray |  | retrato, juventud eterna, Wilde, Londres
+d | Aureliano Buendía |  | Cien años de soledad, coronel, Macondo, pelotón
+d | Úrsula Iguarán |  | Cien años de soledad, matriarca, Macondo, Buendía
+d | Florentino Ariza |  | El amor en los tiempos del cólera, Fermina, cartas, espera
+d | Juan Preciado |  | Comala, Pedro Páramo, padre, murmullos
+d | Martín Fierro |  | gaucho, Hernández, Argentina, poema
+d | La Maga |  | Rayuela, Cortázar, París, Oliveira
+d | Augusto Pérez |  | Niebla, Unamuno, nivola, autor
+d | Pascual Duarte |  | Cela, Extremadura, asesino, confesión
+d | Andrés Hurtado |  | El árbol de la ciencia, médico, Baroja, pesimismo
 `
 };

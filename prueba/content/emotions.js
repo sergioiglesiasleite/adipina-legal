@@ -121,5 +121,115 @@ d | Empatía | | ponerse en el lugar, sentir, otros, comprender
 d | Frustración | M | no conseguir, rabia, intentar, fallar
 d | Serenidad | M | calma, paz, tranquilidad, relajado
 d | Ternura | | cariño, bebé, gatito, achuchar
+f | Estar contento |  | feliz, sonrisa, alegre, bien
+f | Estar enfadado |  | cabreado, rabia, ceño, gritar
+f | Estar triste |  | lágrimas, pena, llorar, bajón
+f | Tener miedo a la oscuridad |  | noche, luz, monstruos, niños
+f | Tener miedo a las arañas |  | patas, aracnofobia, gritar, bicho
+f | Ganar un partido |  | gol, celebrar, equipo, victoria
+f | Perder un partido |  | derrota, triste, equipo, marcador
+f | Sacar un diez |  | examen, nota, matrícula, estudiar
+f | Suspender un examen |  | nota, cate, estudiar, recuperación
+f | Recibir un regalo |  | sorpresa, cumpleaños, papel, ilusión
+f | Encontrar dinero en el suelo |  | billete, suerte, calle, agacharse
+f | Estrenar zapatillas |  | nuevas, ilusión, pisar, caja
+f | Ver a tu mejor amigo |  | alegría, abrazo, amistad, reencuentro
+f | Despedirse en el aeropuerto |  | adiós, avión, lágrimas, abrazo
+f | Tener fiebre |  | caliente, termómetro, enfermo, cama
+f | Estar resfriado |  | mocos, estornudos, pañuelos, catarro
+f | Tener la nariz tapada |  | mocos, respirar, resfriado, constipado
+f | Tener las manos frías |  | invierno, guantes, soplar, congeladas
+f | Sudar a chorros |  | calor, gotas, camiseta, empapado
+f | Estar lleno |  | comer mucho, barriga, no puedo más, atracón
+f | Tener un antojo |  | capricho, comer, querer, chocolate
+f | Que se te duerma el pie |  | hormigueo, cosquillas, pierna, entumecido
+f | Tener agujetas |  | músculos, dolor, ejercicio, día siguiente
+f | Torcerse el tobillo |  | pie, dolor, cojear, hinchado
+f | Darse un golpe en la cabeza |  | chichón, dolor, puerta, ¡ay!
+f | Cortarse con un papel |  | dedo, herida, folio, escocer
+f | Morderse la lengua |  | dolor, comer, sin querer, ¡ay!
+f | Tener ganas de estornudar |  | nariz, picor, achís, aguantar
+f | Ver una película de miedo |  | sustos, taparse los ojos, gritar, terror
+f | Montar en una montaña rusa |  | atracción, gritos, vértigo, caída
+f | Subir a una noria |  | atracción, alto, girar, vistas
+f | Que te hagan cosquillas |  | risa, dedos, retorcerse, parar
+m | Sentirse solo |  | soledad, nadie, triste, aislado
+m | Sentirse querido |  | amor, cariño, abrazo, familia
+m | Sentirse orgulloso de alguien |  | aplaudir, logro, hijo, emoción
+m | Estar decepcionado |  | esperar más, desilusión, triste, fallo
+m | Sentirse culpable |  | culpa, perdón, error, remordimiento
+m | Pedir perdón |  | lo siento, disculpa, error, arrepentido
+m | Perdonar a alguien |  | olvidar, error, reconciliación, abrazo
+m | Hacer las paces |  | reconciliarse, amigos, discusión, abrazo
+m | Discutir con alguien |  | gritar, pelea, enfado, opinión
+m | Estar indeciso |  | dudar, elegir, no saber, opciones
+m | Tener la mosca detrás de la oreja |  | sospechar, desconfiar, raro, intuición
+m | Estar distraído |  | despistado, no atender, nubes, mirar
+m | Tener un despiste |  | olvidar, error, sin querer, llaves
+m | Estar de buen humor |  | sonreír, contento, alegre, cantar
+m | Estar de mal humor |  | gruñón, enfadado, cara larga, borde
+m | Estar de morros |  | enfadado, labios, no hablar, mosqueado
+m | Estar mosqueado |  | enfadado, sospechar, ceño, molesto
+m | Estar agotado |  | cansado, sin fuerzas, sueño, rendido
+m | Estar relajado |  | tranquilo, sofá, calma, respirar
+m | Estar estresado |  | agobio, prisas, trabajo, nervios
+m | Tener vergüenza de hablar en público |  | escenario, nervios, rojo
+m | Miedo escénico |  | escenario, público, quedarse en blanco, nervios
+m | Mariposas en el estómago |  | enamorado, nervios, barriga, cosquillas
+m | Flechazo |  | amor a primera vista, Cupido, enamorarse, mirada
+m | Romper con tu pareja |  | ruptura, llorar, separarse, novio
+m | Corazonada |  | intuición, presentimiento, sentir, adivinar
+m | Admiración |  | ídolo, admirar, ejemplo, respeto
+m | Compasión |  | pena, ayudar, empatía, sufrimiento
+m | Lástima |  | pena, pobrecito, compasión, triste
+m | Rencor |  | odio, venganza, no perdonar, guardar
+m | Odio |  | detestar, rabia, enemigo, aversión
+m | Desprecio |  | mirar por encima, desdén, asco, ignorar
+m | Soberbia |  | creído, orgullo, superior, chulo
+m | Humildad |  | modesto, sencillo, no presumir, sencillez
+m | Paciencia |  | esperar, calma, tranquilo, aguantar
+m | Valentía |  | valiente, coraje, miedo, héroe
+m | Cobardía |  | miedo, huir, gallina, cobarde
+m | Esperanza |  | ilusión, futuro, confiar, verde
+m | Morirse de risa |  | carcajada, llorar de risa, gracioso, partirse
+m | Llorar de alegría |  | lágrimas, felicidad, emoción, boda
+m | Nudo en la garganta |  | emoción, llorar, tragar, tristeza
+m | Quedarse sin palabras |  | asombro, mudo, sorpresa, boquiabierto
+d | Sentirse invisible |  | nadie te ve, ignorado, solo, transparente
+d | Sentirse fuera de lugar |  | raro, no encajar, incómodo, extraño
+d | Saudade |  | nostalgia, portugués, añoranza, tristeza
+d | Añoranza |  | echar de menos, nostalgia, lejos, recuerdo
+d | Hastío |  | aburrimiento, cansancio, harto, rutina
+d | Apatía |  | desgana, nada, indiferencia, sin ganas
+d | Indiferencia |  | me da igual, pasar, frío, desinterés
+d | Resignación |  | aceptar, qué le vamos a hacer, rendirse, conformarse
+d | Desasosiego |  | inquietud, intranquilo, nervios, malestar
+d | Perplejidad |  | confuso, desconcierto, no entender, raro
+d | Estupor |  | asombro, pasmo, sorpresa, inmóvil
+d | Bochorno |  | vergüenza, calor, sonrojo, ridículo
+d | Regocijo |  | alegría, disfrutar, gozo, contento
+d | Júbilo |  | alegría, celebración, euforia, fiesta
+d | Plenitud |  | completo, feliz, satisfecho, lleno
+d | Paz interior |  | calma, tranquilidad, meditar, serenidad
+d | Sentido del humor |  | gracia, chistes, reír, ingenio
+d | Ironía |  | sarcasmo, decir lo contrario, burla, tono
+d | Sarcasmo |  | ironía, burla, hiriente, tono
+d | Picardía |  | pillo, travieso, astucia, guiño
+d | Coqueteo |  | ligar, sonreír, mirada, tontear
+d | Mal perder |  | enfadarse, juego, rabieta
+d | Complejo de inferioridad |  | menos que otros, inseguridad, comparación, autoestima
+d | Autoestima |  | quererse, confianza, uno mismo, valorarse
+d | Inseguridad |  | dudas, miedo, confianza, timidez
+d | Síndrome de Estocolmo |  | secuestrador, rehén, simpatía, cautivo
+d | FOMO |  | miedo a perderse algo, redes, planes, ansiedad
+d | Procrastinar |  | dejar para mañana, retrasar, pereza, tareas
+d | Instinto maternal |  | madre, proteger, bebé, cuidar
+d | Celos de hermano |  | hermanito, atención, nuevo bebé, envidia
+d | Envidia sana |  | admirar, querer lo mismo, buena, otro
+d | Emoción contenida |  | aguantar las lágrimas, nudo, serio, guardar
+d | Euforia colectiva |  | estadio, celebración, todos, gol
+d | Ira |  | rabia, furia, enfado, explotar
+d | Furia |  | ira, rabia, descontrol, gritar
+d | Tener el corazón roto |  | ruptura, amor, llorar, pareja
 `
 };

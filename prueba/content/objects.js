@@ -144,5 +144,117 @@ d | Quinqué | | aceite, luz, antigua, lámpara
 d | Candil | | aceite, luz, antiguo, mecha
 d | Botafumeiro | es | Santiago, incienso, catedral, columpiarse
 d | Pajarita (de papel) | | papiroflexia, doblar, origami, ave
+f | Monedero | D | monedas, dinero, cremallera, bolso
+f | Llavero | D | llaves, colgante, anilla, juntar
+f | Pinza del pelo | D | sujetar, horquilla, cabeza
+f | Cepillo del pelo | M | peinar, púas, cabello, desenredar
+f | Esponja | D | baño, jabón, frotar, amarilla
+f | Champú | M | pelo, lavar, espuma, botella
+f | Pasta de dientes | D | tubo, cepillo, blanca, dentífrico
+f | Hilo dental | M | dientes, limpiar, entre, encías
+f | Pañuelo de papel | M | mocos, sonarse, caja, Kleenex
+f | Mascarilla | D | cara, boca, nariz, proteger
+f | Cajón | M | mueble, abrir, cerrar, guardar
+f | Armario | D | ropa, puertas, perchas, mueble
+f | Estantería | D | libros, baldas, mueble, colocar
+f | Sofá | D | sentarse, salón, cojines, tumbarse
+f | Cojín | D | sofá, almohadón, blando, salón
+f | Manta | M | taparse, frío, sofá, lana
+f | Edredón | D | cama, nórdico, plumas, invierno
+f | Colchón | D | cama, dormir, muelles, blando
+f | Alfombra | D | suelo, salón, pisar, tejida
+f | Cortina | D | ventana, tela, correr, luz
+f | Cuadro | D | pared, pintura, marco, colgar
+f | Jarrón | D | flores, agua, cerámica, mesa
+f | Maceta | D | planta, tierra, regar, flores
+f | Reloj de pared | D | hora, agujas, colgar, tictac
+f | Calendario | D | días, meses, año, pared
+f | Cubo de basura | D | tirar, bolsa, reciclar, tapa
+f | Bolsa de plástico | D | supermercado, asas, llevar, reciclar
+f | Papel de aluminio | M | envolver, bocadillo, brillante, cocina
+f | Táper | D | comida, tapa, guardar, plástico
+f | Botella de agua | D | beber, plástico, tapón, rellenar
+f | Termo | D | caliente, café, frío, conservar
+f | Cuaderno | D | escribir, hojas, colegio, apuntes
+f | Rotulador | D | pintar, colores, tapa, escribir
+f | Ceras de colores | D | pintar, niños, dibujar
+f | Celo | M | pegar, cinta, transparente, rollo
+m | Cinta americana | M | pegar, gris, arreglar, fuerte
+m | Llave inglesa | D | tuercas, herramienta, ajustar, fontanero
+m | Sierra | M | cortar, madera, dientes, serrar
+m | Taladro | M | agujero, pared, broca, ruido
+m | Lija | M | madera, áspera, alisar, papel
+m | Nivel de burbuja | D | recto, horizontal, obra
+m | Rastrillo | D | hojas, jardín, púas, recoger
+m | Pala | D | cavar, tierra, jardín, nieve
+m | Azada | D | huerto, cavar, campo, tierra
+m | Cortacésped | M | césped, jardín, motor, cortar
+m | Cesto de la ropa | D | ropa sucia, lavadora, mimbre, colada
+m | Plancha de pelo | M | alisar, calor, rizos
+m | Rizador | M | rizos, pelo, calor, tenacillas
+m | Maquinilla de afeitar | M | barba, cuchilla, afeitarse, espuma
+m | Colonia | M | perfume, oler bien, frasco, echarse
+m | Desodorante | M | axilas, sudor, spray, oler
+m | Bastoncillos de los oídos | M | orejas, algodón, limpiar, cera
+m | Lima de uñas | M | limar, manicura, áspera
+m | Pintaúñas | M | uñas, esmalte, colores, manicura
+m | Neceser | D | aseo, viaje, bolsa, cepillo
+m | Percha | D | colgar, ropa, armario, gancho
+m | Mesilla de noche | D | cama, lámpara, cajón, dormitorio
+m | Flexo | D | lámpara, escritorio, estudiar, luz
+m | Lámpara de lava | D | burbujas, colores, años setenta, luz
+m | Regleta | D | enchufes, cable, varios, electricidad
+m | Pilas | D | energía, mando, cargar, botón
+m | Impresora | M | papel, tinta, imprimir, atasco
+m | Fotocopiadora | M | copias, papel, oficina, luz
+m | Destructora de papel | M | triturar, documentos, tiras, oficina
+m | Archivador | D | carpetas, documentos, oficina, cajones
+m | Sobre | D | carta, sello, correo, pegar
+m | Papel de regalo | M | envolver, lazo, celo
+m | Lazo | D | regalo, cinta, nudo, adorno
+m | Incienso | M | oler, palito, humo, aroma
+m | Mechero | M | fuego, encender, llama, bolsillo
+m | Cerillas | M | fuego, caja, rascar, encender
+m | Extintor | D | fuego, rojo, apagar, espuma
+m | Botiquín | D | tiritas, primeros auxilios, cruz, medicinas
+m | Bolsa de agua caliente | D | cama, invierno, calentar, goma
+d | Sifón | D | soda, botella, chorro, presión
+d | Porrón | M es | vino, beber, chorro, cristal
+d | Bota de vino | M es | piel, chorro, beber
+d | Molinillo de café | M | granos, moler, manivela
+d | Cafetera italiana | D | café, fuego, moka, borbotear
+d | Olla exprés | M | presión, vapor, cocinar, válvula
+d | Cuchillo jamonero | D | jamón, largo, cortar, lonchas
+d | Jamonero | D | soporte, jamón, pata, cortar
+d | Tabla de cortar | D | cocina, cuchillo, madera, picar
+d | Salero | D | sal, mesa, agujeros, echar
+d | Pimentero | D | pimienta, moler, mesa, especia
+d | Aceitera | D | aceite, mesa, verter, vinagrera
+d | Servilletero | D | servilletas, mesa, papel, soporte
+d | Mantel | D | mesa, tela, comer, cuadros
+d | Posavasos | D | vaso, mesa, cartón, marca
+d | Cuchara de palo | D | madera, cocinar, remover, olla
+d | Espumadera | D | agujeros, freír, sacar, cocina
+d | Cazo | D | cocinar, mango, hervir, leche
+d | Cacerola | D | olla, asas, cocinar, tapa
+d | Paellera | D es | arroz, paella, redonda, asas
+d | Batidor de varillas | M | huevos, nata, montar, alambre
+d | Manga pastelera | M | nata, decorar, boquilla, tarta
+d | Funda nórdica | D | edredón, cama, tela, cubrir
+d | Somier | D | cama, colchón, láminas, base
+d | Biombo | D | separar, paneles, plegable, tapar
+d | Mecedora | M | balancear, silla, abuela, porche
+d | Puf | D | asiento, blando, bolas, suelo
+d | Revistero | D | revistas, periódicos, salón, guardar
+d | Paragüero | D | paraguas, entrada, cubo, guardar
+d | Tabla de planchar | D | ropa, plegable, funda
+d | Hervidor de agua | M | té, calentar, enchufe, pitar
+d | Sandwichera | M | sándwich, tostar, aplastar, enchufe
+d | Freidora de aire | D | freír, sin aceite, cesta, airfryer
+d | Humidificador | D | vapor, aire seco, habitación, agua
+d | Estufa de butano | D | bombona, calor, invierno, naranja
+d | Bombona de butano | D es | gas, naranja, butanero, cocina
+d | Caldera | D | calefacción, agua caliente, gas, casa
+d | Termostato | D | temperatura, calefacción, regular, grados
 `
 };

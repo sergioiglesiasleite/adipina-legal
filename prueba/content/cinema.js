@@ -154,5 +154,69 @@ d | Mujeres al borde de un ataque de nervios | 80s es
 d | Belle Époque | 90s es
 d | El espíritu de la colmena | 70s es
 d | Átame | 90s es t
+f | Harry Potter y la cámara secreta |  | Hogwarts, basilisco, Dobby, varita
+f | Indiana Jones en busca del arca perdida |  | arqueólogo, látigo, sombrero, Harrison Ford
+f | Sonic, la película | k | erizo, azul, velocidad, Sega
+f | Super Mario Bros.: la película | k | fontanero, Nintendo, Luigi, princesa Peach
+f | Del revés 2 | k | emociones, Ansiedad, Riley, Pixar
+f | Toy Story 3 | k | Woody, Andy, universidad, guardería
+f | Shrek 2 | k | Muy Muy Lejano, Asno, Gato con Botas, ogro
+f | Blancanieves y los siete enanitos | k | manzana, bruja, espejo, princesa
+f | Avatar: el sentido del agua |  | Pandora, azules, océano, Cameron
+m | Spider-Man: No Way Home | 20s | Tom Holland, multiverso, Doctor Strange, Peter Parker
+m | Dune | 20s | Arrakis, gusanos, especia, desierto
+m | Top Gun: Maverick | 20s | Tom Cruise, pilotos, aviones, gafas
+m | El caballero oscuro | 00s | Batman, Joker, Gotham, Nolan
+m | Los vengadores: Endgame | 20s | Thanos, guantelete, Marvel, chasquido
+m | Mad Max: Furia en la carretera | 10s | desierto, Furiosa, coches, gasolina
+m | Kill Bill | 00s | Tarantino, katana, venganza, chándal amarillo
+m | Rápidos y furiosos | 00s | coches, Vin Diesel, carreras, familia
+m | Ocho apellidos catalanes | 10s es | Dani Rovira, Clara Lago, boda, secuela
+m | Tadeo Jones | 10s es | arqueólogo, animación, Perú, momia
+m | Padre no hay más que uno | 10s es | Santiago Segura, hijos, familia, comedia
+m | El hoyo | 20s es | plataforma, comida, niveles, prisión
+m | Toc Toc | 10s es | manías, psicólogo, sala de espera, TOC
+m | Perfectos desconocidos | 10s es | móviles, cena, secretos, amigos
+m | La sociedad de la nieve | 20s es | avión, Andes, supervivientes, Bayona
+m | Los Increíbles 2 | k | superhéroes, familia, Jack-Jack, Elastigirl
+m | La princesa prometida | 80s | Íñigo Montoya, Buttercup, pirata, cuento
+m | Náufrago | 00s | Tom Hanks, isla, Wilson, avión
+m | Cocodrilo Dundee | 80s | Australia, cuchillo, Nueva York, aventurero
+m | Notting Hill | 90s | Hugh Grant, Julia Roberts, librería, Londres
+m | El diario de Noa | 00s | Ryan Gosling, carta, lago, amor
+m | Rocky IV | 80s | Drago, ruso, boxeo, Stallone
+d | Tesis | 90s es | Amenábar, snuff, universidad, cinta
+d | Los lunes al sol | 00s es | Bardem, astilleros, paro, Vigo
+d | Volver a empezar | 80s es | Garci, Óscar, profesor, Gijón
+d | El Bola | 00s es | niño, padre, maltrato, amistad
+d | Días de fútbol | 00s es | amigos, equipo, Ernesto Alterio, comedia
+d | La comunidad | 00s es | Carmen Maura, piso, dinero, vecinos
+d | Airbag | 90s es | Karra Elejalde, despedida, comedia, carretera
+d | El día de la bestia | 90s es | Álex de la Iglesia, Anticristo, Madrid, cura
+d | El buen patrón | 20s es | Bardem, balanzas, fábrica, jefe
+d | As bestas | 20s es | Galicia, vecinos, franceses, aldea
+d | Alcarràs | 20s es | melocotones, familia, Lleida, campo
+d | La caza | 10s | Dinamarca, profesor, acusación, pueblo
+d | Roma (Cuarón) | 10s | México, blanco y negro, niñera
+d | El irlandés | 10s | Scorsese, De Niro, mafia, Al Pacino
+d | Érase una vez en Hollywood | 10s | Tarantino, DiCaprio, Brad Pitt, actor
+d | Whiplash | 10s | batería, profesor, jazz, sangre
+d | Todo a la vez en todas partes | 20s | multiverso, lavandería, salchichas, madre
+d | Anatomía de una caída | 20s | juicio, nieve, marido, Francia
+d | El Padrino II | 70s | Corleone, Al Pacino, De Niro, Cuba
+d | Apocalypse Now | 70s | Vietnam, coronel Kurtz, helicópteros, napalm
+d | El silencio de los corderos | 90s | Hannibal Lecter, Clarice, FBI, máscara
+d | Doce hombres sin piedad |  | jurado, juicio, Henry Fonda, sala
+d | El apartamento |  | Billy Wilder, llave, oficina, Jack Lemmon
+d | Rebeca |  | Hitchcock, mansión, ama de llaves, Manderley
+d | Los pájaros |  | Hitchcock, gaviotas, ataque, pueblo
+d | Con la muerte en los talones |  | Hitchcock, avioneta, Cary Grant, maíz
+d | La gran evasión |  | prisioneros, moto, túnel, Steve McQueen
+d | Ben-Hur |  | carrera de cuadrigas, Charlton Heston, romano, galeras
+d | El bueno, el feo y el malo |  | western, Clint Eastwood, Morricone, tesoro
+d | Fargo | 90s | nieve, policía embarazada, secuestro, Coen
+d | Trainspotting | 90s t | Edimburgo, heroína, Renton, elige la vida
+d | Amanece, que no es poco | 80s es | José Luis Cuerda, pueblo, surrealista, comedia
+d | La escopeta nacional | 70s es | Berlanga, cacería, ministro, comedia
 `
 };

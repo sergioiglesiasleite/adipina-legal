@@ -119,5 +119,104 @@ d | Premio Cervantes | es | escritores, literatura, Alcalá, abril
 d | Premio Planeta | es | novela, Barcelona, dinero, editorial
 d | Best seller | | ventas, éxito, libro, lista
 d | Club de lectura | | libro, reunión, comentar, leer juntos
+f | Los viajes de Gulliver |  | liliputienses, gigante, isla, Swift
+f | El mago de Oz (el libro) | k | Dorothy, espantapájaros, hombre de hojalata, león
+f | El ratoncito Pérez | k | diente, almohada, moneda, ratón
+f | La bella y la bestia (el cuento) | k | rosa, castillo, maldición
+f | El lobo y los siete cabritillos | k | cabritas, madre, reloj, harina
+f | Los músicos de Bremen | k | burro, perro, gato, gallo
+f | El príncipe rana | k | beso, princesa, charca, sapo
+f | Juan sin miedo | k | castillo, valiente, fantasmas, cuento
+f | Aladino y la lámpara maravillosa | k | genio, deseos, Las mil y una noches, alfombra
+f | Alí Babá y los cuarenta ladrones | k | Ábrete Sésamo, cueva, tesoro, Las mil y una noches
+f | Simbad el marino | k | viajes, Las mil y una noches, barco, aventuras
+f | El gigante egoísta | k | jardín, niños, Oscar Wilde, invierno
+f | La pequeña cerillera | k | frío, Navidad, Andersen, fósforos
+f | La princesa y el guisante | k | colchones, Andersen, cama, sensible
+f | Las aventuras de Tom Sawyer |  | Mark Twain, Misisipi, valla, Huckleberry
+f | Las aventuras de Huckleberry Finn |  | Mark Twain, balsa, río, Jim
+f | Colmillo Blanco |  | lobo, Jack London, Yukón, perro
+f | La llamada de lo salvaje |  | Buck, perro, trineo, Jack London
+f | Diario de Nikki | 10s k | instituto, dibujos, Rachel Renée Russell
+f | Wonder | 10s k | Auggie, cara, colegio, diferente
+f | El monstruo de colores | 10s k | emociones, botes, niña
+f | Las brujas (el libro) | k | Roald Dahl, ratón, abuela, convención
+f | James y el melocotón gigante | k | Roald Dahl, insectos, fruta, tías
+f | El superzorro | k | Roald Dahl, granjeros, madriguera, zorro
+f | Percy Jackson y el ladrón del rayo | 00s | semidiós, Zeus, campamento, mitología
+f | El corredor del laberinto | 10s | Thomas, claro, muros
+f | Divergente | 10s | facciones, Tris, Chicago, Osadía
+f | Bajo la misma estrella | 10s | Hazel, Gus, cáncer, Ámsterdam
+f | El curioso incidente del perro a medianoche | 00s | Christopher, autismo, detective
+f | La Ilíada |  | Troya, Aquiles, Homero, caballo
+f | Las mil y una noches |  | Sherezade, cuentos, sultán, Aladino
+m | El conde de Montecristo |  | Dumas, Edmundo Dantès, venganza, isla
+m | Los miserables |  | Victor Hugo, Jean Valjean, Javert, París
+m | Nuestra Señora de París |  | Quasimodo, Esmeralda, catedral, Victor Hugo
+m | Guerra y paz |  | Tolstói, Napoleón, Rusia, Natasha
+m | El extraño caso del Dr. Jekyll y Mr. Hyde |  | doble personalidad, Stevenson, pócima, Londres
+m | El sabueso de los Baskerville |  | Sherlock Holmes, perro, páramo, maldición
+m | Asesinato en el Orient Express |  | Poirot, tren, Agatha Christie, nieve
+m | Muerte en el Nilo |  | Poirot, barco, Egipto, Agatha Christie
+m | El nombre de la rosa | 80s | Umberto Eco, abadía, monje, libro envenenado
+m | El perfume | 80s | Grenouille, olores, asesino, París
+m | El alquimista | 80s | Paulo Coelho, Santiago, pastor, leyenda personal
+m | La tregua |  | Benedetti, Montevideo, oficinista, diario
+m | Como agua para chocolate | 80s | Tita, recetas, México, Laura Esquivel
+m | El amor en los tiempos del cólera | 80s | García Márquez, Florentino, Fermina, barco
+m | Los renglones torcidos de Dios | 70s es | Torcuato Luca de Tena, psiquiátrico, Alice, detective
+m | La familia de Pascual Duarte | es | Cela, asesino, Extremadura, confesión
+m | Cinco horas con Mario | es | Delibes, viuda, monólogo, velatorio
+m | El camino | es | Delibes, Daniel el Mochuelo, pueblo, infancia
+m | El árbol de la ciencia | es | Baroja, Andrés Hurtado, medicina, pesimismo
+m | Campos de Castilla | es | Antonio Machado, poemas, Soria, Leonor
+m | Poeta en Nueva York | es | Lorca, poemas, Estados Unidos, ciudad
+m | Veinte poemas de amor y una canción desesperada |  | Neruda, Chile, poemario
+m | Rimas y leyendas | es | Bécquer, golondrinas, romanticismo, poesía
+m | Marianela | es | Galdós, ciega, Pablo, Socartes
+m | La catedral del mar | 00s es | Falcones, Barcelona, Santa María, Arnau
+m | El tiempo entre costuras | 00s es | Sira, modista, Tánger, espías
+m | Reina roja | 10s es | Juan Gómez-Jurado, Antonia Scott, detective, Jon Gutiérrez
+m | La chica del tren | 10s | Rachel, desaparición, alcohol
+m | Canción de hielo y fuego |  | George R. R. Martin, Poniente, dragones, tronos
+m | 13, Rue del Percebe | es | Ibáñez, edificio, vecinos, viñetas
+m | Snoopy y Carlitos |  | Charlie Brown, perro, Peanuts, Schulz
+m | Calvin y Hobbes |  | tigre de peluche, niño, Watterson, tira
+d | La Divina Comedia |  | Dante, infierno, Virgilio, Beatriz
+d | El Decamerón |  | Boccaccio, peste, cuentos, Florencia
+d | Los cuentos de Canterbury |  | Chaucer, peregrinos, Inglaterra, relatos
+d | El Buscón | es | Quevedo, pícaro, Pablos, Segovia
+d | Novelas ejemplares | es | Cervantes, Rinconete, Cortadillo, relatos
+d | El sí de las niñas | es | Moratín, boda, Doña Francisca, comedia
+d | Doña Perfecta | es | Galdós, Orbajosa, intolerancia, Pepe Rey
+d | Tirano Banderas | es | Valle-Inclán, dictador, América, esperpento
+d | Tiempo de silencio | es | Martín-Santos, Madrid, chabolas, investigador
+d | San Manuel Bueno, mártir | es | Unamuno, cura, fe, Valverde de Lucerna
+d | Réquiem por un campesino español | es | Sender, Paco, mosén Millán, Guerra Civil
+d | El Jarama | es | Sánchez Ferlosio, río, domingo, jóvenes
+d | Los girasoles ciegos | 00s es | Méndez, posguerra, relatos, derrota
+d | Soldados de Salamina | 00s es | Cercas, Sánchez Mazas, fusilamiento, Miralles
+d | Corazón tan blanco | 90s es | Javier Marías, intérprete, secreto, boda
+d | La verdad sobre el caso Savolta | 70s es | Eduardo Mendoza, Barcelona, empresa, sindicalismo
+d | Sin noticias de Gurb | 90s es | Eduardo Mendoza, extraterrestre, Barcelona, diario
+d | El Aleph |  | Borges, punto, universo, sótano
+d | Ficciones |  | Borges, laberintos, biblioteca de Babel, relatos
+d | La ciudad y los perros |  | Vargas Llosa, colegio militar, Lima, cadetes
+d | Conversación en La Catedral |  | Vargas Llosa, Zavalita, bar, Perú
+d | Ensayo sobre la ceguera | 90s | Saramago, epidemia, ciegos, mujer del médico
+d | El viejo y el mar |  | Hemingway, pez, Santiago, Cuba
+d | Por quién doblan las campanas |  | Hemingway, Guerra Civil, puente, Robert Jordan
+d | Las uvas de la ira |  | Steinbeck, Joad, Oklahoma, Gran Depresión
+d | De ratones y hombres |  | Steinbeck, George, Lennie, conejos
+d | Rebelión en la granja |  | Orwell, cerdos, Napoleón, todos los animales son iguales
+d | Siddhartha |  | Hesse, Buda, río, búsqueda
+d | El lobo estepario |  | Hesse, Harry Haller, teatro mágico, soledad
+d | El proceso |  | Kafka, Josef K., juicio, acusación
+d | Los hermanos Karamázov |  | Dostoievski, parricidio, Aliosha, Iván
+d | El idiota |  | Dostoievski, príncipe Myshkin, bondad, Rusia
+d | El señor de las moscas |  | Golding, isla, niños, caracola
+d | La isla del doctor Moreau |  | H. G. Wells, experimentos, híbridos
+d | La máquina del tiempo |  | H. G. Wells, viajero, futuro, Morlocks
+d | La guerra de los mundos |  | H. G. Wells, marcianos, trípodes, radio
 `
 };
