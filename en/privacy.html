@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>AdiPiña privacy</title>
+<style>
+  :root { --bg: #fbf8ed; --card: #fffdf7; --text: #343548; --muted: #615d66; --accent: #ad584b; --line: #d9d2c0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1d1c24; --card: #26252f; --text: #f1ede2; --muted: #b9b2a6; --accent: #f0a294; --line: #44424f; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; line-height: 1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: calc(24px + env(safe-area-inset-top)) 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  .updated, footer { color: var(--muted); font-size: .9rem; }
+  a { color: var(--accent); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 4px 20px; margin: 16px 0; }
+  ul { padding-left: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  footer { margin-top: 48px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+<h1>AdiPiña privacy policy</h1>
+<p class="updated">Last updated: 24 October 2026 · <a href="../privacidad.html" lang="es">Versión en español</a></p>
+
+<p>This policy explains what data <strong>AdiPiña</strong> (the iPhone app and its web version) handles and why. AdiPiña is an in-person team guessing game: you play without an account and it never needs your real name. This is a translation of the Spanish policy; if they ever differ, the Spanish version prevails.</p>
+
+<h2>1. Who is responsible</h2>
+<p>AdiPiña is developed and maintained by Sergio Iglesias Leite, an independent developer. For any question about this policy or your data, write to <a href="mailto:sergioiglesiasleite@gmail.com">sergioiglesiasleite@gmail.com</a>.</p>
+
+<h2>2. What AdiPiña does not collect</h2>
+<p>There is no sign-up, account, email or phone number. The app does not use the camera, the microphone, your contacts or your location, and it has no analytics tools.</p>
+
+<h2>3. Data kept on your phone</h2>
+<p>Settings (the app language included), teams and their players, your own answers, the game in progress, cards already seen, favourite games, history and the cards you report are kept only on your device. They are deleted from Settings › Delete all data on this phone, or when you uninstall the app.</p>
+
+<h2>4. Rooms: one phone per team</h2>
+<div class="card">
+<p>If you create or join a room, the game is stored on a server so every phone sees the same thing. This is sent and stored:</p>
+<ul>
+<li>The rules (the card language included), the names of the teams and their players (they can be nicknames) and any answers of your own you use.</li>
+<li>The state of the game: turns, points, cards and actions.</li>
+<li>Temporary room credentials, stored as an encrypted fingerprint (hash), never in plain text.</li>
+</ul>
+<p>The other participants see the names and the score. The answer of each card only reaches the phone of the team playing that turn.</p>
+<p><strong>How long it is kept:</strong> a room closed by the host is deleted at that moment. A room with no activity for six hours can no longer be opened and is deleted in the next automatic clean-up, which runs every ten minutes.</p>
+</div>
+<p>The server uses <strong>Supabase</strong> as its database and functions provider. To stop abuse, requests are counted per IP address; the IP is not stored in plain text but transformed with a secret server key (HMAC), and those counters are deleted after a few minutes (those for reports, after 24 hours).</p>
+
+<h2>5. Reported cards</h2>
+<p>During a turn you can report a card (for example, if it is misspelt or hardly anyone knows it). So that it can be reviewed, the server receives the card and its language, the reason, the mode if any, the optional comment you write and whether it comes from the iPhone app or the web. <strong>No IP, device identifier or room data is stored.</strong> Don’t write names or personal details in the comment. Reports are deleted once reviewed and, in any case, after 12 months.</p>
+
+<h2>6. Invitations and the TV scoreboard</h2>
+<p>Invitation and scoreboard links open a page hosted on GitHub Pages. Like any website, GitHub receives your IP, your browser and the address requested, including the room code of an invitation. The scoreboard credential travels in the part of the address that the browser does not send to GitHub. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub privacy statement</a>.</p>
+
+<h2>7. Advertising (iPhone app only)</h2>
+<p>The app shows a few <strong>Google AdMob</strong> ads: a banner on the menus and the results (never during a turn), the occasional full-screen ad between games and an optional video to play the next game without ads. The web version has no ads. To show them, Google may process:</p>
+<table>
+<thead><tr><th>Data</th><th>Purpose</th></tr></thead>
+<tbody>
+<tr><td>Advertising identifier (IDFA), only if you allow it</td><td>Measuring and, with your consent, personalising ads</td></tr>
+<tr><td>IP address</td><td>Estimating the country or region</td></tr>
+<tr><td>Technical device data (model, system, language)</td><td>Serving a compatible ad</td></tr>
+<tr><td>Interactions with ads</td><td>Measuring results and preventing fraud</td></tr>
+</tbody>
+</table>
+<p>AdiPiña never sends Google or any third party the answers, the names of teams or players, your content or the state of the games. Google processes this data as a controller under its <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how it uses data from its partners</a>.</p>
+
+<h2>8. Your consent</h2>
+<p>Before any ad is requested, the iPhone asks whether you allow tracking (App Tracking Transparency). In the European Economic Area, the United Kingdom and Switzerland you will also see Google’s consent form. If you don’t give permission, ads are not personalised. You can change your choice in Settings › Ad privacy inside the app, and the tracking permission in the iPhone Settings.</p>
+
+<h2>9. Legal bases</h2>
+<ul>
+<li><strong>Rooms:</strong> providing the service you ask for when you create or join a room.</li>
+<li><strong>Reports and limits against abuse:</strong> the legitimate interest in keeping the content right and the service available.</li>
+<li><strong>Personalised ads:</strong> your consent, which you can withdraw at any time.</li>
+</ul>
+
+<h2>10. Children</h2>
+<p>AdiPiña is a game for groups and families, meant for young children to play together with adults. It asks nobody for personal data. If you think a child has written personal details in a room or a report, write to us and we will delete them.</p>
+
+<h2>11. Your rights</h2>
+<p>You can ask for access to, correction or deletion of your data, or object to its processing, by writing to <a href="mailto:sergioiglesiasleite@gmail.com">sergioiglesiasleite@gmail.com</a>. Never send the host key or recovery codes. You control the data on your phone from Settings. For the data Google processes, use its <a href="https://myaccount.google.com/data-and-privacy" target="_blank" rel="noopener">privacy dashboard</a>. If you are not satisfied, you can complain to the <a href="https://www.aepd.es" target="_blank" rel="noopener">Spanish Data Protection Agency (AEPD)</a> or the data protection authority where you live.</p>
+
+<h2>12. Changes</h2>
+<p>If what the app does with data changes, we will update this policy at this same address, with the date of the last update at the top.</p>
+
+<footer>AdiPiña · <a href="support.html">Help and contact</a> · <a href="../privacidad.html" lang="es">Español</a></footer>
+</main>
+</body>
+</html>
